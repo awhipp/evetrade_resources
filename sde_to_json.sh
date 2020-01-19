@@ -19,6 +19,9 @@ mkdir -p resources
 python3 toJSON.py
 git add resources/mapRegions.json
 git add resources/staStations.json
+git add resources/mapRegionJumps.json
+git add resources/mapConstellationJumps.json
+git add resources/mapSolarSystemJumps.json
 git commit -m "Update DB to $currentrev"
 git checkout -b temp
 git checkout -B master temp

@@ -21,6 +21,11 @@ import json
 
 resources_link = "https://developers.eveonline.com/resource/resources"
 map_regions = []
+stargates = {}
+map_region_jumps = []
+map_constellations = []
+map_constellation_jumps = []
+map_solarsystem_jumps = []
 
 class MyHTMLParser(HTMLParser):
 
@@ -48,31 +53,29 @@ def importYaml():
     print("Importing Universe Data")
 
     if os.path.exists('invNames.json'):
-        print('Load JSON')
+        print('Load invNames JSON')
         with open('invNames.json') as infile:
             inv_names = json.load(infile)
     else:
-        print('Load YAML')
+        print('Load invNames YAML')
         with open(r'sde/bsd/invNames.yaml') as infile:
             inv_names = yaml.load(infile, Loader = Loader)
 
         with open('invNames.json', 'w') as outfile:
             json.dump(inv_names, outfile)
 
-    print("Importing region static")
-    regions = glob.glob(os.path.join('sde', 'fsd', 'universe', '*', '*', 'region.staticdata'))
-    for region_file in regions:
+    print("Importing region static data")
+    region_files = glob.glob(os.path.join('sde', 'fsd', 'universe', 'eve', '*', 'region.staticdata'))
+    for region_file in region_files:
         region = {}
         head, tail = os.path.split(region_file)
         with open(region_file,'r') as region_yaml:
             regiony = yaml.load(region_yaml, Loader = Loader)
-        if int(regiony['regionID']) > 11000000 and int(regiony['regionID']) < 14000000:
-            continue
-        print("Importing Region {}".format(head))
         for item in inv_names:
             if item['itemID'] == regiony['regionID']:
                 region_name = item['itemName']
                 break
+        print("Importing Region {}".format(region_name))
         region['regionID'] = regiony['regionID']
         region['regionName'] = region_name
         region['x'] = regiony['center'][0]
@@ -85,8 +88,21 @@ def importYaml():
         region['yMin'] = regiony['min'][1]
         region['zMin'] = regiony['min'][2]
         region['factionID'] = regiony.get('factionID')
-        
         map_regions.append(region)
+
+        constellation_files = glob.glob(os.path.join(head, '*', 'constellation.staticdata'))
+        for constellation_file in constellation_files:
+            head, tail = os.path.split(constellation_file)
+            with open(constellation_file,'r') as constellation_yaml:
+                constellationy = yaml.load(constellation_yaml, Loader = Loader)
+            map_constellations.append((regiony['regionID'], constellationy['constellationID']))
+
+            solarsystem_files = glob.glob(os.path.join(head, '*', 'solarsystem.staticdata'))
+            for solarsystem_file in solarsystem_files:
+                with open(solarsystem_file,'r') as solarsystem_yaml:
+                    solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
+                for stargate, data in solarsystemy['stargates'].items():
+                    stargates[stargate] = (regiony['regionID'], constellationy['constellationID'], solarsystemy['solarSystemID'], data['destination'])
 
     map_region = sorted(map_regions, key = lambda i: i['regionID'])
     with open('resources/mapRegions.json', 'w') as outfile:
@@ -96,6 +112,38 @@ def importYaml():
     with open(r'sde/bsd/staStations.yaml') as infile:
         with open('resources/staStations.json', 'w') as outfile:
             json.dump(yaml.load(infile, Loader = Loader), outfile, separators = (',', ':'))
+
+    print("Creating region / constellation / solar system jumps DB")
+    regions_jump = []
+    constellations_jump = []
+    solarsystems_jump = []
+    for stargate, data in stargates.items():
+        if data[0] != stargates[data[3]][0]:
+            regions_jump.append({'fromRegionID': data[0], 'toRegionID': stargates[data[3]][0]})
+        if data[1] != stargates[data[3]][1]:
+            constellations_jump.append({"fromRegionID":data[0],"fromConstellationID":data[1],"toConstellationID":stargates[data[3]][1],"toRegionID":stargates[data[3]][0]})
+        solarsystems_jump.append({"fromRegionID":data[0],"fromConstellationID":data[1],"fromSolarSystemID":data[2],"toSolarSystemID":stargates[data[3]][2],"toConstellationID":stargates[data[3]][1],"toRegionID":stargates[data[3]][0]})
+
+    map_region_jumps = [i for n, i in enumerate(regions_jump) if i not in regions_jump[n + 1:]]
+    map_region_jumps = sorted(map_region_jumps, key = lambda i: i['toRegionID'])
+    map_region_jumps = sorted(map_region_jumps, key = lambda i: i['fromRegionID'])
+    with open('resources/mapRegionJumps.json', 'w') as outfile:
+        json.dump(map_region_jumps, outfile, separators = (',', ':'))
+    map_constellation_jumps = [i for n, i in enumerate(constellations_jump) if i not in constellations_jump[n + 1:]]
+    map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['toRegionID'])
+    map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['fromRegionID'])
+    map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['toConstellationID'])
+    map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['fromConstellationID'])
+    with open('resources/mapConstellationJumps.json', 'w') as outfile:
+        json.dump(map_constellation_jumps, outfile, separators = (',', ':'))
+    map_solarsystem_jumps = sorted(solarsystems_jump, key = lambda i: i['toRegionID'])
+    map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromRegionID'])
+    map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['toConstellationID'])
+    map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromConstellationID'])
+    map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['toSolarSystemID'])
+    map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromSolarSystemID'])
+    with open('resources/mapSolarSystemJumps.json', 'w') as outfile:
+        json.dump(map_solarsystem_jumps, outfile, separators = (',', ':'))
 
 getResources()
 importYaml()
