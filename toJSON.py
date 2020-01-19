@@ -21,6 +21,7 @@ import json
 
 resources_link = "https://developers.eveonline.com/resource/resources"
 map_regions = []
+stargates = {}
 
 class MyHTMLParser(HTMLParser):
 
@@ -83,8 +84,14 @@ def importYaml():
         region['yMin'] = regiony['min'][1]
         region['zMin'] = regiony['min'][2]
         region['factionID'] = regiony.get('factionID')
-        
         map_regions.append(region)
+
+        solarsystem_files = glob.glob(os.path.join(head, '*', '*', 'solarsystem.staticdata'))
+        for solarsystem_file in solarsystem_files:
+            with open(solarsystem_file,'r') as solarsystem_yaml:
+                solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
+            for stargate, data in solarsystemy['stargates'].items():
+                stargates[stargate] = (regiony['regionID'], data['destination'])
 
     map_region = sorted(map_regions, key = lambda i: i['regionID'])
     with open('resources/mapRegions.json', 'w') as outfile:
