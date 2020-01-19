@@ -22,6 +22,7 @@ import json
 resources_link = "https://developers.eveonline.com/resource/resources"
 map_regions = []
 stargates = {}
+map_region_jumps = []
 
 class MyHTMLParser(HTMLParser):
 
@@ -101,6 +102,17 @@ def importYaml():
     with open(r'sde/bsd/staStations.yaml') as infile:
         with open('resources/staStations.json', 'w') as outfile:
             json.dump(yaml.load(infile, Loader = Loader), outfile, separators = (',', ':'))
+
+    print("Creating region jumps DB")
+    regions_jump = []
+    for stargate, data in stargates.items():
+        if data[0] != stargates[data[1]][0]:
+            regions_jump.append({'fromRegionID': data[0], 'toRegionID': stargates[data[1]][0]})
+    map_region_jumps = [i for n, i in enumerate(regions_jump) if i not in regions_jump[n + 1:]]
+    map_region_jumps = sorted(map_region_jumps, key = lambda i: i['toRegionID'])
+    map_region_jumps = sorted(map_region_jumps, key = lambda i: i['fromRegionID'])
+    with open('resources/mapRegionJumps.json', 'w') as outfile:
+        json.dump(map_region_jumps, outfile, separators = (',', ':'))
 
 getResources()
 importYaml()
