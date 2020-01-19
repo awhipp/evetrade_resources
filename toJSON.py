@@ -23,6 +23,7 @@ resources_link = "https://developers.eveonline.com/resource/resources"
 map_regions = []
 stargates = {}
 map_region_jumps = []
+map_constellations = []
 
 class MyHTMLParser(HTMLParser):
 
@@ -87,12 +88,19 @@ def importYaml():
         region['factionID'] = regiony.get('factionID')
         map_regions.append(region)
 
-        solarsystem_files = glob.glob(os.path.join(head, '*', '*', 'solarsystem.staticdata'))
-        for solarsystem_file in solarsystem_files:
-            with open(solarsystem_file,'r') as solarsystem_yaml:
-                solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
-            for stargate, data in solarsystemy['stargates'].items():
-                stargates[stargate] = (regiony['regionID'], data['destination'])
+        constellation_files = glob.glob(os.path.join(head, '*', 'constellation.staticdata'))
+        for constellation_file in constellation_files:
+            head, tail = os.path.split(constellation_file)
+            with open(constellation_file,'r') as constellation_yaml:
+                constellationy = yaml.load(constellation_yaml, Loader = Loader)
+            map_constellations.append((regiony['regionID'], constellationy['constellationID']))
+
+            solarsystem_files = glob.glob(os.path.join(head, '*', 'solarsystem.staticdata'))
+            for solarsystem_file in solarsystem_files:
+                with open(solarsystem_file,'r') as solarsystem_yaml:
+                    solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
+                for stargate, data in solarsystemy['stargates'].items():
+                    stargates[stargate] = (regiony['regionID'], data['destination'])
 
     map_region = sorted(map_regions, key = lambda i: i['regionID'])
     with open('resources/mapRegions.json', 'w') as outfile:
