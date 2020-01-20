@@ -23,5 +23,5 @@ git add resources/mapConstellationJumps.json
 git add resources/mapSolarSystemJumps.json
 git commit -m "Update DB to $currentrev"
 git checkout -b temp
-git checkout -B master temp
-git push --quiet --set-upstream origin-ssh master
+git checkout -B $TRAVIS_BRANCH temp
+git push --quiet --set-upstream origin-ssh $TRAVIS_BRANCH
