@@ -26,6 +26,7 @@ map_region_jumps = []
 map_constellations = []
 map_constellation_jumps = []
 map_solarsystem_jumps = []
+inv_types = []
 
 class MyHTMLParser(HTMLParser):
 
@@ -144,6 +145,30 @@ def importYaml():
     map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromSolarSystemID'])
     with open('resources/mapSolarSystemJumps.json', 'w') as outfile:
         json.dump(map_solarsystem_jumps, outfile, separators = (',', ':'))
+
+    print("Importing items data")
+    if os.path.exists('invTypes.json'):
+        print('Load invTypes JSON')
+        with open('invTypes.json') as infile:
+            inv_typesy = json.load(infile)
+    else:
+        print('Load invTypes YAML')
+        with open(r'sde/fsd/typeIDs.yaml') as infile:
+            inv_typesy = yaml.load(infile, Loader = Loader)
+
+        with open('invTypes.json', 'w') as outfile:
+            json.dump(inv_typesy, outfile)
+    
+    for item_id, data in inv_typesy.items():
+        inv_type = {}
+        inv_type['typeID'] = item_id
+        inv_type['typeName'] = data.get('name').get('en')
+        inv_type['volume'] = data.get('volume')
+
+        inv_types.append(inv_type)
+
+    with open('resources/invTypes.json', 'w') as outfile:
+        json.dump(inv_types, outfile, separators = (',', ':'))
 
 getResources()
 importYaml()
