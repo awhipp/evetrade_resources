@@ -22,6 +22,10 @@ git add resources/mapRegionJumps.json
 git add resources/mapConstellationJumps.json
 git add resources/mapSolarSystemJumps.json
 git add resources/invTypes.json
+git add resources/universeList.json
+git add resources/stationList.json
+git add resources/stationIdToName.json
+git add resources/regionList.json
 git commit -m "Up to date DB with resources $currentrev"
 git checkout -b temp
 git checkout -B $TRAVIS_BRANCH temp
