@@ -26,6 +26,11 @@ map_region_jumps = []
 map_constellations = []
 map_constellation_jumps = []
 map_solarsystem_jumps = []
+inv_types = []
+universeList = {}
+stationList = [""]
+regionList = [""]
+stationIdToName = {}
 
 class MyHTMLParser(HTMLParser):
 
@@ -35,6 +40,23 @@ class MyHTMLParser(HTMLParser):
                if name == 'href' and 'tranquility' in value:
                    self.resources_file_link = value
 
+
+#
+# Mapping function to shortened names of these popular stations
+#
+def getTradeHubName(stationName):
+    if (stationName == "Jita IV - Moon 4 - Caldari Navy Assembly Plant"):
+        return "Jita"
+    elif (stationName == "Amarr VIII (Oris) - Emperor Family Academy"):
+        return "Amarr"
+    elif (stationName == "Rens VI - Moon 8 - Brutor Tribe Treasury"):
+        return "Rens"
+    elif (stationName == "Dodixie IX - Moon 20 - Federation Navy Assembly Plant"):
+        return "Dodixie"
+    elif (stationName == "Hek VIII - Moon 12 - Boundless Creation Factory"):
+        return "Hek"
+
+    return stationName
 
 def getResources():
     if not os.path.exists('sde'):
@@ -111,7 +133,8 @@ def importYaml():
     print("Converting stations data")
     with open(r'sde/bsd/staStations.yaml') as infile:
         with open('resources/staStations.json', 'w') as outfile:
-            json.dump(yaml.load(infile, Loader = Loader), outfile, separators = (',', ':'))
+            sta_stations = yaml.load(infile, Loader = Loader)
+            json.dump(sta_stations, outfile, separators = (',', ':'))
 
     print("Creating region / constellation / solar system jumps DB")
     regions_jump = []
@@ -144,6 +167,76 @@ def importYaml():
     map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromSolarSystemID'])
     with open('resources/mapSolarSystemJumps.json', 'w') as outfile:
         json.dump(map_solarsystem_jumps, outfile, separators = (',', ':'))
+
+    print("Importing items data")
+    if os.path.exists('invTypes.json'):
+        print('Load invTypes JSON')
+        with open('invTypes.json') as infile:
+            inv_typesy = json.load(infile)
+    else:
+        print('Load invTypes YAML')
+        with open(r'sde/fsd/typeIDs.yaml') as infile:
+            inv_typesy = yaml.load(infile, Loader = Loader)
+
+        with open('invTypes.json', 'w') as outfile:
+            json.dump(inv_typesy, outfile)
+    
+    for item_id, data in inv_typesy.items():
+        inv_type = {}
+        inv_type['typeID'] = item_id
+        inv_type['typeName'] = data.get('name').get('en')
+        inv_type['volume'] = data.get('volume')
+
+        inv_types.append(inv_type)
+
+    with open('resources/invTypes.json', 'w') as outfile:
+        json.dump(inv_types, outfile, separators = (',', ':'))
+
+    for station in sta_stations:
+        stationName = station['stationName']
+        #add trade hubs for easy of use
+        tradeHubName = getTradeHubName(stationName)
+        if (stationName != tradeHubName):
+            lowerCaseStationName = tradeHubName.lower()
+
+            universeList[lowerCaseStationName] = {}
+            universeList[lowerCaseStationName]['region'] = station['regionID']
+            universeList[lowerCaseStationName]['station'] = station['stationID']
+            universeList[lowerCaseStationName]['system'] = station['solarSystemID']
+            universeList[lowerCaseStationName]['constellation'] = station['constellationID']
+            universeList[lowerCaseStationName]['security'] = station['security']
+            universeList[lowerCaseStationName]['name'] = tradeHubName
+            stationList.append(tradeHubName)
+
+        lowerCaseStationName = stationName.lower()
+        universeList[lowerCaseStationName] = {}
+        universeList[lowerCaseStationName]['region'] = station['regionID']
+        universeList[lowerCaseStationName]['station'] = station['stationID']
+        universeList[lowerCaseStationName]['system'] = station['solarSystemID']
+        universeList[lowerCaseStationName]['constellation'] = station['constellationID']
+        universeList[lowerCaseStationName]['security'] = station['security']
+        universeList[lowerCaseStationName]['name'] = stationName
+        stationList.append(stationName)
+        stationList.sort()
+        stationIdToName[station['stationID']] = stationName
+
+    for region in map_region:
+        regionName = region['regionName']
+        lcRegionName = regionName.lower()
+        universeList[lcRegionName] = {}
+        universeList[lcRegionName]['name'] = region['regionName']
+        universeList[lcRegionName]['id'] = region['regionID']
+        regionList.append(regionName)
+        regionList.sort()
+
+    with open('resources/universeList.json', 'w') as outfile:
+        json.dump(universeList, outfile, separators = (',', ':'))
+    with open('resources/stationList.json', 'w') as outfile:
+        json.dump(stationList, outfile, separators = (',', ':'))
+    with open('resources/stationIdToName.json', 'w') as outfile:
+        json.dump(stationIdToName, outfile, separators = (',', ':'))
+    with open('resources/regionList.json', 'w') as outfile:
+        json.dump(regionList, outfile, separators = (',', ':'))
 
 getResources()
 importYaml()
