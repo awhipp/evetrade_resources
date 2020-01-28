@@ -226,8 +226,28 @@ def importYaml():
         universeList[lcRegionName] = {}
         universeList[lcRegionName]['name'] = region['regionName']
         universeList[lcRegionName]['id'] = region['regionID']
+        universeList[lcRegionName]['around'] = []
         regionList.append(regionName)
         regionList.sort()
+    
+    i = 0
+    j = 0
+    for jump in map_region_jumps:
+        get_it = False
+        while i  < len(map_region):
+            if jump['fromRegionID'] == map_region[i]['regionID']:
+                while j < len(map_region):
+                    if jump['toRegionID'] == map_region[j]['regionID']:
+                        universeList[map_region[i]['regionName'].lower()]['around'].append(map_region[j]['regionName'].lower())
+                        get_it = True
+                        break
+                    else:
+                        j += 1
+            else:
+                i += 1
+                j = 0
+            if get_it:
+                break
 
     with open('resources/universeList.json', 'w') as outfile:
         json.dump(universeList, outfile, separators = (',', ':'))
