@@ -203,6 +203,7 @@ def importYaml():
             universeList[lowerCaseStationName]['region'] = station['regionID']
             universeList[lowerCaseStationName]['station'] = station['stationID']
             universeList[lowerCaseStationName]['system'] = station['solarSystemID']
+            universeList[lowerCaseStationName]['system'] = station['constellationID']
             universeList[lowerCaseStationName]['name'] = tradeHubName
             stationList.append(tradeHubName)
 
@@ -211,6 +212,7 @@ def importYaml():
         universeList[lowerCaseStationName]['region'] = station['regionID']
         universeList[lowerCaseStationName]['station'] = station['stationID']
         universeList[lowerCaseStationName]['system'] = station['solarSystemID']
+        universeList[lowerCaseStationName]['system'] = station['constellationID']
         universeList[lowerCaseStationName]['name'] = stationName
         stationList.append(stationName)
         stationList.sort()
