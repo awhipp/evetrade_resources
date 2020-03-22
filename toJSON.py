@@ -37,7 +37,7 @@ class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
            for name, value in attrs:
-               if name == 'href' and 'tranquility' in value:
+               if name == 'href' and 'sde.zip' in value:
                    self.resources_file_link = value
 
 
