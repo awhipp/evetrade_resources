@@ -118,11 +118,18 @@ def importYaml():
             with open(constellation_file,'r') as constellation_yaml:
                 constellationy = yaml.load(constellation_yaml, Loader = Loader)
             map_constellations.append((regiony['regionID'], constellationy['constellationID']))
-
+            for item in inv_names:
+                if item['itemID'] == constellationy['constellationID']:
+                    print("     Importing Constellation {}".format(item['itemName']))
+                    break
             solarsystem_files = glob.glob(os.path.join(headc, '*', 'solarsystem.staticdata'))
             for solarsystem_file in solarsystem_files:
                 with open(solarsystem_file,'r') as solarsystem_yaml:
                     solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
+                for item in inv_names:
+                    if item['itemID'] == solarsystemy['solarSystemID']:
+                        print("         Importing Solar System {}".format(item['itemName']))
+                        break
                 for stargate, data in solarsystemy['stargates'].items():
                     stargates[stargate] = (regiony['regionID'], constellationy['constellationID'], solarsystemy['solarSystemID'], data['destination'])
 
