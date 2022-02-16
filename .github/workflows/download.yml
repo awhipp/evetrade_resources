@@ -27,10 +27,14 @@ jobs:
           python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
-      - name: Deploy
+      - name: Setup
+        run:  |
+          sudo chmod a+x ./sde_to_json.sh
+          pip install -r requirements.txt
+
+      - name: Execute
         env: # Or as an environment variable
           GH_USER_EMAIL: ${{ secrets.GH_USER_EMAIL }}
           GH_USER_NAME: ${{ secrets.GH_USER_NAME }}
         run:  |
-          sudo chmod a+x ./sde_to_json.sh
           ./sde_to_json.sh
