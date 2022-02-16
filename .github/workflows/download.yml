@@ -31,6 +31,6 @@ jobs:
         env: # Or as an environment variable
           GH_USER_EMAIL: ${{ secrets.GH_USER_EMAIL }}
           GH_USER_NAME: ${{ secrets.GH_USER_NAME }}
-        run:  
+        run:  |
           sudo chmod a+x ./sde_to_json.sh
           ./sde_to_json.sh
