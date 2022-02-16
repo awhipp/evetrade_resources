@@ -37,7 +37,7 @@ class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag == 'a':
            for name, value in attrs:
-               if name == 'href' and 'tranquility' in value:
+               if name == 'href' and 'sde.zip' in value:
                    self.resources_file_link = value
 
 
@@ -90,7 +90,7 @@ def importYaml():
     region_files = glob.glob(os.path.join('sde', 'fsd', 'universe', 'eve', '*', 'region.staticdata'))
     for region_file in region_files:
         region = {}
-        head, tail = os.path.split(region_file)
+        headr, tail = os.path.split(region_file)
         with open(region_file,'r') as region_yaml:
             regiony = yaml.load(region_yaml, Loader = Loader)
         for item in inv_names:
@@ -112,17 +112,24 @@ def importYaml():
         region['factionID'] = regiony.get('factionID')
         map_regions.append(region)
 
-        constellation_files = glob.glob(os.path.join(head, '*', 'constellation.staticdata'))
+        constellation_files = glob.glob(os.path.join(headr, '*', 'constellation.staticdata'))
         for constellation_file in constellation_files:
-            head, tail = os.path.split(constellation_file)
+            headc, tail = os.path.split(constellation_file)
             with open(constellation_file,'r') as constellation_yaml:
                 constellationy = yaml.load(constellation_yaml, Loader = Loader)
             map_constellations.append((regiony['regionID'], constellationy['constellationID']))
-
-            solarsystem_files = glob.glob(os.path.join(head, '*', 'solarsystem.staticdata'))
+            for item in inv_names:
+                if item['itemID'] == constellationy['constellationID']:
+                    print("     Importing Constellation {}".format(item['itemName']))
+                    break
+            solarsystem_files = glob.glob(os.path.join(headc, '*', 'solarsystem.staticdata'))
             for solarsystem_file in solarsystem_files:
                 with open(solarsystem_file,'r') as solarsystem_yaml:
                     solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
+                for item in inv_names:
+                    if item['itemID'] == solarsystemy['solarSystemID']:
+                        print("         Importing Solar System {}".format(item['itemName']))
+                        break
                 for stargate, data in solarsystemy['stargates'].items():
                     stargates[stargate] = (regiony['regionID'], constellationy['constellationID'], solarsystemy['solarSystemID'], data['destination'])
 
