@@ -1,5 +1,6 @@
 '''
-Scheduled job that runs ~hourly and populates a redis cache with historic volume data for all types in all regions.
+Scheduled job that runs ~hourly and populates a redis cache
+with historic volume data for all types in all regions.
 '''
 
 import os
@@ -10,11 +11,11 @@ import redis
 import aiohttp
 import requests
 
-BATCHES = 15
+BATCHES = 20
 
-REDIS_HOST = os.environ['REDIS_HOST']
-REDIS_PORT = os.environ['REDIS_PORT']
-REDIS_PW = os.environ['REDIS_PW']
+REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
+REDIS_PORT = os.getenv('REDIS_PORT', '6379')
+REDIS_PW = os.getenv('REDIS_PW', 'password')
 
 r = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PW, decode_responses=True)
 
@@ -24,7 +25,7 @@ def create_volume_endpoint(region_id, type_id):
     '''
     Creates the endpoint for the volume data
     '''
-    return f'https://esi.evetech.net/latest/markets/{region_id}/history/?datasource=tranquility&type_id={type_id}&language=en-us'
+    return f'https://esi.evetech.net/latest/markets/{region_id}/history/?datasource=tranquility&type_id={type_id}&language=en-us' # pylint: disable=line-too-long
 
 def get_request(url):
     '''
@@ -36,7 +37,7 @@ def get_request(url):
 regionList = get_request('https://evetrade.space/api/resource?file=regionList.json')[1:]
 universeList = get_request('https://evetrade.space/api/resource?file=universeList.json')
 
-async def process_region(session, type_id, volume_endpoint, region_id):
+async def process_region(pipe, session, type_id, volume_endpoint, region_id):
     '''
     Processes a single region and pulls historic volume data into Redis
     '''
@@ -74,15 +75,21 @@ async def process_region(session, type_id, volume_endpoint, region_id):
 
                 # Sending to Redis (regionid-typeid is mapped to comma-separated volume data)
                 # Tried hashset but it was too slow and stored too much data
-                # Expires after onne week
-                r.set(
+                # Expires after one week
+                pipe.set(
                     name = f'{region_id}-{type_id}',
                     value = f'{volume_1d},{volume_14d},{volume_30d}',
                     ex = ONE_WEEK
                 )
 
+                return { f'{region_id}-{type_id}': f'{volume_1d},{volume_14d},{volume_30d}' }
+            else:
+                return { f'{region_id}-{type_id}': '0,0,0' }
+
     except Exception: # pylint: disable=broad-except
         print(traceback.format_exc())
+        return { f'{region_id}-{type_id}': '0,0,0' }
+
 
 def get_all_types(region_id):
     '''
@@ -98,9 +105,8 @@ def get_all_types(region_id):
         response.raise_for_status()
         type_ids += response.json()
 
-    print(f'-- Processing {len(type_ids)} objects')
+    return type_ids
 
-    return chunks(type_ids, BATCHES)
 
 def chunks(lst, length):
     """
@@ -116,7 +122,6 @@ async def main():
     total_results = 0
     initial_time = time.time()
 
-
     async with aiohttp.ClientSession() as session:
 
         for region_idx, region_name in enumerate(regionList):
@@ -129,21 +134,26 @@ async def main():
 
             region_id = universe_item['id']
 
-            type_id_batches = get_all_types(region_id)
+            type_ids = get_all_types(region_id)
+
+            total_results += len(type_ids)
+            type_ids = chunks(type_ids, BATCHES)
 
             tasks = []
 
-            for batch in type_id_batches:
+            region_pipeline = r.pipeline()
+
+            for batch in type_ids:
                 for type_id in batch:
                     tasks.append(asyncio.ensure_future(
-                        process_region(session, type_id, create_volume_endpoint(region_id, type_id), region_id) # pylint: disable=line-too-long
+                        process_region(region_pipeline, session, type_id, create_volume_endpoint(region_id, type_id), region_id) # pylint: disable=line-too-long
                     ))
 
                 await asyncio.gather(*tasks)
-                total_results += len(batch)
 
-            print(f'-- {region_name} took {round(time.time() - start_time, 2)} seconds // {round((region_idx / len(regionList)) * 100, 2)}% complete') # pylint: disable=line-too-long
+            region_pipeline.execute()
 
+            print(f'-- Execution Time: {round(time.time() - start_time, 2)} seconds // {round((region_idx / len(regionList)) * 100, 2)}% complete') # pylint: disable=line-too-long
 
         print(f'Total results: {total_results}')
         print(f'Total time: {round(time.time() - initial_time, 2)} seconds')
