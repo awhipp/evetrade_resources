@@ -2,7 +2,12 @@
 
 [![Convert SDE to JSON](https://github.com/awhipp/evetrade_resources/actions/workflows/download.yml/badge.svg)](https://github.com/awhipp/evetrade_resources/actions/workflows/download.yml)
 
-Automatic conversion of EVE Online's official database to JSON format for use with the SPA [EveTrade](https://github.com/awhipp/evetrade).
+
+[![Synchronize Redis Cache](https://github.com/awhipp/evetrade_resources/actions/workflows/redis-push.yml/badge.svg)](https://github.com/awhipp/evetrade_resources/actions/workflows/redis-push.yml)
+
+## Functions
+
+### Automatic conversion of EVE Online's Static Data Export (SDE) to relevant JSON files for use by the [EveTrade](https://github.com/awhipp/evetrade) application.
 
 Files available in code (get raw format):
 
@@ -17,4 +22,10 @@ Files available in code (get raw format):
 * resources/stationList.json
 * resources/mapRegions.json
 
-The CI pipeline builds the resources on a monthly schedule via a CRON job.
+This CI pipeline builds the resources on a daily schedule via a CRON job.
+
+### Download and synchronize market volume data with a Redis Cache to prevent hitting API Rate Limits when querying for 100+ records at once
+
+This CI pipeline synchronizes with Redis on an hourly cadence.
+
+
