@@ -11,7 +11,7 @@ import redis
 import aiohttp
 import requests
 
-BATCHES = 20
+BATCHES = 10
 
 REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
 REDIS_PORT = os.getenv('REDIS_PORT', '6379')
@@ -47,7 +47,7 @@ async def process_region(pipe, session, type_id, volume_endpoint, region_id):
             rate_limit = int(response.headers['X-Esi-Error-Limit-Remain'])
 
             if rate_limit < BATCHES*2:
-                seconds = 10
+                seconds = 20
                 print(f'!! Rate limit reached for {type_id}. Waiting {seconds} seconds.')
                 time.sleep(seconds)
 
