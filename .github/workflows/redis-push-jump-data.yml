@@ -1,10 +1,10 @@
 # This is a basic workflow to help you get started with Actions
-name: Synchronize Redis Cache
+name: Synchronize Redis Cache (System Jump Data)
 
 # Controls when the workflow will run
 on:
   schedule:
-    - cron:  '0 */2 * * *' 
+    - cron:  '*/20 * * * *' 
   push:
     branches:
       - master
@@ -33,8 +33,8 @@ jobs:
 
       - name: Pull and Push to Redis
         env: # Or as an environment variable
-          REDIS_HOST: ${{ secrets.REDIS_HOST }}
-          REDIS_PORT: ${{ secrets.REDIS_PORT }}
-          REDIS_PW: ${{ secrets.REDIS_PW }}
+          REDIS_HOST: ${{ secrets.REDIS_JUMP_HOST }}
+          REDIS_PORT: ${{ secrets.REDIS_JUMP_PORT }}
+          REDIS_PW: ${{ secrets.REDIS_JUMP_PW }}
         run:  |
-          python3 ./generate_historic_volume.py
+          python3 ./generate_jump_data.py

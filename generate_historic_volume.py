@@ -1,5 +1,5 @@
 '''
-Scheduled job that runs ~hourly and populates a redis cache
+Scheduled job that runs 12 times a day and populates a redis cache
 with historic volume data for all types in all regions.
 '''
 
