@@ -48,9 +48,9 @@ def add_to_pipe(pipe, start, end, jump_type, value):
     Helper function for adding to a pipeline
     '''
 
-    key = f'{start}-{end}'
+    key = f'{start}-{end}-{jump_type}'
 
-    pipe.hset(key, jump_type, value)
+    pipe.set(key, value)
 
 
 def get_all_subsets(arr, pipe, jump_type):
@@ -82,7 +82,7 @@ async def process(pipe, session, from_system, to_system, jump_type):
     Processes a single jump set and pushes data into Redis
     '''
     try:
-        existing_result = r.hget(f'{from_system}-{to_system}', jump_type) or r.hget(f'{to_system}-{from_system}', jump_type)
+        existing_result = r.get(f'{from_system}-{to_system}-{jump_type}') or r.get(f'{to_system}-{from_system}-{jump_type}') # pylint: disable=line-too-long
 
         if existing_result is None:
             jump_endpoint = create_jump_endpoint(from_system, to_system, jump_type)
@@ -138,14 +138,8 @@ async def main(system_id_from):
             tasks = []
 
             for jump_type in safety:
-                
-                existing_result = r.hget(
-                        f'{system_id_from}-{system_id_to}',
-                        jump_type
-                    ) or r.hget(
-                        f'{system_id_from}-{system_id_to}',
-                        jump_type
-                    )
+
+                existing_result = r.get(f'{system_id_from}-{system_id_to}-{jump_type}') or r.get(f'{system_id_to}-{system_id_from}-{jump_type}') # pylint: disable=line-too-long
 
                 if existing_result is not None:
                     continue

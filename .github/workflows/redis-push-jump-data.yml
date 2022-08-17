@@ -4,7 +4,7 @@ name: Synchronize Redis Cache (System Jump Data)
 # Controls when the workflow will run
 on:
   schedule:
-    - cron:  '*/10 * * * *' 
+    - cron:  '*/15 * * * *' 
   push:
     branches:
       - master
