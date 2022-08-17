@@ -4,10 +4,7 @@ name: Synchronize Redis Cache (Historical Volume Data)
 # Controls when the workflow will run
 on:
   schedule:
-    - cron:  '0 */2 * * *' 
-  push:
-    branches:
-      - master
+    - cron:  '0 */2 * * *'
     
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
