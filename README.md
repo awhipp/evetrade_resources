@@ -2,9 +2,7 @@
 
 [![Convert SDE to JSON](https://github.com/awhipp/evetrade_resources/actions/workflows/download.yml/badge.svg)](https://github.com/awhipp/evetrade_resources/actions/workflows/download.yml)
 
-[![Synchronize Redis Cache (Historical Volume)](https://github.com/awhipp/evetrade_resources/actions/workflows/redis-push-volume-data.yml/badge.svg)](https://github.com/awhipp/evetrade_resources/actions/workflows/redis-push-volume-data.yml)
-
-[![Synchronize Redis Cache (Route Jump Data)](https://github.com/awhipp/evetrade_resources/actions/workflows/redis-push-jump-data.yml/badge.svg)](https://github.com/awhipp/evetrade_resources/actions/workflows/redis-push-jump-data.yml)
+[![Synchronize Redis Cache (Historical Volume)](https://github.com/awhipp/evetrade_resources/actions/workflows/sync-volume-data.yml/badge.svg)](https://github.com/awhipp/evetrade_resources/actions/workflows/sync-volume-data.yml)
 
 ## Functions
 
