@@ -3,3 +3,4 @@ pyyaml==6.0
 redis==4.3.4
 asyncio==3.4.3
 aiohttp==3.8.1
+elasticsearch==7.10.1
