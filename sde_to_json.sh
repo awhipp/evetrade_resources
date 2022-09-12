@@ -16,15 +16,7 @@ git config --global user.email "$GH_USER_EMAIL"
 git config --global user.name "$GH_USER_NAME"
 mkdir -p resources
 python3 toJSON.py
-git add resources/mapRegions.json
-git add resources/staStations.json
-git add resources/mapRegionJumps.json
-git add resources/mapConstellationJumps.json
-git add resources/mapSolarSystemJumps.json
-git add resources/invTypes.json
-git add resources/universeList.json
-git add resources/stationList.json
-git add resources/stationIdToName.json
-git add resources/regionList.json
+ls
+git add resources/*
 git commit -m "Up to date DB with resources $currentrev"
 git push
