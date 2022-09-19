@@ -17,6 +17,8 @@ REDIS_HOST = os.getenv('REDIS_HOST', 'localhost')
 REDIS_PORT = os.getenv('REDIS_PORT', '6379')
 REDIS_PW = os.getenv('REDIS_PW', 'password')
 
+FILE_ENDPOINT = os.getenv('FILE_ENDPOINT', '')
+
 r = redis.StrictRedis(host=REDIS_HOST, port=REDIS_PORT, password=REDIS_PW, decode_responses=True)
 
 ONE_WEEK = 60 * 60 * 24 * 7
@@ -34,8 +36,8 @@ def get_request(url):
     response = requests.get(url)
     return response.json()
 
-regionList = get_request('https://evetrade.space/api/resource?file=regionList.json')[1:]
-universeList = get_request('https://evetrade.space/api/resource?file=universeList.json')
+regionList = get_request(FILE_ENDPOINT + 'regionList.json')[1:]
+universeList = get_request(FILE_ENDPOINT + 'universeList.json')
 
 async def process_region(pipe, session, type_id, volume_endpoint, region_id):
     '''
