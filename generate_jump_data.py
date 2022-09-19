@@ -9,6 +9,8 @@ import json
 import traceback
 import requests
 
+FILE_ENDPOINT = os.getenv('FILE_ENDPOINT', '')
+
 completed_keys = set()
 
 for root, dirs, files in os.walk('data'):
@@ -32,7 +34,7 @@ def get_request(url):
     response = requests.get(url)
     return response
 
-systemSecurity = get_request('https://evetrade.space/api/resource?file=systemIdToSecurity.json')
+systemSecurity = get_request(FILE_ENDPOINT + 'systemIdToSecurity.json')
 systemSecurity = systemSecurity.json()
 systemList = []
 for system in systemSecurity:
