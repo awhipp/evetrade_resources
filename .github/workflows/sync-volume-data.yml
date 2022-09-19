@@ -33,5 +33,6 @@ jobs:
           REDIS_HOST: ${{ secrets.REDIS_VOLUME_HOST }}
           REDIS_PORT: ${{ secrets.REDIS_VOLUME_PORT }}
           REDIS_PW: ${{ secrets.REDIS_VOLUME_PW }}
+          FILE_ENDPOINT: ${{ secrets.FILE_ENDPOINT }}
         run:  |
           python3 ./generate_historic_volume.py
