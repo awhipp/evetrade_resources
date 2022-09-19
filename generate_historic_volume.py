@@ -93,6 +93,23 @@ async def process_region(pipe, session, type_id, volume_endpoint, region_id):
         return { f'{region_id}-{type_id}': '0,0,0' }
 
 
+def execute_request(url, attempts=0):
+    '''
+    Helper function for sending get requests
+    '''
+
+    if attempts > 5:
+        raise Exception('Too many attempts were made.')
+
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+        return response.json()
+    except Exception: # pylint: disable=broad-except
+        print(traceback.format_exc())
+        time.sleep(10)
+        return execute_request(url, attempts + 1)
+
 def get_all_types(region_id):
     '''
     Gets all active types in a region
@@ -103,9 +120,9 @@ def get_all_types(region_id):
     type_ids = response.json()
 
     for page in range(2, pages+1):
-        response = requests.get(f'https://esi.evetech.net/latest/markets/{region_id}/types/?datasource=tranquility&language=en-us&page={page}') # pylint: disable=line-too-long
-        response.raise_for_status()
-        type_ids += response.json()
+        type_ids += execute_request(
+            f'https://esi.evetech.net/latest/markets/{region_id}/types/?datasource=tranquility&language=en-us&page={page}' # pylint: disable=line-too-long
+        )
 
     return type_ids
 
