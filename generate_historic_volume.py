@@ -104,7 +104,11 @@ def execute_request(url, attempts=0):
     try:
         response = requests.get(url)
         response.raise_for_status()
-        return response.json()
+        pages = int(response.headers['X-Pages'])
+        return [
+            response.json(),
+            pages
+        ]
     except Exception: # pylint: disable=broad-except
         print(traceback.format_exc())
         time.sleep(10)
@@ -114,15 +118,15 @@ def get_all_types(region_id):
     '''
     Gets all active types in a region
     '''
-    response = requests.get(f'https://esi.evetech.net/latest/markets/{region_id}/types/?datasource=tranquility&language=en-us') # pylint: disable=line-too-long
-    response.raise_for_status()
-    pages = int(response.headers['X-Pages'])
-    type_ids = response.json()
+
+    response_arr = execute_request(f'https://esi.evetech.net/latest/markets/{region_id}/types/?datasource=tranquility&language=en-us') # pylint: disable=line-too-long
+    type_ids = response_arr[0]
+    pages = response_arr[1]
 
     for page in range(2, pages+1):
         type_ids += execute_request(
             f'https://esi.evetech.net/latest/markets/{region_id}/types/?datasource=tranquility&language=en-us&page={page}' # pylint: disable=line-too-long
-        )
+        )[0]
 
     return type_ids
 
