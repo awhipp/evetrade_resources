@@ -181,5 +181,6 @@ async def main():
         print(f'Total results: {total_results}')
         print(f'Total time: {round(time.time() - initial_time, 2)} seconds')
 
-
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
 asyncio.get_event_loop().run_until_complete(main())
