@@ -191,4 +191,4 @@ except RuntimeError:
     io_loop = asyncio.new_event_loop()
 asyncio.set_event_loop(io_loop)
 
-asyncio.get_running_loop().run_until_complete(main())
+io_loop.run_until_complete(main())
