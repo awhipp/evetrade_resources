@@ -181,6 +181,14 @@ async def main():
         print(f'Total results: {total_results}')
         print(f'Total time: {round(time.time() - initial_time, 2)} seconds')
 
-loop = asyncio.new_event_loop()
-asyncio.set_event_loop(loop)
-asyncio.get_event_loop().run_until_complete(main())
+        
+# Fix for Python 3.10+
+io_loop = None
+
+try:
+    io_loop = asyncio.get_running_loop()
+except RuntimeError:
+    io_loop = asyncio.new_event_loop()
+asyncio.set_event_loop(io_loop)
+
+asyncio.get_running_loop().run_until_complete(main())
