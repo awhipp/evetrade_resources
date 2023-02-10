@@ -23,17 +23,20 @@ jobs:
           
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10.8' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          python-version: '3.8.10' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
 
       - name: Setup
         run:  |
-          sudo chmod a+x ./sde_to_json.sh
+          sudo chmod a+x ./generate_resources.sh
           pip install -r requirements.txt
 
       - name: Execute
         env: # Or as an environment variable
           GH_USER_EMAIL: ${{ secrets.GH_USER_EMAIL }}
           GH_USER_NAME: ${{ secrets.GH_USER_NAME }}
+          ESI_CLIENT_ID: ${{ secrets.ESI_CLIENT_ID }}
+          ESI_SECRET_KEY: ${{ secrets.ESI_SECRET_KEY }}
+          ESI_REFRESH_TOKEN: ${{ secrets.ESI_REFRESH_TOKEN }}
         run:  |
-          ./sde_to_json.sh
+          ./generate_resources.sh

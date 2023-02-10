@@ -12,7 +12,8 @@ git config --global user.email "$GH_USER_EMAIL"
 git config --global user.name "$GH_USER_NAME"
 
 mkdir -p resources
-python3 toJSON.py
+python3 sde_to_json.py
+python3 generate_citadel_data.py
 git add resources/*
 
 git commit -m "Up to date DB with resources $currentrev"
