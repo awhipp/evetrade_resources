@@ -162,11 +162,11 @@ print('- Done getting system index')
 structure_info, structure_list = get_structure_info(token['access_token'], system_index)
 print('- Done getting structure info')
 
-with open('resources/structure_info.json', 'w', encoding='utf-8') as f:
+with open('resources/structureInfo.json', 'w', encoding='utf-8') as f:
     json.dump(structure_info, f, indent=4)
 print('- Done writing structure info')
 
-with open('resources/structure_list.json', 'w', encoding='utf-8') as f:
+with open('resources/structureList.json', 'w', encoding='utf-8') as f:
     json.dump(structure_list, f, indent=4)
 print('- Done writing structure list')
 
