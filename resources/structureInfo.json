@@ -8,12 +8,12 @@
         "security_code": "high_sec"
     },
     "35825": {
-        "name": "Intaki - Diaspora Industrial Freeport",
-        "system_id": 30003788,
+        "name": "Eletta - console",
+        "system_id": 30005315,
         "station_id": 35825,
-        "region_id": 10000048,
-        "security": 0.2,
-        "security_code": "low_sec"
+        "region_id": 10000068,
+        "security": 0.9435089555746619,
+        "security_code": "high_sec"
     },
     "35835": {
         "name": "Serren - B2 - Brisc Killed Stompy",
