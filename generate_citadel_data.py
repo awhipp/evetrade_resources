@@ -105,6 +105,7 @@ def get_structure_info(access_token, system_index):
     Gets all structure info from the ESI endpoint
     '''
     structure_ids = get_structure_ids()
+    structure_ids.append(1028858195912) # Perimeter Tranq Tower
 
     structure_info = {}
     structure_list = []
