@@ -454,5 +454,13 @@
         "region_id": 10000054,
         "security": 0.5319720506668091,
         "security_code": "high_sec"
+    },
+    "1028858195912": {
+        "name": "Perimeter - Tranquility Trading Tower",
+        "system_id": 30000144,
+        "station_id": 1028858195912,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
+        "security_code": "high_sec"
     }
 }
