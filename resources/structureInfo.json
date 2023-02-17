@@ -159,14 +159,6 @@
         "security": 0.5246793482534998,
         "security_code": "high_sec"
     },
-    "1041037598758": {
-        "name": "Misaba - FREEPORT",
-        "system_id": 30003563,
-        "station_id": 1041037598758,
-        "region_id": 10000043,
-        "security": 0.06400797074256737,
-        "security_code": "low_sec"
-    },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
         "system_id": 30000187,
@@ -197,6 +189,14 @@
         "station_id": 1040642857848,
         "region_id": 10000016,
         "security": 0.6657824845222258,
+        "security_code": "high_sec"
+    },
+    "1040925150386": {
+        "name": "Niballe - The Palace",
+        "system_id": 30003580,
+        "station_id": 1040925150386,
+        "region_id": 10000044,
+        "security": 0.6201888263374509,
         "security_code": "high_sec"
     },
     "1038143035062": {
