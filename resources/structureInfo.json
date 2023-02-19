@@ -103,14 +103,6 @@
         "security": 0.5255621501974579,
         "security_code": "high_sec"
     },
-    "1041096113567": {
-        "name": "Agtver - Marketplace",
-        "system_id": 30003404,
-        "station_id": 1041096113567,
-        "region_id": 10000042,
-        "security": 0.8811074970192162,
-        "security_code": "high_sec"
-    },
     "1032792618788": {
         "name": "Villore - IChooseYou Market and Industry",
         "system_id": 30004993,
@@ -158,6 +150,14 @@
         "region_id": 10000043,
         "security": 0.5246793482534998,
         "security_code": "high_sec"
+    },
+    "1041037598758": {
+        "name": "Misaba - FREEPORT",
+        "system_id": 30003563,
+        "station_id": 1041037598758,
+        "region_id": 10000043,
+        "security": 0.06400797074256737,
+        "security_code": "low_sec"
     },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
