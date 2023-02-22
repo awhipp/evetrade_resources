@@ -103,6 +103,14 @@
         "security": 0.5255621501974579,
         "security_code": "high_sec"
     },
+    "1041096113567": {
+        "name": "Agtver - Marketplace",
+        "system_id": 30003404,
+        "station_id": 1041096113567,
+        "region_id": 10000042,
+        "security": 0.8811074970192162,
+        "security_code": "high_sec"
+    },
     "1032792618788": {
         "name": "Villore - IChooseYou Market and Industry",
         "system_id": 30004993,
@@ -293,14 +301,6 @@
         "station_id": 1041020009177,
         "region_id": 10000032,
         "security": 0.7962889720120507,
-        "security_code": "high_sec"
-    },
-    "1040860784348": {
-        "name": "Avesber - Klounorama - Market & Shipyard",
-        "system_id": 30002530,
-        "station_id": 1040860784348,
-        "region_id": 10000030,
-        "security": 0.7531836628913879,
         "security_code": "high_sec"
     },
     "1032717532381": {
