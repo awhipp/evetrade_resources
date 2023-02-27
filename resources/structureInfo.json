@@ -103,14 +103,6 @@
         "security": 0.5255621501974579,
         "security_code": "high_sec"
     },
-    "1041096113567": {
-        "name": "Agtver - Marketplace",
-        "system_id": 30003404,
-        "station_id": 1041096113567,
-        "region_id": 10000042,
-        "security": 0.8811074970192162,
-        "security_code": "high_sec"
-    },
     "1032792618788": {
         "name": "Villore - IChooseYou Market and Industry",
         "system_id": 30004993,
@@ -167,6 +159,14 @@
         "security": 0.06400797074256737,
         "security_code": "low_sec"
     },
+    "1041187500327": {
+        "name": "Vylade - CORE Trade and Manufacturing",
+        "system_id": 30002655,
+        "station_id": 1041187500327,
+        "region_id": 10000032,
+        "security": 0.7962889720120507,
+        "security_code": "high_sec"
+    },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
         "system_id": 30000187,
@@ -199,13 +199,13 @@
         "security": 0.6657824845222258,
         "security_code": "high_sec"
     },
-    "1040925150386": {
-        "name": "Niballe - The Palace",
-        "system_id": 30003580,
-        "station_id": 1040925150386,
-        "region_id": 10000044,
-        "security": 0.6201888263374509,
-        "security_code": "high_sec"
+    "1036425181749": {
+        "name": "Ahbazon - Spectre Fleet HQ",
+        "system_id": 30005196,
+        "station_id": 1036425181749,
+        "region_id": 10000067,
+        "security": 0.42052036063,
+        "security_code": "low_sec"
     },
     "1038143035062": {
         "name": "Hogimo - Market",
@@ -221,6 +221,14 @@
         "station_id": 1037721631287,
         "region_id": 10000043,
         "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
+    "1040925150386": {
+        "name": "Niballe - The Palace",
+        "system_id": 30003580,
+        "station_id": 1040925150386,
+        "region_id": 10000044,
+        "security": 0.6201888263374509,
         "security_code": "high_sec"
     },
     "1040263156672": {
@@ -295,14 +303,6 @@
         "security": 0.903550466840674,
         "security_code": "high_sec"
     },
-    "1041020009177": {
-        "name": "Vylade - CLOSING SOON, SEE BIO",
-        "system_id": 30002655,
-        "station_id": 1041020009177,
-        "region_id": 10000032,
-        "security": 0.7962889720120507,
-        "security_code": "high_sec"
-    },
     "1032717532381": {
         "name": "Manarq - IChooseYou Market and Industry",
         "system_id": 30005201,
@@ -319,14 +319,6 @@
         "security": 0.746238173885059,
         "security_code": "high_sec"
     },
-    "1039145686366": {
-        "name": "Emolgranlan - Port Royal",
-        "system_id": 30002548,
-        "station_id": 1039145686366,
-        "region_id": 10000030,
-        "security": 0.5302433793008023,
-        "security_code": "high_sec"
-    },
     "1040852158178": {
         "name": "Ashab - Serenity",
         "system_id": 30003491,
@@ -341,14 +333,6 @@
         "station_id": 1023968078820,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1036400616301": {
-        "name": "Finanar - Tortuga - Ice Market",
-        "system_id": 30003442,
-        "station_id": 1036400616301,
-        "region_id": 10000042,
-        "security": 0.5322368715159068,
         "security_code": "high_sec"
     },
     "1040734408941": {
