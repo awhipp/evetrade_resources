@@ -15,14 +15,6 @@
         "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
-    "1040305597313": {
-        "name": "Diaderi - GC 2",
-        "system_id": 30005229,
-        "station_id": 1040305597313,
-        "region_id": 10000067,
-        "security": 0.7713307785797243,
-        "security_code": "high_sec"
-    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
@@ -391,13 +383,13 @@
         "security": 0.1726206117578859,
         "security_code": "low_sec"
     },
-    "1036064582136": {
-        "name": "504Z-V - Costco",
-        "system_id": 30000912,
-        "station_id": 1036064582136,
-        "region_id": 10000011,
-        "security": -0.09031940251588821,
-        "security_code": "null_sec"
+    "1038960244852": {
+        "name": "Tegheon - Revelation Space Market + Clone",
+        "system_id": 30003907,
+        "station_id": 1038960244852,
+        "region_id": 10000049,
+        "security": 0.4134412705898285,
+        "security_code": "low_sec"
     },
     "1032903563769": {
         "name": "Alentene - IChooseYou Market and Industry",
@@ -407,28 +399,12 @@
         "security": 0.8667830122068437,
         "security_code": "high_sec"
     },
-    "1038960244852": {
-        "name": "Tegheon - Revelation Space Market + Clone",
-        "system_id": 30003907,
-        "station_id": 1038960244852,
-        "region_id": 10000049,
-        "security": 0.4134412705898285,
-        "security_code": "low_sec"
-    },
     "1034544501372": {
         "name": "Algasienan - Island Market - Mother of Bobo's",
         "system_id": 30003811,
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
-        "security_code": "high_sec"
-    },
-    "1035865306878": {
-        "name": "Alakgur - Tun Tavern",
-        "system_id": 30002512,
-        "station_id": 1035865306878,
-        "region_id": 10000030,
-        "security": 0.5588356980170246,
         "security_code": "high_sec"
     },
     "1035303301887": {
