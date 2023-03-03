@@ -295,6 +295,14 @@
         "security": 0.903550466840674,
         "security_code": "high_sec"
     },
+    "1041224421719": {
+        "name": "Usi - Poseidon Marketplace 4.4",
+        "system_id": 30002755,
+        "station_id": 1041224421719,
+        "region_id": 10000033,
+        "security": 0.5437586967111196,
+        "security_code": "high_sec"
+    },
     "1032717532381": {
         "name": "Manarq - IChooseYou Market and Industry",
         "system_id": 30005201,
