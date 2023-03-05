@@ -319,6 +319,14 @@
         "security": 0.746238173885059,
         "security_code": "high_sec"
     },
+    "1037295313247": {
+        "name": "MY-T2P - The ShaoLin Temple",
+        "system_id": 30000232,
+        "station_id": 1037295313247,
+        "region_id": 10000003,
+        "security": -0.3770807683467865,
+        "security_code": "null_sec"
+    },
     "1040852158178": {
         "name": "Ashab - Serenity",
         "system_id": 30003491,
