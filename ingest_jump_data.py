@@ -82,8 +82,10 @@ for idx, file in enumerate(file_paths):
     if idx % 10000 == 0:
         print(f'{round(100*(idx/len(file_paths)),10)}% Complete')
 
-print(f'Ingesting {len(routes)} orders into {index_name}')
-helpers.bulk(es_client, routes, index=index_name, request_timeout=30)
-es_client.indices.refresh(index=index_name)
 
-print(f'Finished in {time.time() - start_time} seconds')
+if __name__ == '__main__':
+    print(f'Ingesting {len(routes)} orders into {index_name}')
+    helpers.bulk(es_client, routes, index=index_name, request_timeout=30)
+    es_client.indices.refresh(index=index_name)
+
+    print(f'Finished in {time.time() - start_time} seconds')

@@ -188,12 +188,13 @@ def main(system_id_from):
         return new_routes_created
 
 
-path = './data/'
-isExist = os.path.exists(path)
-if not isExist:
-    # Create a new directory because it does not exist
-    os.makedirs(path)
+if __name__ == '__main__':
+    path = './data/'
+    isExist = os.path.exists(path)
+    if not isExist:
+        # Create a new directory because it does not exist
+        os.makedirs(path)
 
-for idx, system_id in enumerate(systemList):
-    print(f'System: {system_id} ({idx+1} of {len(systemList)})')
-    main(system_id)
+    for idx, system_id in enumerate(systemList):
+        print(f'System: {system_id} ({idx+1} of {len(systemList)})')
+        main(system_id)

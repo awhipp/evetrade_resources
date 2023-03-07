@@ -3,8 +3,6 @@ name: Convert SDE to JSON
 
 # Controls when the workflow will run
 on:
-  push:
-    branches: [ master ]
   schedule:
     - cron:  '0 5 * * *' 
     

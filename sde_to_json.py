@@ -59,11 +59,11 @@ def getTradeHubName(stationName):
 
 def getResources():
     if not os.path.exists('sde'):
-        resources_page = requests.get(resources_link)
+        resources_page = requests.get(resources_link, timeout=30)
         parser = MyHTMLParser()
         parser.feed(resources_page.content.decode())
         print(parser.resources_file_link)
-        resources_file = requests.get(parser.resources_file_link)
+        resources_file = requests.get(parser.resources_file_link, timeout=30)
         if resources_file.ok:
             resources_zip = zipfile.ZipFile(io.BytesIO(resources_file.content))
             resources_zip.extractall()
@@ -75,14 +75,14 @@ def importYaml():
 
     if os.path.exists('invNames.json'):
         print('Load invNames JSON')
-        with open('invNames.json') as infile:
+        with open('invNames.json', encoding='utf-8') as infile:
             inv_names = json.load(infile)
     else:
         print('Load invNames YAML')
-        with open(r'sde/bsd/invNames.yaml') as infile:
+        with open(r'sde/bsd/invNames.yaml', encoding='utf-8') as infile:
             inv_names = yaml.load(infile, Loader = Loader)
 
-        with open('invNames.json', 'w') as outfile:
+        with open('invNames.json', 'w', encoding='utf-8') as outfile:
             json.dump(inv_names, outfile)
 
     print("Importing region static data")
@@ -90,7 +90,7 @@ def importYaml():
     for region_file in region_files:
         region = {}
         headr, tail = os.path.split(region_file)
-        with open(region_file,'r') as region_yaml:
+        with open(region_file,'r', encoding='utf-8') as region_yaml:
             regiony = yaml.load(region_yaml, Loader = Loader)
         for item in inv_names:
             if item['itemID'] == regiony['regionID']:
@@ -114,7 +114,7 @@ def importYaml():
         constellation_files = glob.glob(os.path.join(headr, '*', 'constellation.staticdata'))
         for constellation_file in constellation_files:
             headc, tail = os.path.split(constellation_file)
-            with open(constellation_file,'r') as constellation_yaml:
+            with open(constellation_file,'r', encoding='utf-8') as constellation_yaml:
                 constellationy = yaml.load(constellation_yaml, Loader = Loader)
             map_constellations.append((regiony['regionID'], constellationy['constellationID']))
             for item in inv_names:
@@ -123,7 +123,7 @@ def importYaml():
                     break
             solarsystem_files = glob.glob(os.path.join(headc, '*', 'solarsystem.staticdata'))
             for solarsystem_file in solarsystem_files:
-                with open(solarsystem_file,'r') as solarsystem_yaml:
+                with open(solarsystem_file,'r', encoding='utf-8') as solarsystem_yaml:
                     solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
                 for item in inv_names:
                     if item['itemID'] == solarsystemy['solarSystemID']:
@@ -133,12 +133,12 @@ def importYaml():
                     stargates[stargate] = (regiony['regionID'], constellationy['constellationID'], solarsystemy['solarSystemID'], data['destination'])
 
     map_region = sorted(map_regions, key = lambda i: i['regionID'])
-    with open('resources/mapRegions.json', 'w') as outfile:
+    with open('resources/mapRegions.json', 'w', encoding='utf-8') as outfile:
         json.dump(map_region, outfile, separators = (',', ':'))
 
     print("Converting stations data")
-    with open(r'sde/bsd/staStations.yaml') as infile:
-        with open('resources/staStations.json', 'w') as outfile:
+    with open(r'sde/bsd/staStations.yaml', encoding='utf-8') as infile:
+        with open('resources/staStations.json', 'w', encoding='utf-8') as outfile:
             sta_stations = yaml.load(infile, Loader = Loader)
             json.dump(sta_stations, outfile, separators = (',', ':'))
 
@@ -156,14 +156,14 @@ def importYaml():
     map_region_jumps = [i for n, i in enumerate(regions_jump) if i not in regions_jump[n + 1:]]
     map_region_jumps = sorted(map_region_jumps, key = lambda i: i['toRegionID'])
     map_region_jumps = sorted(map_region_jumps, key = lambda i: i['fromRegionID'])
-    with open('resources/mapRegionJumps.json', 'w') as outfile:
+    with open('resources/mapRegionJumps.json', 'w', encoding='utf-8') as outfile:
         json.dump(map_region_jumps, outfile, separators = (',', ':'))
     map_constellation_jumps = [i for n, i in enumerate(constellations_jump) if i not in constellations_jump[n + 1:]]
     map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['toRegionID'])
     map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['fromRegionID'])
     map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['toConstellationID'])
     map_constellation_jumps = sorted(map_constellation_jumps, key = lambda i: i['fromConstellationID'])
-    with open('resources/mapConstellationJumps.json', 'w') as outfile:
+    with open('resources/mapConstellationJumps.json', 'w', encoding='utf-8') as outfile:
         json.dump(map_constellation_jumps, outfile, separators = (',', ':'))
     map_solarsystem_jumps = sorted(solarsystems_jump, key = lambda i: i['toRegionID'])
     map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromRegionID'])
@@ -171,7 +171,7 @@ def importYaml():
     map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromConstellationID'])
     map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['toSolarSystemID'])
     map_solarsystem_jumps = sorted(map_solarsystem_jumps, key = lambda i: i['fromSolarSystemID'])
-    with open('resources/mapSolarSystemJumps.json', 'w') as outfile:
+    with open('resources/mapSolarSystemJumps.json', 'w', encoding='utf-8') as outfile:
         json.dump(map_solarsystem_jumps, outfile, separators = (',', ':'))
 
     print("Importing items data")
@@ -184,7 +184,7 @@ def importYaml():
         with open(r'sde/fsd/typeIDs.yaml', encoding="utf8") as infile:
             inv_typesy = yaml.load(infile, Loader = Loader)
 
-        with open('invTypes.json', 'w') as outfile:
+        with open('invTypes.json', 'w', encoding='utf-8') as outfile:
             json.dump(inv_typesy, outfile)
     
     for item_id, data in inv_typesy.items():
@@ -195,7 +195,7 @@ def importYaml():
 
         inv_types.append(inv_type)
 
-    with open('resources/invTypes.json', 'w') as outfile:
+    with open('resources/invTypes.json', 'w', encoding='utf-8') as outfile:
         json.dump(inv_types, outfile, separators = (',', ':'))
 
     for station in sta_stations:
@@ -235,7 +235,7 @@ def importYaml():
         universeList[lcRegionName]['around'] = []
         regionList.append(regionName)
         regionList.sort()
-    
+
     i = 0
     j = 0
     for jump in map_region_jumps:
@@ -255,14 +255,15 @@ def importYaml():
             if get_it:
                 break
 
-    with open('resources/universeList.json', 'w') as outfile:
+    with open('resources/universeList.json', 'w', encoding='utf-8') as outfile:
         json.dump(universeList, outfile, separators = (',', ':'))
-    with open('resources/stationList.json', 'w') as outfile:
+    with open('resources/stationList.json', 'w', encoding='utf-8') as outfile:
         json.dump(stationList, outfile, separators = (',', ':'))
-    with open('resources/stationIdToName.json', 'w') as outfile:
+    with open('resources/stationIdToName.json', 'w', encoding='utf-8') as outfile:
         json.dump(stationIdToName, outfile, separators = (',', ':'))
-    with open('resources/regionList.json', 'w') as outfile:
+    with open('resources/regionList.json', 'w', encoding='utf-8') as outfile:
         json.dump(regionList, outfile, separators = (',', ':'))
 
-getResources()
-importYaml()
+if __name__ == "__main__":
+    getResources()
+    importYaml()

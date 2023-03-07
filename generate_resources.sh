@@ -14,6 +14,8 @@ git config --global user.name "$GH_USER_NAME"
 mkdir -p resources
 python3 sde_to_json.py
 python3 generate_citadel_data.py
+python3 generate_typeid_to_name.py
+python3 generate_systemid_to_security.py
 git add resources/*
 
 git commit -m "Up to date DB with resources $currentrev"

@@ -135,7 +135,7 @@ def get_structure_info(access_token, system_index):
                 constellation_json = constellation_response.json()
                 system_index[structure['solar_system_id']]['region_id'] = constellation_json['region_id']
 
-            structure_info[structure['type_id']] = {
+            structure_info[structure['structure_id']] = {
                 'name': structure['name'],
                 'system_id': structure['solar_system_id'],
                 'station_id': structure['type_id'],
@@ -149,25 +149,29 @@ def get_structure_info(access_token, system_index):
     return structure_info, structure_list
 
 
+def main():
+    start = time.time()
+    print('Starting...')
 
-start = time.time()
-print('Starting...')
+    token = refresh_token(tokens)
+    print('- Done refreshing token')
 
-token = refresh_token(tokens)
-print('- Done refreshing token')
+    system_index = get_system_to_other_ids()
+    print('- Done getting system index')
 
-system_index = get_system_to_other_ids()
-print('- Done getting system index')
+    structure_info, structure_list = get_structure_info(token['access_token'], system_index)
+    print('- Done getting structure info')
 
-structure_info, structure_list = get_structure_info(token['access_token'], system_index)
-print('- Done getting structure info')
+    with open('resources/structureInfo.json', 'w', encoding='utf-8') as f:
+        json.dump(structure_info, f, indent=4)
+    print('- Done writing structure info')
 
-with open('resources/structureInfo.json', 'w', encoding='utf-8') as f:
-    json.dump(structure_info, f, indent=4)
-print('- Done writing structure info')
+    with open('resources/structureList.json', 'w', encoding='utf-8') as f:
+        json.dump(structure_list, f, indent=4)
+    print('- Done writing structure list')
 
-with open('resources/structureList.json', 'w', encoding='utf-8') as f:
-    json.dump(structure_list, f, indent=4)
-print('- Done writing structure list')
+    print(f'Finished in {time.time() - start} seconds')
 
-print(f'Finished in {time.time() - start} seconds')
+
+if __name__ == '__main__':
+    main()
