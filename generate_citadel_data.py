@@ -80,7 +80,7 @@ def get_structure_ids():
     structure_ids = []
 
     response = requests.get(
-        'https://esi.evetech.net/latest/universe/structures/?datasource=tranquility', 
+        'https://esi.evetech.net/latest/universe/structures/?datasource=tranquility&filter=market', 
         timeout=30
     )
 
@@ -105,6 +105,7 @@ def get_structure_info(access_token, system_index):
     Gets all structure info from the ESI endpoint
     '''
     structure_ids = get_structure_ids()
+    structure_ids.append(1028858195912) # Perimeter Tranq Tower
 
     structure_info = {}
     structure_list = []
@@ -135,10 +136,10 @@ def get_structure_info(access_token, system_index):
                 constellation_json = constellation_response.json()
                 system_index[structure['solar_system_id']]['region_id'] = constellation_json['region_id']
 
-            structure_info[structure['structure_id']] = {
+            structure_info[structure_id] = {
                 'name': structure['name'],
                 'system_id': structure['solar_system_id'],
-                'station_id': structure['type_id'],
+                'station_id': structure_id,
                 'region_id': system_index[structure['solar_system_id']]['region_id'],
                 'security': system_index[structure['solar_system_id']]['security'],
                 'security_code': get_security_code(system_index[structure['solar_system_id']]['security']),
