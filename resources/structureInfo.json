@@ -143,14 +143,6 @@
         "security": 0.5246793482534998,
         "security_code": "high_sec"
     },
-    "1041037598758": {
-        "name": "Misaba - FREEPORT",
-        "system_id": 30003563,
-        "station_id": 1041037598758,
-        "region_id": 10000043,
-        "security": 0.06400797074256737,
-        "security_code": "low_sec"
-    },
     "1041187500327": {
         "name": "Vylade - CORE Trade and Manufacturing",
         "system_id": 30002655,
@@ -158,6 +150,14 @@
         "region_id": 10000032,
         "security": 0.7962889720120507,
         "security_code": "high_sec"
+    },
+    "1041289922730": {
+        "name": "Lanngisi - Best home in Lanngisi",
+        "system_id": 30002074,
+        "station_id": 1041289922730,
+        "region_id": 10000042,
+        "security": 0.4612063071584373,
+        "security_code": "low_sec"
     },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
@@ -272,7 +272,7 @@
         "security_code": "low_sec"
     },
     "1040539992141": {
-        "name": "Vay - MINER NEEDs - we buy ORE",
+        "name": "Vay - MINER NEEDs - join.4.ez ISK",
         "system_id": 30005318,
         "station_id": 1040539992141,
         "region_id": 10000068,
