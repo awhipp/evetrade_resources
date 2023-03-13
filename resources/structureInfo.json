@@ -191,13 +191,13 @@
         "security": 0.6657824845222258,
         "security_code": "high_sec"
     },
-    "1036425181749": {
-        "name": "Ahbazon - Spectre Fleet HQ",
-        "system_id": 30005196,
-        "station_id": 1036425181749,
-        "region_id": 10000067,
-        "security": 0.42052036063,
-        "security_code": "low_sec"
+    "1040925150386": {
+        "name": "Niballe - Solitude Trade Center",
+        "system_id": 30003580,
+        "station_id": 1040925150386,
+        "region_id": 10000044,
+        "security": 0.6201888263374509,
+        "security_code": "high_sec"
     },
     "1038143035062": {
         "name": "Hogimo - Market",
@@ -213,14 +213,6 @@
         "station_id": 1037721631287,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1040925150386": {
-        "name": "Niballe - Solitude Trade Center",
-        "system_id": 30003580,
-        "station_id": 1040925150386,
-        "region_id": 10000044,
-        "security": 0.6201888263374509,
         "security_code": "high_sec"
     },
     "1040263156672": {
