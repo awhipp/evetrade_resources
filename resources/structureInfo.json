@@ -95,6 +95,14 @@
         "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
+    "1041379381017": {
+        "name": "Yrmori - Marketplace",
+        "system_id": 30003414,
+        "station_id": 1041379381017,
+        "region_id": 10000042,
+        "security": 0.6443452816173134,
+        "security_code": "high_sec"
+    },
     "1037999515935": {
         "name": "Warouh - Sisters of EVE Market",
         "system_id": 30003553,
