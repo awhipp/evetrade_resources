@@ -175,14 +175,6 @@
         "security": 0.4612063071584373,
         "security_code": "low_sec"
     },
-    "1041337517224": {
-        "name": "Autaris - Dreamland",
-        "system_id": 30001384,
-        "station_id": 1041337517224,
-        "region_id": 10000016,
-        "security": 0.4686320109819786,
-        "security_code": "low_sec"
-    },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
         "system_id": 30000187,
@@ -304,7 +296,7 @@
         "security_code": "low_sec"
     },
     "1040539992141": {
-        "name": "Vay - MINER NEEDs - Discount Supplies",
+        "name": "Vay - MINER NEEDs -",
         "system_id": 30005318,
         "station_id": 1040539992141,
         "region_id": 10000068,
