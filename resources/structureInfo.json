@@ -39,6 +39,14 @@
         "security": 0.6570695028087454,
         "security_code": "high_sec"
     },
+    "1041454070281": {
+        "name": "Hama - Pentium 4 - Liquid-Cooled",
+        "system_id": 30003523,
+        "station_id": 1041454070281,
+        "region_id": 10000043,
+        "security": 0.8395448327064514,
+        "security_code": "high_sec"
+    },
     "1033906092172": {
         "name": "Litiura - IChooseYou Secondary Market",
         "system_id": 30001400,
@@ -93,14 +101,6 @@
         "station_id": 1041025186831,
         "region_id": 10000033,
         "security": 0.7112933851639902,
-        "security_code": "high_sec"
-    },
-    "1041379381017": {
-        "name": "Yrmori - Marketplace",
-        "system_id": 30003414,
-        "station_id": 1041379381017,
-        "region_id": 10000042,
-        "security": 0.6443452816173134,
         "security_code": "high_sec"
     },
     "1037999515935": {
