@@ -24,7 +24,7 @@
         "security_code": "high_sec"
     },
     "1041470365569": {
-        "name": "Perimeter - Perimeter Trading Tower",
+        "name": "Perimeter - Tranguility Trading Tower",
         "system_id": 30000144,
         "station_id": 1041470365569,
         "region_id": 10000002,
@@ -166,14 +166,6 @@
         "region_id": 10000043,
         "security": 0.5246793482534998,
         "security_code": "high_sec"
-    },
-    "1041289922730": {
-        "name": "Lanngisi - Best home in Lanngisi",
-        "system_id": 30002074,
-        "station_id": 1041289922730,
-        "region_id": 10000042,
-        "security": 0.4612063071584373,
-        "security_code": "low_sec"
     },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
@@ -359,6 +351,14 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
+    "1023968078820": {
+        "name": "Ashab - Tranquility Trade & Prod Center",
+        "system_id": 30003491,
+        "station_id": 1023968078820,
+        "region_id": 10000043,
+        "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
     "1040734408941": {
         "name": "Erme - M-world",
         "system_id": 30002640,
@@ -437,14 +437,6 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
-        "security_code": "high_sec"
-    },
-    "1035303301887": {
-        "name": "Sazilid - ARIDIA GFC TRADING STATION",
-        "system_id": 30004270,
-        "station_id": 1035303301887,
-        "region_id": 10000054,
-        "security": 0.5319720506668091,
         "security_code": "high_sec"
     },
     "1028858195912": {
