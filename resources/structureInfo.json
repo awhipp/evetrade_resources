@@ -23,14 +23,6 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1041470365569": {
-        "name": "Perimeter - Tranguility Trading Tower",
-        "system_id": 30000144,
-        "station_id": 1041470365569,
-        "region_id": 10000002,
-        "security": 0.9531232305867214,
-        "security_code": "high_sec"
-    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
@@ -437,6 +429,14 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
+        "security_code": "high_sec"
+    },
+    "1035303301887": {
+        "name": "Sazilid - ARIDIA GFC TRADING STATION",
+        "system_id": 30004270,
+        "station_id": 1035303301887,
+        "region_id": 10000054,
+        "security": 0.5319720506668091,
         "security_code": "high_sec"
     },
     "1028858195912": {
