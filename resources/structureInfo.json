@@ -167,14 +167,6 @@
         "security": 0.06400797074256737,
         "security_code": "low_sec"
     },
-    "1040445983664": {
-        "name": "Wuos - Sausagemart",
-        "system_id": 30000187,
-        "station_id": 1040445983664,
-        "region_id": 10000002,
-        "security": 0.5617738683951554,
-        "security_code": "high_sec"
-    },
     "1021681819954": {
         "name": "Keberz - FREEPORT MARKET AND CLONES",
         "system_id": 30003883,
@@ -365,6 +357,14 @@
         "station_id": 1040734408941,
         "region_id": 10000032,
         "security": 0.7981556057929993,
+        "security_code": "high_sec"
+    },
+    "1041517397230": {
+        "name": "Boystin - Boys' Town",
+        "system_id": 30003574,
+        "station_id": 1041517397230,
+        "region_id": 10000044,
+        "security": 0.5230190689183638,
         "security_code": "high_sec"
     },
     "1039851957231": {
