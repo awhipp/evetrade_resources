@@ -167,6 +167,14 @@
         "security": 0.06400797074256737,
         "security_code": "low_sec"
     },
+    "1041567271462": {
+        "name": "Algogille - CBMH Industry Market",
+        "system_id": 30004972,
+        "station_id": 1041567271462,
+        "region_id": 10000064,
+        "security": 0.9253662033104486,
+        "security_code": "high_sec"
+    },
     "1040445983664": {
         "name": "Wuos - Sausagemart",
         "system_id": 30000187,
