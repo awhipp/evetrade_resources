@@ -15,6 +15,14 @@
         "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
+    "1040082938499": {
+        "name": "Samanuni - Athounon - Checkpoint",
+        "system_id": 30045322,
+        "station_id": 1040082938499,
+        "region_id": 10000069,
+        "security": 0.6527848435914495,
+        "security_code": "high_sec"
+    },
     "1041098908929": {
         "name": "Keberz - Miner Mart",
         "system_id": 30003883,
