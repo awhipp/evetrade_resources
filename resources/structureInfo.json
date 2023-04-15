@@ -111,6 +111,14 @@
         "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
+    "1041586170007": {
+        "name": "Perimeter - Perimeter Trading Tower",
+        "system_id": 30000144,
+        "station_id": 1041586170007,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
+        "security_code": "high_sec"
+    },
     "1037999515935": {
         "name": "Warouh - Sisters of EVE Market",
         "system_id": 30003553,
