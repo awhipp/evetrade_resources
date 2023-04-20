@@ -271,14 +271,6 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1041537185989": {
-        "name": "Gerek - Marketplace",
-        "system_id": 30002531,
-        "station_id": 1041537185989,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
-        "security_code": "high_sec"
-    },
     "1031084757448": {
         "name": "Frarn - IChooseYou Market and Industry",
         "system_id": 30002526,
