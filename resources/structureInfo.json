@@ -287,14 +287,6 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1041537185989": {
-        "name": "Gerek - Marketplace",
-        "system_id": 30002531,
-        "station_id": 1041537185989,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
-        "security_code": "high_sec"
-    },
     "1031084757448": {
         "name": "Frarn - IChooseYou Market and Industry",
         "system_id": 30002526,
@@ -310,14 +302,6 @@
         "region_id": 10000067,
         "security": 0.5999662648532458,
         "security_code": "high_sec"
-    },
-    "1041609080520": {
-        "name": "Antem - Genesis Freeport",
-        "system_id": 30005261,
-        "station_id": 1041609080520,
-        "region_id": 10000067,
-        "security": 0.312880339672161,
-        "security_code": "low_sec"
     },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
