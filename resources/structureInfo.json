@@ -95,14 +95,6 @@
         "security": 0.8321338757893988,
         "security_code": "high_sec"
     },
-    "1041025186831": {
-        "name": "Alikara - Joota cuckdari plant",
-        "system_id": 30002754,
-        "station_id": 1041025186831,
-        "region_id": 10000033,
-        "security": 0.7112933851639902,
-        "security_code": "high_sec"
-    },
     "1041586170007": {
         "name": "Perimeter - Perimeter Trading Tower",
         "system_id": 30000144,
