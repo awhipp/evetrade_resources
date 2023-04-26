@@ -247,14 +247,6 @@
         "security": 0.6201888263374509,
         "security_code": "high_sec"
     },
-    "1040263156672": {
-        "name": "Olo - Manufacturing & Trade Freeport",
-        "system_id": 30000158,
-        "station_id": 1040263156672,
-        "region_id": 10000002,
-        "security": 0.6760405465919956,
-        "security_code": "high_sec"
-    },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
         "system_id": 30005222,
@@ -277,6 +269,14 @@
         "station_id": 1032097126596,
         "region_id": 10000028,
         "security": 0.5863137228330685,
+        "security_code": "high_sec"
+    },
+    "1041537185989": {
+        "name": "Gerek - Marketplace",
+        "system_id": 30002531,
+        "station_id": 1041537185989,
+        "region_id": 10000030,
+        "security": 0.732252143515203,
         "security_code": "high_sec"
     },
     "1031084757448": {
