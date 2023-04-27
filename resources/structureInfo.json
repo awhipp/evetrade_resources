@@ -95,14 +95,6 @@
         "security": 0.8321338757893988,
         "security_code": "high_sec"
     },
-    "1041586170007": {
-        "name": "Perimeter - Perimeter Trading Tower",
-        "system_id": 30000144,
-        "station_id": 1041586170007,
-        "region_id": 10000002,
-        "security": 0.9531232305867214,
-        "security_code": "high_sec"
-    },
     "1041592559389": {
         "name": "Hror - Moria",
         "system_id": 30002054,
@@ -269,14 +261,6 @@
         "station_id": 1032097126596,
         "region_id": 10000028,
         "security": 0.5863137228330685,
-        "security_code": "high_sec"
-    },
-    "1041537185989": {
-        "name": "Gerek - Marketplace",
-        "system_id": 30002531,
-        "station_id": 1041537185989,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
         "security_code": "high_sec"
     },
     "1031084757448": {
