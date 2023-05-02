@@ -359,6 +359,14 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
+    "1039827685477": {
+        "name": "Aldilur - Magic Mushroom",
+        "system_id": 30003379,
+        "station_id": 1039827685477,
+        "region_id": 10000042,
+        "security": 0.9094686404040416,
+        "security_code": "high_sec"
+    },
     "1041584171364": {
         "name": "Arnola - Mad Hatter's 1% Market",
         "system_id": 30000112,
@@ -453,14 +461,6 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
-        "security_code": "high_sec"
-    },
-    "1035303301887": {
-        "name": "Sazilid - ARIDIA GFC TRADING STATION",
-        "system_id": 30004270,
-        "station_id": 1035303301887,
-        "region_id": 10000054,
-        "security": 0.5319720506668091,
         "security_code": "high_sec"
     },
     "1028858195912": {
