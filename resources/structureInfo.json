@@ -279,6 +279,14 @@
         "security": 0.5999662648532458,
         "security_code": "high_sec"
     },
+    "1038415742024": {
+        "name": "Odatrik - Serenity Market",
+        "system_id": 30002509,
+        "station_id": 1038415742024,
+        "region_id": 10000030,
+        "security": 0.8161785481654243,
+        "security_code": "high_sec"
+    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
