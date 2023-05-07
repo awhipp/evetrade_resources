@@ -199,13 +199,13 @@
         "security": 0.6657824845222258,
         "security_code": "high_sec"
     },
-    "1036425181749": {
-        "name": "Ahbazon - Spectre Fleet HQ",
-        "system_id": 30005196,
-        "station_id": 1036425181749,
-        "region_id": 10000067,
-        "security": 0.42052036063,
-        "security_code": "low_sec"
+    "1040925150386": {
+        "name": "Niballe - Solitude Trade Center",
+        "system_id": 30003580,
+        "station_id": 1040925150386,
+        "region_id": 10000044,
+        "security": 0.6201888263374509,
+        "security_code": "high_sec"
     },
     "1038143035062": {
         "name": "Hogimo - Market",
@@ -221,14 +221,6 @@
         "station_id": 1037721631287,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1040925150386": {
-        "name": "Niballe - Solitude Trade Center",
-        "system_id": 30003580,
-        "station_id": 1040925150386,
-        "region_id": 10000044,
-        "security": 0.6201888263374509,
         "security_code": "high_sec"
     },
     "1041734309178": {
@@ -413,14 +405,6 @@
         "station_id": 1041517397230,
         "region_id": 10000044,
         "security": 0.5230190689183638,
-        "security_code": "high_sec"
-    },
-    "1039851957231": {
-        "name": "Nourvukaiken - Free Boston (One Stop Shop)",
-        "system_id": 30001376,
-        "station_id": 1039851957231,
-        "region_id": 10000016,
-        "security": 0.8165567290785904,
         "security_code": "high_sec"
     },
     "1036865806195": {
