@@ -87,6 +87,14 @@
         "security": 0.9636458045513323,
         "security_code": "high_sec"
     },
+    "1029373686929": {
+        "name": "Ordion - CERNHQ - 1% Market & Jc Service.",
+        "system_id": 30005060,
+        "station_id": 1029373686929,
+        "region_id": 10000065,
+        "security": 0.5045326540443285,
+        "security_code": "high_sec"
+    },
     "1029744774801": {
         "name": "Stacmon - IChooseYou Secondary Market",
         "system_id": 30003794,
@@ -229,6 +237,14 @@
         "station_id": 1041734309178,
         "region_id": 10000064,
         "security": 0.3356865888245387,
+        "security_code": "low_sec"
+    },
+    "1041780302014": {
+        "name": "Hoona - Mining 'n Refining",
+        "system_id": 30001680,
+        "station_id": 1041780302014,
+        "region_id": 10000020,
+        "security": 0.48894450068473816,
         "security_code": "low_sec"
     },
     "1037017873729": {
