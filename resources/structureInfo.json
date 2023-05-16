@@ -111,6 +111,14 @@
         "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
+    "1041855199252": {
+        "name": "Tar - Engineering Cube",
+        "system_id": 30005199,
+        "station_id": 1041855199252,
+        "region_id": 10000067,
+        "security": 0.7566772446611076,
+        "security_code": "high_sec"
+    },
     "1037999515935": {
         "name": "Warouh - Sisters of EVE Market",
         "system_id": 30003553,
