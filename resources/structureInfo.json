@@ -87,6 +87,14 @@
         "security": 0.9636458045513323,
         "security_code": "high_sec"
     },
+    "1029373686929": {
+        "name": "Ordion - Freeport",
+        "system_id": 30005060,
+        "station_id": 1029373686929,
+        "region_id": 10000065,
+        "security": 0.5045326540443285,
+        "security_code": "high_sec"
+    },
     "1029744774801": {
         "name": "Stacmon - IChooseYou Secondary Market",
         "system_id": 30003794,
@@ -261,6 +269,14 @@
         "station_id": 1032097126596,
         "region_id": 10000028,
         "security": 0.5863137228330685,
+        "security_code": "high_sec"
+    },
+    "1041537185989": {
+        "name": "Gerek - Marketplace",
+        "system_id": 30002531,
+        "station_id": 1041537185989,
+        "region_id": 10000030,
+        "security": 0.732252143515203,
         "security_code": "high_sec"
     },
     "1031084757448": {
