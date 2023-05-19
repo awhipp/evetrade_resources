@@ -351,14 +351,6 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
-    "1040860784348": {
-        "name": "Avesber - Klounorama - Market & Shipyard",
-        "system_id": 30002530,
-        "station_id": 1040860784348,
-        "region_id": 10000030,
-        "security": 0.7531836628913879,
-        "security_code": "high_sec"
-    },
     "1032717532381": {
         "name": "Manarq - IChooseYou Market and Industry",
         "system_id": 30005201,
