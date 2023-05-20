@@ -127,6 +127,14 @@
         "security": 0.7566772446611076,
         "security_code": "high_sec"
     },
+    "1041894518298": {
+        "name": "Aurcel - Joe's Market",
+        "system_id": 30002716,
+        "station_id": 1041894518298,
+        "region_id": 10000032,
+        "security": 0.549450178281487,
+        "security_code": "high_sec"
+    },
     "1037999515935": {
         "name": "Warouh - Sisters of EVE Market",
         "system_id": 30003553,
@@ -351,6 +359,14 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
+    "1040860784348": {
+        "name": "Avesber - Klounorama - Market & Shipyard",
+        "system_id": 30002530,
+        "station_id": 1040860784348,
+        "region_id": 10000030,
+        "security": 0.7531836628913879,
+        "security_code": "high_sec"
+    },
     "1032717532381": {
         "name": "Manarq - IChooseYou Market and Industry",
         "system_id": 30005201,
@@ -477,6 +493,14 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
+        "security_code": "high_sec"
+    },
+    "1035073006717": {
+        "name": "Chesiette - Freeport Home",
+        "system_id": 30005327,
+        "station_id": 1035073006717,
+        "region_id": 10000068,
+        "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
     "1028858195912": {
