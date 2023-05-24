@@ -239,14 +239,6 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
-    "1041780302014": {
-        "name": "Hoona - Market, Mine, Refine",
-        "system_id": 30001680,
-        "station_id": 1041780302014,
-        "region_id": 10000020,
-        "security": 0.48894450068473816,
-        "security_code": "low_sec"
-    },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
         "system_id": 30005222,
