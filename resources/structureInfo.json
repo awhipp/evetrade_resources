@@ -23,14 +23,6 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1041701800198": {
-        "name": "Perimeter - Perimeter Trading Tower",
-        "system_id": 30000144,
-        "station_id": 1041701800198,
-        "region_id": 10000002,
-        "security": 0.9531232305867214,
-        "security_code": "high_sec"
-    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
@@ -109,14 +101,6 @@
         "station_id": 1041025186831,
         "region_id": 10000033,
         "security": 0.7112933851639902,
-        "security_code": "high_sec"
-    },
-    "1041855199252": {
-        "name": "Tar - Engineering Cube",
-        "system_id": 30005199,
-        "station_id": 1041855199252,
-        "region_id": 10000067,
-        "security": 0.7566772446611076,
         "security_code": "high_sec"
     },
     "1041894518298": {
@@ -261,14 +245,6 @@
         "station_id": 1032097126596,
         "region_id": 10000028,
         "security": 0.5863137228330685,
-        "security_code": "high_sec"
-    },
-    "1041537185989": {
-        "name": "Gerek - Marketplace",
-        "system_id": 30002531,
-        "station_id": 1041537185989,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
         "security_code": "high_sec"
     },
     "1031084757448": {
