@@ -231,14 +231,6 @@
         "security": 0.4588785097930475,
         "security_code": "low_sec"
     },
-    "1041329468866": {
-        "name": "Liukikka - Candy Store",
-        "system_id": 30001416,
-        "station_id": 1041329468866,
-        "region_id": 10000016,
-        "security": 0.5643610954284668,
-        "security_code": "high_sec"
-    },
     "1032097126596": {
         "name": "Teonusude - IChooseYou Market and Industry",
         "system_id": 30002385,
@@ -453,14 +445,6 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
-        "security_code": "high_sec"
-    },
-    "1035073006717": {
-        "name": "Chesiette - Freeport Home",
-        "system_id": 30005327,
-        "station_id": 1035073006717,
-        "region_id": 10000068,
-        "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
     "1028858195912": {
