@@ -335,14 +335,6 @@
         "security": 0.746238173885059,
         "security_code": "high_sec"
     },
-    "1040852158178": {
-        "name": "Ashab - Serenity",
-        "system_id": 30003491,
-        "station_id": 1040852158178,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
     "1023968078820": {
         "name": "Ashab - Tranquility Trade & Prod Center",
         "system_id": 30003491,
@@ -445,6 +437,14 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
+        "security_code": "high_sec"
+    },
+    "1035073006717": {
+        "name": "Chesiette - Freeport Home",
+        "system_id": 30005327,
+        "station_id": 1035073006717,
+        "region_id": 10000068,
+        "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
     "1028858195912": {
