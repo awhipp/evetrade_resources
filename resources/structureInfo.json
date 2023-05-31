@@ -111,6 +111,14 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
+    "1041989025438": {
+        "name": "Elonaya - Datos Stellar Outpost IV",
+        "system_id": 30001399,
+        "station_id": 1041989025438,
+        "region_id": 10000016,
+        "security": 0.6657824845222258,
+        "security_code": "high_sec"
+    },
     "1037999515935": {
         "name": "Warouh - Sisters of EVE Market",
         "system_id": 30003553,
@@ -192,7 +200,7 @@
         "security_code": "high_sec"
     },
     "1040925150386": {
-        "name": "Niballe - Solitude Trade Center",
+        "name": "Niballe - Solitude Trade Center - Closing",
         "system_id": 30003580,
         "station_id": 1040925150386,
         "region_id": 10000044,
@@ -247,14 +255,6 @@
         "security": 0.5999662648532458,
         "security_code": "high_sec"
     },
-    "1038415742024": {
-        "name": "Odatrik - Serenity Market",
-        "system_id": 30002509,
-        "station_id": 1038415742024,
-        "region_id": 10000030,
-        "security": 0.8161785481654243,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
@@ -285,14 +285,6 @@
         "station_id": 1039814976209,
         "region_id": 10000033,
         "security": 0.5437586967111196,
-        "security_code": "high_sec"
-    },
-    "1039261980118": {
-        "name": "Vittenyn - Infinity Core Industrial Service",
-        "system_id": 30002731,
-        "station_id": 1039261980118,
-        "region_id": 10000032,
-        "security": 0.903550466840674,
         "security_code": "high_sec"
     },
     "1041224421719": {
@@ -334,22 +326,6 @@
         "region_id": 10000043,
         "security": 0.9094599909851684,
         "security_code": "high_sec"
-    },
-    "1039827685477": {
-        "name": "Aldilur - Magic Mushroom",
-        "system_id": 30003379,
-        "station_id": 1039827685477,
-        "region_id": 10000042,
-        "security": 0.9094686404040416,
-        "security_code": "high_sec"
-    },
-    "1041584171364": {
-        "name": "Arnola - Mad Hatter's 1% Market",
-        "system_id": 30000112,
-        "station_id": 1041584171364,
-        "region_id": 10000001,
-        "security": 0.4628354025316062,
-        "security_code": "low_sec"
     },
     "1040734408941": {
         "name": "Erme - M-world",
