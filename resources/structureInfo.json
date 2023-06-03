@@ -215,14 +215,6 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
-    "1037721631287": {
-        "name": "Ashab - Tranquility Pantheon",
-        "system_id": 30003491,
-        "station_id": 1037721631287,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
         "system_id": 30005222,
