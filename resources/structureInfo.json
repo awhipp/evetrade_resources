@@ -343,14 +343,6 @@
         "security": 0.5230190689183638,
         "security_code": "high_sec"
     },
-    "1036865806195": {
-        "name": "Torrinos - 0.0 GTC FREEPORT MARKET & REFINE",
-        "system_id": 30001429,
-        "station_id": 1036865806195,
-        "region_id": 10000016,
-        "security": 0.5196677035325441,
-        "security_code": "high_sec"
-    },
     "1034626979956": {
         "name": "LC-1ED - Kwik-E-Mart (Freeport)",
         "system_id": 30001923,
