@@ -200,7 +200,7 @@
         "security_code": "high_sec"
     },
     "1040925150386": {
-        "name": "Niballe - Solitude Trade Center - Closing",
+        "name": "Niballe - Closing July 1 - See Bio",
         "system_id": 30003580,
         "station_id": 1040925150386,
         "region_id": 10000044,
@@ -213,6 +213,14 @@
         "station_id": 1038143035062,
         "region_id": 10000033,
         "security": 0.5574451863186694,
+        "security_code": "high_sec"
+    },
+    "1037721631287": {
+        "name": "Ashab - Tranquility Pantheon",
+        "system_id": 30003491,
+        "station_id": 1037721631287,
+        "region_id": 10000043,
+        "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
     "1037017873729": {
@@ -341,6 +349,14 @@
         "station_id": 1041517397230,
         "region_id": 10000044,
         "security": 0.5230190689183638,
+        "security_code": "high_sec"
+    },
+    "1036865806195": {
+        "name": "Torrinos - 0.0 GTC FREEPORT MARKET & REFINE",
+        "system_id": 30001429,
+        "station_id": 1036865806195,
+        "region_id": 10000016,
+        "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
     "1034626979956": {
