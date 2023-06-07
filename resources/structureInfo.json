@@ -223,6 +223,14 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
+    "1041951045946": {
+        "name": "Gulfonodi - Whittemore Station",
+        "system_id": 30002384,
+        "station_id": 1041951045946,
+        "region_id": 10000028,
+        "security": 0.497860496629184,
+        "security_code": "low_sec"
+    },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
         "system_id": 30005222,
