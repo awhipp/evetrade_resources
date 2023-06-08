@@ -175,6 +175,14 @@
         "security": 0.5246793482534998,
         "security_code": "high_sec"
     },
+    "1042058409390": {
+        "name": "Osvestmunnur - Boof Mining and Market",
+        "system_id": 30003427,
+        "station_id": 1042058409390,
+        "region_id": 10000042,
+        "security": 0.513561716787909,
+        "security_code": "high_sec"
+    },
     "1021681819954": {
         "name": "Keberz - FREEPORT MARKET AND CLONES",
         "system_id": 30003883,
@@ -270,14 +278,6 @@
         "region_id": 10000030,
         "security": 0.438761248111,
         "security_code": "low_sec"
-    },
-    "1040539992141": {
-        "name": "Vay - MINER NEEDs -",
-        "system_id": 30005318,
-        "station_id": 1040539992141,
-        "region_id": 10000068,
-        "security": 0.7585221108867841,
-        "security_code": "high_sec"
     },
     "1041388175181": {
         "name": "Onnamon - Old Fatherland",
