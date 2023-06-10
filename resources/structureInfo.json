@@ -279,6 +279,14 @@
         "security": 0.438761248111,
         "security_code": "low_sec"
     },
+    "1040539992141": {
+        "name": "Vay - MINER NEEDs -",
+        "system_id": 30005318,
+        "station_id": 1040539992141,
+        "region_id": 10000068,
+        "security": 0.7585221108867841,
+        "security_code": "high_sec"
+    },
     "1041388175181": {
         "name": "Onnamon - Old Fatherland",
         "system_id": 30045324,
