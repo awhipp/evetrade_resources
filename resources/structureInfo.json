@@ -335,6 +335,14 @@
         "security": 0.746238173885059,
         "security_code": "high_sec"
     },
+    "1042005032417": {
+        "name": "Hai - CAPRICA",
+        "system_id": 30002250,
+        "station_id": 1042005032417,
+        "region_id": 10000043,
+        "security": 0.5052467584609985,
+        "security_code": "high_sec"
+    },
     "1023968078820": {
         "name": "Ashab - Tranquility Trade & Prod Center",
         "system_id": 30003491,
