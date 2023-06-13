@@ -71,12 +71,12 @@
         "security": 0.5374285569171331,
         "security_code": "high_sec"
     },
-    "1040983092367": {
-        "name": "Bhizheba - 0,1%tax.Market.Manuf.Resea.Repro",
-        "system_id": 30002282,
-        "station_id": 1040983092367,
-        "region_id": 10000043,
-        "security": 0.9636458045513323,
+    "1041025186831": {
+        "name": "Alikara - Joota cuckdari plant",
+        "system_id": 30002754,
+        "station_id": 1041025186831,
+        "region_id": 10000033,
+        "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
     "1029744774801": {
@@ -93,14 +93,6 @@
         "station_id": 1032715081490,
         "region_id": 10000020,
         "security": 0.8321338757893988,
-        "security_code": "high_sec"
-    },
-    "1041025186831": {
-        "name": "Alikara - Joota cuckdari plant",
-        "system_id": 30002754,
-        "station_id": 1041025186831,
-        "region_id": 10000033,
-        "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
     "1041894518298": {
