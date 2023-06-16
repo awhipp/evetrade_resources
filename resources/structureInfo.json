@@ -287,6 +287,14 @@
         "security": 0.5555345088627884,
         "security_code": "high_sec"
     },
+    "1042120162508": {
+        "name": "Hror - Red Fortress",
+        "system_id": 30002054,
+        "station_id": 1042120162508,
+        "region_id": 10000042,
+        "security": 0.5115187168121338,
+        "security_code": "high_sec"
+    },
     "1039814976209": {
         "name": "Usi - Potion of Commerce",
         "system_id": 30002755,
