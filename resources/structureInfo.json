@@ -23,6 +23,14 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
+    "1042128445953": {
+        "name": "Perimeter - Perimeter Trading Tower",
+        "system_id": 30000144,
+        "station_id": 1042128445953,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
+        "security_code": "high_sec"
+    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
