@@ -175,14 +175,6 @@
         "security": 0.5246793482534998,
         "security_code": "high_sec"
     },
-    "1042058409390": {
-        "name": "Osvestmunnur - Boof Mining and Market",
-        "system_id": 30003427,
-        "station_id": 1042058409390,
-        "region_id": 10000042,
-        "security": 0.513561716787909,
-        "security_code": "high_sec"
-    },
     "1021681819954": {
         "name": "Keberz - FREEPORT MARKET AND CLONES",
         "system_id": 30003883,
@@ -351,20 +343,20 @@
         "security": 0.5099367596987701,
         "security_code": "high_sec"
     },
-    "1042005032417": {
-        "name": "Hai - CAPRICA",
-        "system_id": 30002250,
-        "station_id": 1042005032417,
-        "region_id": 10000043,
-        "security": 0.5052467584609985,
-        "security_code": "high_sec"
-    },
     "1023968078820": {
         "name": "Ashab - Tranquility Trade & Prod Center",
         "system_id": 30003491,
         "station_id": 1023968078820,
         "region_id": 10000043,
         "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
+    "1042143591012": {
+        "name": "New Caldari - Stellar Free Market",
+        "system_id": 30000145,
+        "station_id": 1042143591012,
+        "region_id": 10000002,
+        "security": 1,
         "security_code": "high_sec"
     },
     "1040734408941": {
