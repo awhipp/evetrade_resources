@@ -127,6 +127,14 @@
         "security": 0.5255621501974579,
         "security_code": "high_sec"
     },
+    "1042142435616": {
+        "name": "Ashab - MINI-Market (NOW OPEN)",
+        "system_id": 30003491,
+        "station_id": 1042142435616,
+        "region_id": 10000043,
+        "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
     "1032792618788": {
         "name": "Villore - IChooseYou Market and Industry",
         "system_id": 30004993,
@@ -173,6 +181,14 @@
         "station_id": 1033779010600,
         "region_id": 10000043,
         "security": 0.5246793482534998,
+        "security_code": "high_sec"
+    },
+    "1042133188912": {
+        "name": "Perimeter - I Choose you, pikachu",
+        "system_id": 30000144,
+        "station_id": 1042133188912,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
         "security_code": "high_sec"
     },
     "1021681819954": {
@@ -230,6 +246,14 @@
         "region_id": 10000028,
         "security": 0.497860496629184,
         "security_code": "low_sec"
+    },
+    "1042137581632": {
+        "name": "Perimeter - 0.5% Tax Haven Trading Centre",
+        "system_id": 30000144,
+        "station_id": 1042137581632,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
+        "security_code": "high_sec"
     },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
@@ -303,6 +327,14 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
+    "1042137879890": {
+        "name": "Mastakomon - 123123123123",
+        "system_id": 30000202,
+        "station_id": 1042137879890,
+        "region_id": 10000002,
+        "security": 0.456966103874352,
+        "security_code": "low_sec"
+    },
     "1041224421719": {
         "name": "Usi - Poseidon Marketplace 4.4",
         "system_id": 30002755,
@@ -343,13 +375,13 @@
         "security": 0.5099367596987701,
         "security_code": "high_sec"
     },
-    "1023968078820": {
-        "name": "Ashab - Tranquility Trade & Prod Center",
-        "system_id": 30003491,
-        "station_id": 1023968078820,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
+    "1036753634403": {
+        "name": "Oijanen - 0.5 tax heaven LowSec Tradehub",
+        "system_id": 30000186,
+        "station_id": 1036753634403,
+        "region_id": 10000002,
+        "security": 0.3519686460494995,
+        "security_code": "low_sec"
     },
     "1042143591012": {
         "name": "New Caldari - Stellar Free Market",
