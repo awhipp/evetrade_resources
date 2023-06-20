@@ -87,14 +87,6 @@
         "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
-    "1029744774801": {
-        "name": "Stacmon - IChooseYou Secondary Market",
-        "system_id": 30003794,
-        "station_id": 1029744774801,
-        "region_id": 10000048,
-        "security": 0.6052797268620083,
-        "security_code": "high_sec"
-    },
     "1032715081490": {
         "name": "Tash-Murkon Prime - IChooseYou Market and Industry",
         "system_id": 30001671,
