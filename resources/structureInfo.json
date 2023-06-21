@@ -127,14 +127,6 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
-    "1032792618788": {
-        "name": "Villore - IChooseYou Market and Industry",
-        "system_id": 30004993,
-        "station_id": 1032792618788,
-        "region_id": 10000064,
-        "security": 0.5065094238596283,
-        "security_code": "high_sec"
-    },
     "1034355119524": {
         "name": "Hati - IChooseYou Market and Industry",
         "system_id": 30002994,
@@ -199,14 +191,6 @@
         "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
-    "1040642857848": {
-        "name": "Elonaya - Datos Stellar Outpost III",
-        "system_id": 30001399,
-        "station_id": 1040642857848,
-        "region_id": 10000016,
-        "security": 0.6657824845222258,
-        "security_code": "high_sec"
-    },
     "1040925150386": {
         "name": "Niballe - Closing July 1 - See Bio",
         "system_id": 30003580,
@@ -239,14 +223,6 @@
         "security": 0.497860496629184,
         "security_code": "low_sec"
     },
-    "1042137581632": {
-        "name": "Perimeter - 0.5% Tax Haven Trading Centre",
-        "system_id": 30000144,
-        "station_id": 1042137581632,
-        "region_id": 10000002,
-        "security": 0.9531232305867214,
-        "security_code": "high_sec"
-    },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
         "system_id": 30005222,
@@ -254,22 +230,6 @@
         "region_id": 10000067,
         "security": 0.4588785097930475,
         "security_code": "low_sec"
-    },
-    "1032097126596": {
-        "name": "Teonusude - IChooseYou Market and Industry",
-        "system_id": 30002385,
-        "station_id": 1032097126596,
-        "region_id": 10000028,
-        "security": 0.5863137228330685,
-        "security_code": "high_sec"
-    },
-    "1031084757448": {
-        "name": "Frarn - IChooseYou Market and Industry",
-        "system_id": 30002526,
-        "station_id": 1031084757448,
-        "region_id": 10000030,
-        "security": 0.8389709130822673,
-        "security_code": "high_sec"
     },
     "1036835214921": {
         "name": "Sheroo - Outer Rim Manufacturing & Export",
@@ -300,7 +260,7 @@
         "system_id": 30045324,
         "station_id": 1041388175181,
         "region_id": 10000069,
-        "security": 0.5555345088627884,
+        "security": 0.555534508863,
         "security_code": "high_sec"
     },
     "1042120162508": {
@@ -439,13 +399,13 @@
         "security": 0.1726206117578859,
         "security_code": "low_sec"
     },
-    "1038960244852": {
-        "name": "Tegheon - Revelation Space Market + Clone",
-        "system_id": 30003907,
-        "station_id": 1038960244852,
-        "region_id": 10000049,
-        "security": 0.4134412705898285,
-        "security_code": "low_sec"
+    "1040642857848": {
+        "name": "Elonaya - Datos Stellar Outpost III",
+        "system_id": 30001399,
+        "station_id": 1040642857848,
+        "region_id": 10000016,
+        "security": 0.6657824845222258,
+        "security_code": "high_sec"
     },
     "1032903563769": {
         "name": "Alentene - IChooseYou Market and Industry",
