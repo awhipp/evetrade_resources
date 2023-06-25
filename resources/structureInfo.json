@@ -1,20 +1,4 @@
 {
-    "1032714784769": {
-        "name": "Sobaseki - IChooseYou Market and Industry",
-        "system_id": 30001363,
-        "station_id": 1032714784769,
-        "region_id": 10000016,
-        "security": 0.8410254626102227,
-        "security_code": "high_sec"
-    },
-    "1025824394754": {
-        "name": "Botane - IChooseYou Market and Industry",
-        "system_id": 30002661,
-        "station_id": 1025824394754,
-        "region_id": 10000032,
-        "security": 0.8754401206970215,
-        "security_code": "high_sec"
-    },
     "1041098908929": {
         "name": "Keberz - Miner Mart",
         "system_id": 30003883,
@@ -39,14 +23,6 @@
         "security": 0.7324477246310492,
         "security_code": "high_sec"
     },
-    "1033050967689": {
-        "name": "Azer - IChooseYou Market and Industry",
-        "system_id": 30003018,
-        "station_id": 1033050967689,
-        "region_id": 10000037,
-        "security": 0.6570695028087454,
-        "security_code": "high_sec"
-    },
     "1041454070281": {
         "name": "Hama - Pentium 4 - Liquid-Cooled",
         "system_id": 30003523,
@@ -54,14 +30,6 @@
         "region_id": 10000043,
         "security": 0.8395448327064514,
         "security_code": "high_sec"
-    },
-    "1033906092172": {
-        "name": "Litiura - IChooseYou Secondary Market",
-        "system_id": 30001400,
-        "station_id": 1033906092172,
-        "region_id": 10000016,
-        "security": 0.4894049591792316,
-        "security_code": "low_sec"
     },
     "1040282917390": {
         "name": "Tama - Industry Park - Star Cartel",
@@ -85,14 +53,6 @@
         "station_id": 1041025186831,
         "region_id": 10000033,
         "security": 0.7112933851639902,
-        "security_code": "high_sec"
-    },
-    "1032715081490": {
-        "name": "Tash-Murkon Prime - IChooseYou Market and Industry",
-        "system_id": 30001671,
-        "station_id": 1032715081490,
-        "region_id": 10000020,
-        "security": 0.8321338757893988,
         "security_code": "high_sec"
     },
     "1041894518298": {
@@ -135,28 +95,12 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
-    "1034355119524": {
-        "name": "Hati - IChooseYou Market and Industry",
-        "system_id": 30002994,
-        "station_id": 1034355119524,
-        "region_id": 10000036,
-        "security": 0.8490347652854575,
-        "security_code": "high_sec"
-    },
     "1039966979110": {
         "name": "Chelien - Laden's Labs",
         "system_id": 30002667,
         "station_id": 1039966979110,
         "region_id": 10000032,
         "security": 0.6937133454869476,
-        "security_code": "high_sec"
-    },
-    "1031058135975": {
-        "name": "Hek - IChooseYou Market and Industry",
-        "system_id": 30002053,
-        "station_id": 1031058135975,
-        "region_id": 10000042,
-        "security": 0.549668267075,
         "security_code": "high_sec"
     },
     "1023920295720": {
@@ -191,14 +135,6 @@
         "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
-    "1040642857848": {
-        "name": "Elonaya - Datos Stellar Outpost III",
-        "system_id": 30001399,
-        "station_id": 1040642857848,
-        "region_id": 10000016,
-        "security": 0.6657824845222258,
-        "security_code": "high_sec"
-    },
     "1040925150386": {
         "name": "Niballe - Closing July 1 - See Bio",
         "system_id": 30003580,
@@ -229,14 +165,6 @@
         "station_id": 1042181960248,
         "region_id": 10000052,
         "security": 0.45454591512680054,
-        "security_code": "low_sec"
-    },
-    "1041951045946": {
-        "name": "Gulfonodi - Whittemore Station",
-        "system_id": 30002384,
-        "station_id": 1041951045946,
-        "region_id": 10000028,
-        "security": 0.497860496629184,
         "security_code": "low_sec"
     },
     "1037017873729": {
@@ -311,22 +239,6 @@
         "security": 0.7531836628913879,
         "security_code": "high_sec"
     },
-    "1032717532381": {
-        "name": "Manarq - IChooseYou Market and Industry",
-        "system_id": 30005201,
-        "station_id": 1032717532381,
-        "region_id": 10000067,
-        "security": 0.8156661987304688,
-        "security_code": "high_sec"
-    },
-    "1033196707294": {
-        "name": "Orvolle - IChooseYou Market and Industry",
-        "system_id": 30003830,
-        "station_id": 1033196707294,
-        "region_id": 10000048,
-        "security": 0.746238173885059,
-        "security_code": "high_sec"
-    },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
         "system_id": 30001699,
@@ -383,14 +295,6 @@
         "security": -0.14042356610298157,
         "security_code": "null_sec"
     },
-    "1033626295285": {
-        "name": "Lustrevik - Port Royal Regional Trading Hub",
-        "system_id": 30002545,
-        "station_id": 1033626295285,
-        "region_id": 10000030,
-        "security": 0.9462634160245761,
-        "security_code": "high_sec"
-    },
     "1034945482740": {
         "name": "Otelen - Market and Industry",
         "system_id": 30003065,
@@ -398,14 +302,6 @@
         "region_id": 10000038,
         "security": 0.7848193645477295,
         "security_code": "high_sec"
-    },
-    "1038614203895": {
-        "name": "Ostingele - OSTI FREEPORT MARKET",
-        "system_id": 30003792,
-        "station_id": 1038614203895,
-        "region_id": 10000048,
-        "security": 0.1726206117578859,
-        "security_code": "low_sec"
     },
     "1038960244852": {
         "name": "Tegheon - Revelation Space Market + Clone",
@@ -415,12 +311,20 @@
         "security": 0.4134412705898285,
         "security_code": "low_sec"
     },
-    "1032903563769": {
-        "name": "Alentene - IChooseYou Market and Industry",
-        "system_id": 30005304,
-        "station_id": 1032903563769,
-        "region_id": 10000068,
-        "security": 0.8667830122068437,
+    "1038614203895": {
+        "name": "Ostingele - OSTI FREEPORT MARKET",
+        "system_id": 30003792,
+        "station_id": 1038614203895,
+        "region_id": 10000048,
+        "security": 0.1726206117578859,
+        "security_code": "low_sec"
+    },
+    "1040642857848": {
+        "name": "Elonaya - Datos Stellar Outpost III",
+        "system_id": 30001399,
+        "station_id": 1040642857848,
+        "region_id": 10000016,
+        "security": 0.6657824845222258,
         "security_code": "high_sec"
     },
     "1034544501372": {
