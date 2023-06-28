@@ -151,14 +151,6 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
-    "1037721631287": {
-        "name": "Ashab - Tranquility Pantheon",
-        "system_id": 30003491,
-        "station_id": 1037721631287,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
     "1042181960248": {
         "name": "Rayeret - Lions Den",
         "system_id": 30004116,
@@ -207,6 +199,14 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
+    "1042120162508": {
+        "name": "Hror - Red Fortress",
+        "system_id": 30002054,
+        "station_id": 1042120162508,
+        "region_id": 10000042,
+        "security": 0.5115187168121338,
+        "security_code": "high_sec"
+    },
     "1039814976209": {
         "name": "Usi - Potion of Commerce",
         "system_id": 30002755,
@@ -231,6 +231,14 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
+    "1042225270361": {
+        "name": "Ignoitton - Svarog Production Center",
+        "system_id": 30002647,
+        "station_id": 1042225270361,
+        "region_id": 10000032,
+        "security": 0.438754755909373,
+        "security_code": "low_sec"
+    },
     "1040860784348": {
         "name": "Avesber - Klounorama - Market & Shipyard",
         "system_id": 30002530,
@@ -245,6 +253,14 @@
         "station_id": 1041770593889,
         "region_id": 10000020,
         "security": 0.5099367596987701,
+        "security_code": "high_sec"
+    },
+    "1042005032417": {
+        "name": "Hai - CAPRICA",
+        "system_id": 30002250,
+        "station_id": 1042005032417,
+        "region_id": 10000043,
+        "security": 0.5052467584609985,
         "security_code": "high_sec"
     },
     "1036753634403": {
