@@ -7,14 +7,6 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1042128445953": {
-        "name": "Perimeter - 0,0%tax - lower tax than Jita",
-        "system_id": 30000144,
-        "station_id": 1042128445953,
-        "region_id": 10000002,
-        "security": 0.9531232305867214,
-        "security_code": "high_sec"
-    },
     "1037413446531": {
         "name": "J154249 - Market House",
         "system_id": 31000806,
@@ -151,6 +143,14 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
+    "1037721631287": {
+        "name": "Ashab - Tranquility Pantheon",
+        "system_id": 30003491,
+        "station_id": 1037721631287,
+        "region_id": 10000043,
+        "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
     "1042181960248": {
         "name": "Rayeret - Lions Den",
         "system_id": 30004116,
@@ -197,14 +197,6 @@
         "station_id": 1041388175181,
         "region_id": 10000069,
         "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
-    "1042120162508": {
-        "name": "Hror - Red Fortress",
-        "system_id": 30002054,
-        "station_id": 1042120162508,
-        "region_id": 10000042,
-        "security": 0.5115187168121338,
         "security_code": "high_sec"
     },
     "1039814976209": {
