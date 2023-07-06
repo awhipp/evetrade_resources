@@ -255,14 +255,6 @@
         "security": 0.5052467584609985,
         "security_code": "high_sec"
     },
-    "1042143591012": {
-        "name": "New Caldari - Stellar Free Market",
-        "system_id": 30000145,
-        "station_id": 1042143591012,
-        "region_id": 10000002,
-        "security": 1,
-        "security_code": "high_sec"
-    },
     "1042276044778": {
         "name": "Ikuchi - 1 Jump out - 0.1% Tax",
         "system_id": 30000138,
