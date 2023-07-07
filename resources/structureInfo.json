@@ -31,6 +31,14 @@
         "security": 0.8395448327064514,
         "security_code": "high_sec"
     },
+    "1042273318156": {
+        "name": "Z-K495 - Branch Industry and Trading Towe",
+        "system_id": 30004341,
+        "station_id": 1042273318156,
+        "region_id": 10000055,
+        "security": -0.6267291307449341,
+        "security_code": "null_sec"
+    },
     "1040282917390": {
         "name": "Tama - Industry Park - Star Cartel",
         "system_id": 30002813,
@@ -61,14 +69,6 @@
         "station_id": 1041894518298,
         "region_id": 10000032,
         "security": 0.549450178281487,
-        "security_code": "high_sec"
-    },
-    "1042181648412": {
-        "name": "Perimeter - 0.0%tax - lower tax than Jita",
-        "system_id": 30000144,
-        "station_id": 1042181648412,
-        "region_id": 10000002,
-        "security": 0.9531232305867214,
         "security_code": "high_sec"
     },
     "1041989025438": {
@@ -231,14 +231,6 @@
         "security": 0.438754755909373,
         "security_code": "low_sec"
     },
-    "1040860784348": {
-        "name": "Avesber - Klounorama - Market & Shipyard",
-        "system_id": 30002530,
-        "station_id": 1040860784348,
-        "region_id": 10000030,
-        "security": 0.7531836628913879,
-        "security_code": "high_sec"
-    },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
         "system_id": 30001699,
@@ -253,14 +245,6 @@
         "station_id": 1042005032417,
         "region_id": 10000043,
         "security": 0.5052467584609985,
-        "security_code": "high_sec"
-    },
-    "1042276044778": {
-        "name": "Ikuchi - 1 Jump out - 0.1% Tax",
-        "system_id": 30000138,
-        "station_id": 1042276044778,
-        "region_id": 10000002,
-        "security": 0.9868146226131719,
         "security_code": "high_sec"
     },
     "1040734408941": {
@@ -320,7 +304,7 @@
         "security_code": "low_sec"
     },
     "1042214776569": {
-        "name": "Hirizan - Pride Rock",
+        "name": "Hirizan - Pride Rock Trading Center",
         "system_id": 30005248,
         "station_id": 1042214776569,
         "region_id": 10000067,
