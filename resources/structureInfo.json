@@ -23,14 +23,6 @@
         "security": 0.7324477246310492,
         "security_code": "high_sec"
     },
-    "1041454070281": {
-        "name": "Hama - Pentium 4 - Liquid-Cooled",
-        "system_id": 30003523,
-        "station_id": 1041454070281,
-        "region_id": 10000043,
-        "security": 0.8395448327064514,
-        "security_code": "high_sec"
-    },
     "1042273318156": {
         "name": "Z-K495 - Branch Industry and Trading Towe",
         "system_id": 30004341,
@@ -93,14 +85,6 @@
         "station_id": 1042142435616,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1039966979110": {
-        "name": "Chelien - Laden's Labs",
-        "system_id": 30002667,
-        "station_id": 1039966979110,
-        "region_id": 10000032,
-        "security": 0.6937133454869476,
         "security_code": "high_sec"
     },
     "1023920295720": {
