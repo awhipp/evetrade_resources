@@ -223,14 +223,6 @@
         "security": 0.5099367596987701,
         "security_code": "high_sec"
     },
-    "1042005032417": {
-        "name": "Hai - CAPRICA",
-        "system_id": 30002250,
-        "station_id": 1042005032417,
-        "region_id": 10000043,
-        "security": 0.5052467584609985,
-        "security_code": "high_sec"
-    },
     "1040734408941": {
         "name": "Erme - M-world",
         "system_id": 30002640,
