@@ -127,14 +127,6 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
-    "1037721631287": {
-        "name": "Ashab - Tranquility Pantheon",
-        "system_id": 30003491,
-        "station_id": 1037721631287,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
     "1042181960248": {
         "name": "Rayeret - Lions Den",
         "system_id": 30004116,
@@ -157,6 +149,14 @@
         "station_id": 1036835214921,
         "region_id": 10000067,
         "security": 0.5999662648532458,
+        "security_code": "high_sec"
+    },
+    "1042345792842": {
+        "name": "Gerek - Marketplace",
+        "system_id": 30002531,
+        "station_id": 1042345792842,
+        "region_id": 10000030,
+        "security": 0.732252143515203,
         "security_code": "high_sec"
     },
     "1022167642188": {
@@ -246,14 +246,6 @@
         "region_id": 10000016,
         "security": 0.5196677035325441,
         "security_code": "high_sec"
-    },
-    "1034626979956": {
-        "name": "LC-1ED - Kwik-E-Mart (Freeport)",
-        "system_id": 30001923,
-        "station_id": 1034626979956,
-        "region_id": 10000022,
-        "security": -0.14042356610298157,
-        "security_code": "null_sec"
     },
     "1034945482740": {
         "name": "Otelen - Market and Industry",
