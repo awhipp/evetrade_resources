@@ -15,6 +15,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1042372759173": {
+        "name": "Itamo - Dlidodixie",
+        "system_id": 30000119,
+        "station_id": 1042372759173,
+        "region_id": 10000002,
+        "security": 0.6717383427704126,
+        "security_code": "high_sec"
+    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
@@ -262,6 +270,14 @@
         "region_id": 10000049,
         "security": 0.4134412705898285,
         "security_code": "low_sec"
+    },
+    "1042236464757": {
+        "name": "5KS-AB - Prometheus",
+        "system_id": 30003348,
+        "station_id": 1042236464757,
+        "region_id": 10000041,
+        "security": -0.002058799844235182,
+        "security_code": "null_sec"
     },
     "1038614203895": {
         "name": "Ostingele - OSTI FREEPORT MARKET",
