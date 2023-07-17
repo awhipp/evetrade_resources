@@ -31,14 +31,6 @@
         "security": 0.7324477246310492,
         "security_code": "high_sec"
     },
-    "1042273318156": {
-        "name": "Z-K495 - D.F Shipyard and Trading Complex",
-        "system_id": 30004341,
-        "station_id": 1042273318156,
-        "region_id": 10000055,
-        "security": -0.6267291307449341,
-        "security_code": "null_sec"
-    },
     "1040282917390": {
         "name": "Tama - Industry Park - Star Cartel",
         "system_id": 30002813,
@@ -207,6 +199,14 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
+    "1042357964886": {
+        "name": "Irnin - Market at the Sun",
+        "system_id": 30002192,
+        "station_id": 1042357964886,
+        "region_id": 10000043,
+        "security": 0.7347463022042039,
+        "security_code": "high_sec"
+    },
     "1041224421719": {
         "name": "Usi - Poseidon Marketplace 4.4",
         "system_id": 30002755,
@@ -288,7 +288,7 @@
         "security_code": "low_sec"
     },
     "1042214776569": {
-        "name": "Hirizan - Pride Rock Trading Center",
+        "name": "Hirizan - Black Lion Trading Center",
         "system_id": 30005248,
         "station_id": 1042214776569,
         "region_id": 10000067,
