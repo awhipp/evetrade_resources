@@ -199,14 +199,6 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
-    "1042357964886": {
-        "name": "Irnin - Market at the Sun",
-        "system_id": 30002192,
-        "station_id": 1042357964886,
-        "region_id": 10000043,
-        "security": 0.7347463022042039,
-        "security_code": "high_sec"
-    },
     "1041224421719": {
         "name": "Usi - Poseidon Marketplace 4.4",
         "system_id": 30002755,
@@ -222,6 +214,14 @@
         "region_id": 10000032,
         "security": 0.438754755909373,
         "security_code": "low_sec"
+    },
+    "1040860784348": {
+        "name": "Avesber - Klounorama - Market & Shipyard",
+        "system_id": 30002530,
+        "station_id": 1040860784348,
+        "region_id": 10000030,
+        "security": 0.7531836628913879,
+        "security_code": "high_sec"
     },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
