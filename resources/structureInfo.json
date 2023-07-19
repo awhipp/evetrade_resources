@@ -151,14 +151,6 @@
         "security": 0.5999662648532458,
         "security_code": "high_sec"
     },
-    "1042345792842": {
-        "name": "Gerek - Marketplace",
-        "system_id": 30002531,
-        "station_id": 1042345792842,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
