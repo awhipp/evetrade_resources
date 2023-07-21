@@ -279,14 +279,6 @@
         "security": 0.4134412705898285,
         "security_code": "low_sec"
     },
-    "1042236464757": {
-        "name": "5KS-AB - Prometheus",
-        "system_id": 30003348,
-        "station_id": 1042236464757,
-        "region_id": 10000041,
-        "security": -0.002058799844235182,
-        "security_code": "null_sec"
-    },
     "1038614203895": {
         "name": "Ostingele - OSTI FREEPORT MARKET",
         "system_id": 30003792,
