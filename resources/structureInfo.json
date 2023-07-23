@@ -127,14 +127,6 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
-    "1042181960248": {
-        "name": "Rayeret - Lions Den",
-        "system_id": 30004116,
-        "station_id": 1042181960248,
-        "region_id": 10000052,
-        "security": 0.45454591512680054,
-        "security_code": "low_sec"
-    },
     "1037017873729": {
         "name": "Serren - Market and Clone Freeport",
         "system_id": 30005222,
