@@ -244,7 +244,7 @@ def importYaml():
             if jump['fromRegionID'] == map_region[i]['regionID']:
                 while j < len(map_region):
                     if jump['toRegionID'] == map_region[j]['regionID']:
-                        universeList[map_region[i]['regionName'].lower()]['around'].append(map_region[j]['regionName'].lower())
+                        universeList[map_region[i]['regionName'].lower()]['around'].append(map_region[j]['regionID'])
                         get_it = True
                         break
                     else:
