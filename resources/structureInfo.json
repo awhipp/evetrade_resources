@@ -55,6 +55,22 @@
         "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
+    "1042223782798": {
+        "name": "Teonusude - Nexus Galactic Heathens Market",
+        "system_id": 30002385,
+        "station_id": 1042223782798,
+        "region_id": 10000028,
+        "security": 0.5863137228330685,
+        "security_code": "high_sec"
+    },
+    "1042456403345": {
+        "name": "Tierijev - Lucinde",
+        "system_id": 30005334,
+        "station_id": 1042456403345,
+        "region_id": 10000068,
+        "security": 0.8379695899076048,
+        "security_code": "high_sec"
+    },
     "1041894518298": {
         "name": "Aurcel - Joe's Market Services in Bio",
         "system_id": 30002716,
@@ -277,6 +293,14 @@
         "station_id": 1038614203895,
         "region_id": 10000048,
         "security": 0.1726206117578859,
+        "security_code": "low_sec"
+    },
+    "1042214776569": {
+        "name": "Hirizan - Black Lion Trading Center",
+        "system_id": 30005248,
+        "station_id": 1042214776569,
+        "region_id": 10000067,
+        "security": 0.4921959162650131,
         "security_code": "low_sec"
     },
     "1034544501372": {
