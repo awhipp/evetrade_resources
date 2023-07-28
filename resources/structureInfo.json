@@ -95,14 +95,6 @@
         "security": 0.6657824845222258,
         "security_code": "high_sec"
     },
-    "1037999515935": {
-        "name": "Warouh - Sisters of EVE Market",
-        "system_id": 30003553,
-        "station_id": 1037999515935,
-        "region_id": 10000043,
-        "security": 0.5255621501974579,
-        "security_code": "high_sec"
-    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
