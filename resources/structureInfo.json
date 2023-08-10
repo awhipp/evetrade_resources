@@ -15,14 +15,6 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1042372759173": {
-        "name": "Itamo - Dlidodixie",
-        "system_id": 30000119,
-        "station_id": 1042372759173,
-        "region_id": 10000002,
-        "security": 0.6717383427704126,
-        "security_code": "high_sec"
-    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
@@ -45,14 +37,6 @@
         "station_id": 1037524612367,
         "region_id": 10000068,
         "security": 0.5374285569171331,
-        "security_code": "high_sec"
-    },
-    "1041025186831": {
-        "name": "Alikara - Joota Cuckdari Plant",
-        "system_id": 30002754,
-        "station_id": 1041025186831,
-        "region_id": 10000033,
-        "security": 0.7112933851639902,
         "security_code": "high_sec"
     },
     "1042223782798": {
@@ -159,14 +143,6 @@
         "security": 0.5999662648532458,
         "security_code": "high_sec"
     },
-    "1042345792842": {
-        "name": "Gerek - Marketplace",
-        "system_id": 30002531,
-        "station_id": 1042345792842,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
@@ -261,14 +237,6 @@
         "station_id": 1041517397230,
         "region_id": 10000044,
         "security": 0.5230190689183638,
-        "security_code": "high_sec"
-    },
-    "1042406078706": {
-        "name": "Ansila - Runes",
-        "system_id": 30000132,
-        "station_id": 1042406078706,
-        "region_id": 10000002,
-        "security": 0.9120170099100288,
         "security_code": "high_sec"
     },
     "1036865806195": {
