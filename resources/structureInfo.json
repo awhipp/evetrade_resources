@@ -63,6 +63,14 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
+    "1042539413529": {
+        "name": "Sharios - Spatium Market Hub",
+        "system_id": 30001739,
+        "station_id": 1042539413529,
+        "region_id": 10000020,
+        "security": 0.6603365540504456,
+        "security_code": "high_sec"
+    },
     "1041989025438": {
         "name": "Elonaya - Datos Stellar Outpost IV",
         "system_id": 30001399,
