@@ -71,14 +71,6 @@
         "security": 0.6603365540504456,
         "security_code": "high_sec"
     },
-    "1041989025438": {
-        "name": "Elonaya - Datos Stellar Outpost IV",
-        "system_id": 30001399,
-        "station_id": 1041989025438,
-        "region_id": 10000016,
-        "security": 0.6657824845222258,
-        "security_code": "high_sec"
-    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -150,14 +142,6 @@
         "region_id": 10000030,
         "security": 0.438761248111,
         "security_code": "low_sec"
-    },
-    "1040539992141": {
-        "name": "Vay - MINER NEEDs - Closed 4 WAR",
-        "system_id": 30005318,
-        "station_id": 1040539992141,
-        "region_id": 10000068,
-        "security": 0.7585221108867841,
-        "security_code": "high_sec"
     },
     "1041388175181": {
         "name": "Onnamon - Old Fatherland",
@@ -285,14 +269,6 @@
         "station_id": 1034544501372,
         "region_id": 10000048,
         "security": 0.7259271728812355,
-        "security_code": "high_sec"
-    },
-    "1035073006717": {
-        "name": "Chesiette - Freeport Home",
-        "system_id": 30005327,
-        "station_id": 1035073006717,
-        "region_id": 10000068,
-        "security": 0.5727048516273499,
         "security_code": "high_sec"
     }
 }
