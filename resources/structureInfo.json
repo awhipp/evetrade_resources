@@ -63,14 +63,6 @@
         "security": 0.6603365540504456,
         "security_code": "high_sec"
     },
-    "1041989025438": {
-        "name": "Elonaya - Datos Stellar Outpost IV",
-        "system_id": 30001399,
-        "station_id": 1041989025438,
-        "region_id": 10000016,
-        "security": 0.6657824845222258,
-        "security_code": "high_sec"
-    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -149,6 +141,14 @@
         "station_id": 1042120162508,
         "region_id": 10000042,
         "security": 0.5115187168121338,
+        "security_code": "high_sec"
+    },
+    "1042638063951": {
+        "name": "Sayartchen - Cathedral of the Fonz Refinery",
+        "system_id": 30003508,
+        "station_id": 1042638063951,
+        "region_id": 10000043,
+        "security": 0.7895056940999479,
         "security_code": "high_sec"
     },
     "1037962518481": {
