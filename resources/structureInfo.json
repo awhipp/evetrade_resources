@@ -71,6 +71,14 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
+    "1042660956711": {
+        "name": "Assiettes - Ord Mynock",
+        "system_id": 30002724,
+        "station_id": 1042660956711,
+        "region_id": 10000032,
+        "security": 0.6425553625167184,
+        "security_code": "high_sec"
+    },
     "1023920295720": {
         "name": "Dital - Spectre Fleet Assbell",
         "system_id": 30002968,
@@ -118,6 +126,14 @@
         "region_id": 10000067,
         "security": 0.4588785097930475,
         "security_code": "low_sec"
+    },
+    "1036835214921": {
+        "name": "Sheroo - Outer Rim Manufacturing & Export",
+        "system_id": 30005217,
+        "station_id": 1036835214921,
+        "region_id": 10000067,
+        "security": 0.5999662648532458,
+        "security_code": "high_sec"
     },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
@@ -222,6 +238,14 @@
         "region_id": 10000016,
         "security": 0.5196677035325441,
         "security_code": "high_sec"
+    },
+    "1034626979956": {
+        "name": "LC-1ED - Kwik-E-Mart (Freeport)",
+        "system_id": 30001923,
+        "station_id": 1034626979956,
+        "region_id": 10000022,
+        "security": -0.14042356610298157,
+        "security_code": "null_sec"
     },
     "1034945482740": {
         "name": "Otelen - Market and Industry",
