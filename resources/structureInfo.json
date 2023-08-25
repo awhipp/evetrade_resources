@@ -39,6 +39,14 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
+    "1042456403345": {
+        "name": "Tierijev - Lucinde",
+        "system_id": 30005334,
+        "station_id": 1042456403345,
+        "region_id": 10000068,
+        "security": 0.8379695899076048,
+        "security_code": "high_sec"
+    },
     "1040374635801": {
         "name": "Adacyne - 100% FREE MARKET CLONE REPROCESS",
         "system_id": 30003832,
@@ -151,14 +159,6 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
-    "1042120162508": {
-        "name": "Hror - Red Fortress",
-        "system_id": 30002054,
-        "station_id": 1042120162508,
-        "region_id": 10000042,
-        "security": 0.5115187168121338,
-        "security_code": "high_sec"
-    },
     "1042638063951": {
         "name": "Sayartchen - Cathedral of the Fonz Refinery",
         "system_id": 30003508,
@@ -199,6 +199,14 @@
         "security": 0.438754755909373,
         "security_code": "low_sec"
     },
+    "1040860784348": {
+        "name": "Avesber - Blue Elephant",
+        "system_id": 30002530,
+        "station_id": 1040860784348,
+        "region_id": 10000030,
+        "security": 0.7531836628913879,
+        "security_code": "high_sec"
+    },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
         "system_id": 30001699,
@@ -221,6 +229,14 @@
         "station_id": 1041517397230,
         "region_id": 10000044,
         "security": 0.5230190689183638,
+        "security_code": "high_sec"
+    },
+    "1042684494319": {
+        "name": "Inaro - Mutant Hub",
+        "system_id": 30002788,
+        "station_id": 1042684494319,
+        "region_id": 10000033,
+        "security": 0.8369775721490628,
         "security_code": "high_sec"
     },
     "1036865806195": {
