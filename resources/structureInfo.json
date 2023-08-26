@@ -47,6 +47,14 @@
         "security": 0.8379695899076048,
         "security_code": "high_sec"
     },
+    "1042701504017": {
+        "name": "Jufvitte - Manufactory and Trade Emporium",
+        "system_id": 30005308,
+        "station_id": 1042701504017,
+        "region_id": 10000068,
+        "security": 0.5204881243554254,
+        "security_code": "high_sec"
+    },
     "1040374635801": {
         "name": "Adacyne - 100% FREE MARKET CLONE REPROCESS",
         "system_id": 30003832,
