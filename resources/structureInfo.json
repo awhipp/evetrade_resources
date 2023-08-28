@@ -15,14 +15,6 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1042713563013": {
-        "name": "Veisto - Fabric & Market Station",
-        "system_id": 30001362,
-        "station_id": 1042713563013,
-        "region_id": 10000016,
-        "security": 0.8424948483586444,
-        "security_code": "high_sec"
-    },
     "1033540908551": {
         "name": "Abudban - 1% Sanctuary.",
         "system_id": 30002507,
@@ -199,6 +191,14 @@
         "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
+    "1027687409107": {
+        "name": "Fegomenko - BCA Maxbrutal Memorial",
+        "system_id": 30002408,
+        "station_id": 1027687409107,
+        "region_id": 10000028,
+        "security": 0.5041989684104919,
+        "security_code": "high_sec"
+    },
     "1041224421719": {
         "name": "Usi - Poseidon Marketplace 4.4",
         "system_id": 30002755,
@@ -229,6 +229,14 @@
         "station_id": 1041770593889,
         "region_id": 10000020,
         "security": 0.5099367596987701,
+        "security_code": "high_sec"
+    },
+    "1042708973801": {
+        "name": "Renyn - C & P Engineering Services",
+        "system_id": 30004970,
+        "station_id": 1042708973801,
+        "region_id": 10000064,
+        "security": 0.8981993375293963,
         "security_code": "high_sec"
     },
     "1040734408941": {
@@ -294,6 +302,14 @@
         "region_id": 10000048,
         "security": 0.1726206117578859,
         "security_code": "low_sec"
+    },
+    "1042718733689": {
+        "name": "Hek - Nebula Market and Industry",
+        "system_id": 30002053,
+        "station_id": 1042718733689,
+        "region_id": 10000042,
+        "security": 0.549668267075,
+        "security_code": "high_sec"
     },
     "1034544501372": {
         "name": "Algasienan - Island Market - Mother of Bobo's",
