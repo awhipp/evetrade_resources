@@ -15,14 +15,6 @@
         "security": 0.8424948483586444,
         "security_code": "high_sec"
     },
-    "1033540908551": {
-        "name": "Abudban - 1% Sanctuary.",
-        "system_id": 30002507,
-        "station_id": 1033540908551,
-        "region_id": 10000030,
-        "security": 0.7324477246310492,
-        "security_code": "high_sec"
-    },
     "1040282917390": {
         "name": "Tama - Industry Park - Star Cartel",
         "system_id": 30002813,
@@ -55,14 +47,6 @@
         "security": 0.5204881243554254,
         "security_code": "high_sec"
     },
-    "1042539413529": {
-        "name": "Sharios - Spatium Market Hub",
-        "system_id": 30001739,
-        "station_id": 1042539413529,
-        "region_id": 10000020,
-        "security": 0.6603365540504456,
-        "security_code": "high_sec"
-    },
     "1041894518298": {
         "name": "Aurcel - Joe's Market Services in Bio",
         "system_id": 30002716,
@@ -78,6 +62,14 @@
         "region_id": 10000043,
         "security": 0.9094599909851684,
         "security_code": "high_sec"
+    },
+    "1042760403491": {
+        "name": "Apanake - Oasis island - Free Port",
+        "system_id": 30005216,
+        "station_id": 1042760403491,
+        "region_id": 10000067,
+        "security": 0.4881938587972514,
+        "security_code": "low_sec"
     },
     "1042660956711": {
         "name": "Assiettes - Ord Mynock",
@@ -213,14 +205,6 @@
         "station_id": 1040734408941,
         "region_id": 10000032,
         "security": 0.7981556057929993,
-        "security_code": "high_sec"
-    },
-    "1041517397230": {
-        "name": "Boystin - Boys' Town",
-        "system_id": 30003574,
-        "station_id": 1041517397230,
-        "region_id": 10000044,
-        "security": 0.5230190689183638,
         "security_code": "high_sec"
     },
     "1042684494319": {
