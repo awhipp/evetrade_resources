@@ -231,14 +231,6 @@
         "security": -0.14042356610298157,
         "security_code": "null_sec"
     },
-    "1034945482740": {
-        "name": "Otelen - Market and Industry",
-        "system_id": 30003065,
-        "station_id": 1034945482740,
-        "region_id": 10000038,
-        "security": 0.7848193645477295,
-        "security_code": "high_sec"
-    },
     "1038960244852": {
         "name": "Tegheon - Revelation Space Market + Clone",
         "system_id": 30003907,
