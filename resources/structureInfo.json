@@ -63,14 +63,6 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
-    "1042760403491": {
-        "name": "Apanake - Oasis island - Free Port",
-        "system_id": 30005216,
-        "station_id": 1042760403491,
-        "region_id": 10000067,
-        "security": 0.4881938587972514,
-        "security_code": "low_sec"
-    },
     "1042660956711": {
         "name": "Assiettes - Ord Mynock",
         "system_id": 30002724,
