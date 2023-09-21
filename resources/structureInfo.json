@@ -111,6 +111,14 @@
         "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
+    "1042884170036": {
+        "name": "Aclan - Freeport Deep Rock Universe",
+        "system_id": 30003028,
+        "station_id": 1042884170036,
+        "region_id": 10000037,
+        "security": 0.5067094851027737,
+        "security_code": "high_sec"
+    },
     "1038143035062": {
         "name": "Hogimo - Market",
         "system_id": 30002773,
