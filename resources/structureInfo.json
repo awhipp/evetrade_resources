@@ -63,14 +63,6 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
-    "1042660956711": {
-        "name": "Assiettes - Ord Mynock",
-        "system_id": 30002724,
-        "station_id": 1042660956711,
-        "region_id": 10000032,
-        "security": 0.6425553625167184,
-        "security_code": "high_sec"
-    },
     "1023920295720": {
         "name": "Dital - Spectre Fleet Assbell",
         "system_id": 30002968,
@@ -197,14 +189,6 @@
         "station_id": 1041770593889,
         "region_id": 10000020,
         "security": 0.5099367596987701,
-        "security_code": "high_sec"
-    },
-    "1040734408941": {
-        "name": "Erme - M-world",
-        "system_id": 30002640,
-        "station_id": 1040734408941,
-        "region_id": 10000032,
-        "security": 0.7981556057929993,
         "security_code": "high_sec"
     },
     "1042684494319": {
