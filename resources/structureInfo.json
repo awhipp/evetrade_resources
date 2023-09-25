@@ -127,14 +127,6 @@
         "security": 0.4588785097930475,
         "security_code": "low_sec"
     },
-    "1036835214921": {
-        "name": "Sheroo - Outer Rim Manufacturing & Export",
-        "system_id": 30005217,
-        "station_id": 1036835214921,
-        "region_id": 10000067,
-        "security": 0.5999662648532458,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
