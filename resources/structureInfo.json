@@ -63,6 +63,14 @@
         "security": 0.4787153899669647,
         "security_code": "low_sec"
     },
+    "1033779010600": {
+        "name": "Zaimeth - Charlie & the Cormorant Factory",
+        "system_id": 30003497,
+        "station_id": 1033779010600,
+        "region_id": 10000043,
+        "security": 0.5246793482534998,
+        "security_code": "high_sec"
+    },
     "1042768380462": {
         "name": "Mehatoor - Ammatar Industrial Assembly",
         "system_id": 30002974,
