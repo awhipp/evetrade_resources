@@ -39,14 +39,6 @@
         "security": 0.5204881243554254,
         "security_code": "high_sec"
     },
-    "1041894518298": {
-        "name": "Aurcel - Joe's Market Services in Bio",
-        "system_id": 30002716,
-        "station_id": 1041894518298,
-        "region_id": 10000032,
-        "security": 0.549450178281487,
-        "security_code": "high_sec"
-    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -119,20 +111,20 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
+    "1043211815631": {
+        "name": "Perimeter - 0% Tax Golden Path Free Market",
+        "system_id": 30000144,
+        "station_id": 1043211815631,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
+        "security_code": "high_sec"
+    },
     "1037962518481": {
         "name": "Oisio - LinkNet Central Station",
         "system_id": 30002799,
         "station_id": 1037962518481,
         "region_id": 10000033,
         "security": 0.5335753726283194,
-        "security_code": "high_sec"
-    },
-    "1039814976209": {
-        "name": "Usi - Potion of Commerce",
-        "system_id": 30002755,
-        "station_id": 1039814976209,
-        "region_id": 10000033,
-        "security": 0.5437586967111196,
         "security_code": "high_sec"
     },
     "1027687409107": {
