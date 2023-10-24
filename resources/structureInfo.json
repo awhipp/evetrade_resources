@@ -127,6 +127,14 @@
         "security": 0.5335753726283194,
         "security_code": "high_sec"
     },
+    "1039814976209": {
+        "name": "Usi - Potion of Commerce",
+        "system_id": 30002755,
+        "station_id": 1039814976209,
+        "region_id": 10000033,
+        "security": 0.5437586967111196,
+        "security_code": "high_sec"
+    },
     "1027687409107": {
         "name": "Fegomenko - BCA Maxbrutal Memorial",
         "system_id": 30002408,
