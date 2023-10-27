@@ -95,6 +95,14 @@
         "security": 0.4588785097930475,
         "security_code": "low_sec"
     },
+    "1043255211330": {
+        "name": "Bherdasopt - Terok Nor",
+        "system_id": 30005267,
+        "station_id": 1043255211330,
+        "region_id": 10000067,
+        "security": 0.4812319278717041,
+        "security_code": "low_sec"
+    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
