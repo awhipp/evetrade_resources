@@ -87,6 +87,8 @@ def get_structure_ids():
     if response.status_code == 200:
         structure_ids = response.json()
 
+    print(f"Total Structures {len(structure_ids)}")
+
     return structure_ids
 
 def get_security_code(security):
@@ -145,6 +147,8 @@ def get_structure_info(access_token, system_index):
             }
 
             structure_list.append(structure['name'])
+        else:
+            print(f"Failed to get info for {structure_id}")
 
     return structure_info, structure_list
 
