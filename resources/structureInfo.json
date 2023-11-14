@@ -191,14 +191,6 @@
         "security": 0.1726206117578859,
         "security_code": "low_sec"
     },
-    "1042718733689": {
-        "name": "Hek - Nebula Market and Industry",
-        "system_id": 30002053,
-        "station_id": 1042718733689,
-        "region_id": 10000042,
-        "security": 0.549668267075,
-        "security_code": "high_sec"
-    },
     "1034544501372": {
         "name": "Algasienan - Island Market - Mother of Bobo's",
         "system_id": 30003811,
