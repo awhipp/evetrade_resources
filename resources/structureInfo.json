@@ -39,6 +39,14 @@
         "security": 0.4920794878017317,
         "security_code": "low_sec"
     },
+    "1043441907485": {
+        "name": "Emolgranlan - The Continental",
+        "system_id": 30002548,
+        "station_id": 1043441907485,
+        "region_id": 10000030,
+        "security": 0.5302433793008023,
+        "security_code": "high_sec"
+    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -103,6 +111,14 @@
         "security": 0.4812319278717041,
         "security_code": "low_sec"
     },
+    "1043441365449": {
+        "name": "Shesha - Griori Mining Corporation LLC",
+        "system_id": 30001673,
+        "station_id": 1043441365449,
+        "region_id": 10000020,
+        "security": 0.9396644807965321,
+        "security_code": "high_sec"
+    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
@@ -157,6 +173,14 @@
         "station_id": 1041770593889,
         "region_id": 10000020,
         "security": 0.5099367596987701,
+        "security_code": "high_sec"
+    },
+    "1043443271919": {
+        "name": "Manatirid - Black Honey",
+        "system_id": 30005230,
+        "station_id": 1043443271919,
+        "region_id": 10000067,
+        "security": 0.5485262611448714,
         "security_code": "high_sec"
     },
     "1036865806195": {
