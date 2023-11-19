@@ -111,14 +111,6 @@
         "security": 0.4812319278717041,
         "security_code": "low_sec"
     },
-    "1043441365449": {
-        "name": "Shesha - F U SRS",
-        "system_id": 30001673,
-        "station_id": 1043441365449,
-        "region_id": 10000020,
-        "security": 0.9396644807965321,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
