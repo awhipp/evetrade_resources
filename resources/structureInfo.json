@@ -31,14 +31,6 @@
         "security": 0.5204881243554254,
         "security_code": "high_sec"
     },
-    "1043287180052": {
-        "name": "Uuhulanen - Moon Base Alpha",
-        "system_id": 30045326,
-        "station_id": 1043287180052,
-        "region_id": 10000069,
-        "security": 0.4920794878017317,
-        "security_code": "low_sec"
-    },
     "1043441907485": {
         "name": "Emolgranlan - The Continental",
         "system_id": 30002548,
