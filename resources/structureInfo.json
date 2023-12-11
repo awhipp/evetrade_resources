@@ -183,14 +183,6 @@
         "security": -0.14042356610298157,
         "security_code": "null_sec"
     },
-    "1038614203895": {
-        "name": "Ostingele - OSTI FREEPORT MARKET",
-        "system_id": 30003792,
-        "station_id": 1038614203895,
-        "region_id": 10000048,
-        "security": 0.1726206117578859,
-        "security_code": "low_sec"
-    },
     "1034544501372": {
         "name": "Algasienan - Island Market - Mother of Bobo's",
         "system_id": 30003811,
