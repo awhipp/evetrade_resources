@@ -183,6 +183,14 @@
         "security": -0.14042356610298157,
         "security_code": "null_sec"
     },
+    "1038960244852": {
+        "name": "Tegheon - Revelation Space Market + Clone",
+        "system_id": 30003907,
+        "station_id": 1038960244852,
+        "region_id": 10000049,
+        "security": 0.4134412705898285,
+        "security_code": "low_sec"
+    },
     "1034544501372": {
         "name": "Algasienan - Island Market - Mother of Bobo's",
         "system_id": 30003811,
