@@ -95,6 +95,14 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
+    "1043714988609": {
+        "name": "Odatrik - Trade Bazaar",
+        "system_id": 30002509,
+        "station_id": 1043714988609,
+        "region_id": 10000030,
+        "security": 0.8161785481654243,
+        "security_code": "high_sec"
+    },
     "1043255211330": {
         "name": "Bherdasopt - Terok Nor",
         "system_id": 30005267,
