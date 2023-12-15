@@ -198,13 +198,5 @@
         "region_id": 10000049,
         "security": 0.4134412705898285,
         "security_code": "low_sec"
-    },
-    "1034544501372": {
-        "name": "Algasienan - Island Market - Mother of Bobo's",
-        "system_id": 30003811,
-        "station_id": 1034544501372,
-        "region_id": 10000048,
-        "security": 0.7259271728812355,
-        "security_code": "high_sec"
     }
 }
