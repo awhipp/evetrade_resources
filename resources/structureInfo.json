@@ -47,6 +47,14 @@
         "security": 0.06400797074256737,
         "security_code": "low_sec"
     },
+    "1043929239463": {
+        "name": "Actee - General",
+        "system_id": 30004981,
+        "station_id": 1043929239463,
+        "region_id": 10000064,
+        "security": 0.5014649025070264,
+        "security_code": "high_sec"
+    },
     "1023920295720": {
         "name": "Dital - Spectre Fleet Assbell",
         "system_id": 30002968,
@@ -149,14 +157,6 @@
         "station_id": 1027687409107,
         "region_id": 10000028,
         "security": 0.5041989684104919,
-        "security_code": "high_sec"
-    },
-    "1041770593889": {
-        "name": "Siyi - The Silky Road",
-        "system_id": 30001699,
-        "station_id": 1041770593889,
-        "region_id": 10000020,
-        "security": 0.5099367596987701,
         "security_code": "high_sec"
     },
     "1043912228333": {
