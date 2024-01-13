@@ -23,14 +23,6 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1042701504017": {
-        "name": "Jufvitte - Manufactory and Trade Emporium",
-        "system_id": 30005308,
-        "station_id": 1042701504017,
-        "region_id": 10000068,
-        "security": 0.5204881243554254,
-        "security_code": "high_sec"
-    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -197,6 +189,14 @@
         "station_id": 1038960244852,
         "region_id": 10000049,
         "security": 0.4134412705898285,
+        "security_code": "low_sec"
+    },
+    "1038614203895": {
+        "name": "Ostingele - Market & Freeport",
+        "system_id": 30003792,
+        "station_id": 1038614203895,
+        "region_id": 10000048,
+        "security": 0.1726206117578859,
         "security_code": "low_sec"
     },
     "1034544501372": {
