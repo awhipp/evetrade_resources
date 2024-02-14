@@ -7,6 +7,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1044370166923": {
+        "name": "Afivad - IX - Manufacturing & Research",
+        "system_id": 30003535,
+        "station_id": 1044370166923,
+        "region_id": 10000043,
+        "security": 0.5195722396404945,
+        "security_code": "high_sec"
+    },
     "1040282917390": {
         "name": "Tama - Industry Park - Star Cartel",
         "system_id": 30002813,
@@ -149,14 +157,6 @@
         "station_id": 1041770593889,
         "region_id": 10000020,
         "security": 0.5099367596987701,
-        "security_code": "high_sec"
-    },
-    "1043912228333": {
-        "name": "Ithar - Die BLaue Lagune",
-        "system_id": 30004157,
-        "station_id": 1043912228333,
-        "region_id": 10000052,
-        "security": 0.8280880483433923,
         "security_code": "high_sec"
     },
     "1043443271919": {
