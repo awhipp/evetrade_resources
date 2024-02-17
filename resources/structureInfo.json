@@ -7,6 +7,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1044404816263": {
+        "name": "Jerma - BIG Market & Industrial Complex",
+        "system_id": 30002254,
+        "station_id": 1044404816263,
+        "region_id": 10000043,
+        "security": 0.481445785162,
+        "security_code": "low_sec"
+    },
     "1044370166923": {
         "name": "Afivad - IX - Manufacturing & Research",
         "system_id": 30003535,
@@ -152,7 +160,7 @@
         "security_code": "high_sec"
     },
     "1044397180247": {
-        "name": "Hoona - Stellar Dawn Assembly",
+        "name": "Hoona - FREEPORT-Stellar Dawn Assembly",
         "system_id": 30001680,
         "station_id": 1044397180247,
         "region_id": 10000020,
