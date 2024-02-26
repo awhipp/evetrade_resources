@@ -31,6 +31,14 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
+    "1044496730262": {
+        "name": "Hjortur - The Hub",
+        "system_id": 30003400,
+        "station_id": 1044496730262,
+        "region_id": 10000042,
+        "security": 0.856914118389543,
+        "security_code": "high_sec"
+    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -40,7 +48,7 @@
         "security_code": "high_sec"
     },
     "1043929239463": {
-        "name": "Actee - General",
+        "name": "Actee - War dec'd",
         "system_id": 30004981,
         "station_id": 1043929239463,
         "region_id": 10000064,
