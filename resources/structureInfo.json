@@ -15,14 +15,6 @@
         "security": 0.5195722396404945,
         "security_code": "high_sec"
     },
-    "1040282917390": {
-        "name": "Tama - Industry Park - Star Cartel",
-        "system_id": 30002813,
-        "station_id": 1040282917390,
-        "region_id": 10000033,
-        "security": 0.2825556883337969,
-        "security_code": "low_sec"
-    },
     "1042223782798": {
         "name": "Teonusude - Nexus Galactic Heathens Market",
         "system_id": 30002385,
@@ -143,14 +135,6 @@
         "security": 0.5335753726283194,
         "security_code": "high_sec"
     },
-    "1039814976209": {
-        "name": "Usi - Potion of Commerce",
-        "system_id": 30002755,
-        "station_id": 1039814976209,
-        "region_id": 10000033,
-        "security": 0.5437586967111196,
-        "security_code": "high_sec"
-    },
     "1027687409107": {
         "name": "Fegomenko - MMDS Maxbrutal Memorial",
         "system_id": 30002408,
@@ -166,14 +150,6 @@
         "region_id": 10000020,
         "security": 0.48894450068473816,
         "security_code": "low_sec"
-    },
-    "1041770593889": {
-        "name": "Siyi - The Silky Road",
-        "system_id": 30001699,
-        "station_id": 1041770593889,
-        "region_id": 10000020,
-        "security": 0.5099367596987701,
-        "security_code": "high_sec"
     },
     "1044361067238": {
         "name": "Uzigh - Freeport",
