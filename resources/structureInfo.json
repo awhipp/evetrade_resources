@@ -23,28 +23,12 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1044496730262": {
-        "name": "Hjortur - The Hub",
-        "system_id": 30003400,
-        "station_id": 1044496730262,
-        "region_id": 10000042,
-        "security": 0.856914118389543,
-        "security_code": "high_sec"
-    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
         "station_id": 1042142435616,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1043929239463": {
-        "name": "Actee - War dec'd",
-        "system_id": 30004981,
-        "station_id": 1043929239463,
-        "region_id": 10000064,
-        "security": 0.5014649025070264,
         "security_code": "high_sec"
     },
     "1023920295720": {
@@ -103,14 +87,6 @@
         "security": 0.4812319278717041,
         "security_code": "low_sec"
     },
-    "1044531786185": {
-        "name": "Aurcel - Joe's Saloon",
-        "system_id": 30002716,
-        "station_id": 1044531786185,
-        "region_id": 10000032,
-        "security": 0.549450178281487,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - Hydra Provail",
         "system_id": 30002537,
@@ -150,6 +126,14 @@
         "region_id": 10000020,
         "security": 0.48894450068473816,
         "security_code": "low_sec"
+    },
+    "1041770593889": {
+        "name": "Siyi - The Silky Road",
+        "system_id": 30001699,
+        "station_id": 1041770593889,
+        "region_id": 10000020,
+        "security": 0.5099367596987701,
+        "security_code": "high_sec"
     },
     "1044361067238": {
         "name": "Uzigh - Freeport",
