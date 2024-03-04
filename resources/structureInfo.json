@@ -159,14 +159,6 @@
         "security": 0.8280880483433923,
         "security_code": "high_sec"
     },
-    "1034626979956": {
-        "name": "LC-1ED - Kwik-E-Mart (Freeport)",
-        "system_id": 30001923,
-        "station_id": 1034626979956,
-        "region_id": 10000022,
-        "security": -0.14042356610298157,
-        "security_code": "null_sec"
-    },
     "1038614203895": {
         "name": "Ostingele - Market & Freeport",
         "system_id": 30003792,
