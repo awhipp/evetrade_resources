@@ -7,6 +7,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1044608109571": {
+        "name": "Lari - Praclarush",
+        "system_id": 30001712,
+        "station_id": 1044608109571,
+        "region_id": 10000020,
+        "security": 0.4930323454250751,
+        "security_code": "low_sec"
+    },
     "1044370166923": {
         "name": "Afivad - IX - Manufacturing & Research",
         "system_id": 30003535,
