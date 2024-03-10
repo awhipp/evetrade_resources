@@ -39,6 +39,14 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
+    "1044623968166": {
+        "name": "Tunttaras - low tax",
+        "system_id": 30001379,
+        "station_id": 1044623968166,
+        "region_id": 10000016,
+        "security": 0.8853122147938609,
+        "security_code": "high_sec"
+    },
     "1023920295720": {
         "name": "Dital - Spectre Fleet Assbell",
         "system_id": 30002968,
@@ -142,6 +150,14 @@
         "region_id": 10000020,
         "security": 0.48894450068473816,
         "security_code": "low_sec"
+    },
+    "1044621385692": {
+        "name": "J235321 - The Blunder Bus",
+        "system_id": 31000389,
+        "station_id": 1044621385692,
+        "region_id": 11000004,
+        "security": -0.9900000095367432,
+        "security_code": "null_sec"
     },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
