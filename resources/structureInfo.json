@@ -151,14 +151,6 @@
         "security": 0.48894450068473816,
         "security_code": "low_sec"
     },
-    "1044621385692": {
-        "name": "J235321 - The Blunder Bus",
-        "system_id": 31000389,
-        "station_id": 1044621385692,
-        "region_id": 11000004,
-        "security": -0.9900000095367432,
-        "security_code": "null_sec"
-    },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
         "system_id": 30001699,
