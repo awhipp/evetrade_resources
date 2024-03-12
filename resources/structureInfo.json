@@ -31,6 +31,14 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
+    "1044496730262": {
+        "name": "Hjortur - The Hub",
+        "system_id": 30003400,
+        "station_id": 1044496730262,
+        "region_id": 10000042,
+        "security": 0.856914118389543,
+        "security_code": "high_sec"
+    },
     "1042142435616": {
         "name": "Ashab - MINI-Market (NOW OPEN)",
         "system_id": 30003491,
@@ -173,14 +181,6 @@
         "station_id": 1044361067238,
         "region_id": 10000043,
         "security": 0.6355233192443848,
-        "security_code": "high_sec"
-    },
-    "1043912228333": {
-        "name": "Ithar - Die BLaue Lagune",
-        "system_id": 30004157,
-        "station_id": 1043912228333,
-        "region_id": 10000052,
-        "security": 0.8280880483433923,
         "security_code": "high_sec"
     },
     "1038614203895": {
