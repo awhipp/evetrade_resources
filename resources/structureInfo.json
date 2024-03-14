@@ -151,6 +151,14 @@
         "security": 0.5041989684104919,
         "security_code": "high_sec"
     },
+    "1044665738581": {
+        "name": "Lari - Praclarush Taonas",
+        "system_id": 30001712,
+        "station_id": 1044665738581,
+        "region_id": 10000020,
+        "security": 0.4930323454250751,
+        "security_code": "low_sec"
+    },
     "1044397180247": {
         "name": "Hoona - FREEPORT-Stellar Dawn Assembly",
         "system_id": 30001680,
