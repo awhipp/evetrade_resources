@@ -63,14 +63,6 @@
         "security": 0.4787153899669647,
         "security_code": "low_sec"
     },
-    "1043660822700": {
-        "name": "Hurjafren - Nights Industries",
-        "system_id": 30002572,
-        "station_id": 1043660822700,
-        "region_id": 10000030,
-        "security": 0.8769288508593804,
-        "security_code": "high_sec"
-    },
     "1021681819954": {
         "name": "Keberz - FREEPORT MARKET AND CLONES",
         "system_id": 30003883,
