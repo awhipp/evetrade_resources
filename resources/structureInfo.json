@@ -198,5 +198,13 @@
         "region_id": 10000048,
         "security": 0.7259271728812355,
         "security_code": "high_sec"
+    },
+    "1044732303357": {
+        "name": "Enedore - Polar Bear - Frostvale",
+        "system_id": 30003045,
+        "station_id": 1044732303357,
+        "region_id": 10000037,
+        "security": 0.6467583179473877,
+        "security_code": "high_sec"
     }
 }
