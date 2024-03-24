@@ -95,14 +95,6 @@
         "security": 0.4812319278717041,
         "security_code": "low_sec"
     },
-    "1044743722310": {
-        "name": "Mista - Caldari Alliance Commerce",
-        "system_id": 30003482,
-        "station_id": 1044743722310,
-        "region_id": 10000043,
-        "security": 0.5373803422440373,
-        "security_code": "high_sec"
-    },
     "1044531786185": {
         "name": "Aurcel - Joe's Saloon",
         "system_id": 30002716,
