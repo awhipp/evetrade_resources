@@ -7,14 +7,6 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1044608109571": {
-        "name": "Lari - Vis Uban",
-        "system_id": 30001712,
-        "station_id": 1044608109571,
-        "region_id": 10000020,
-        "security": 0.4930323454250751,
-        "security_code": "low_sec"
-    },
     "1044370166923": {
         "name": "Afivad - IX - Manufacturing & Research",
         "system_id": 30003535,
@@ -54,6 +46,14 @@
         "region_id": 10000036,
         "security": 0.4787153899669647,
         "security_code": "low_sec"
+    },
+    "1044189620907": {
+        "name": "Jakri - Fafner's Forgehall",
+        "system_id": 30004125,
+        "station_id": 1044189620907,
+        "region_id": 10000052,
+        "security": 0.5309165120124817,
+        "security_code": "high_sec"
     },
     "1021681819954": {
         "name": "Keberz - FREEPORT MARKET AND CLONES",
@@ -95,6 +95,14 @@
         "security": 0.4812319278717041,
         "security_code": "low_sec"
     },
+    "1044743722310": {
+        "name": "Mista - Caldari Alliance Commerce",
+        "system_id": 30003482,
+        "station_id": 1044743722310,
+        "region_id": 10000043,
+        "security": 0.5373803422440373,
+        "security_code": "high_sec"
+    },
     "1044531786185": {
         "name": "Aurcel - Joe's Saloon",
         "system_id": 30002716,
@@ -134,14 +142,6 @@
         "region_id": 10000028,
         "security": 0.5041989684104919,
         "security_code": "high_sec"
-    },
-    "1044665738581": {
-        "name": "Lari - Praclarush Taonas",
-        "system_id": 30001712,
-        "station_id": 1044665738581,
-        "region_id": 10000020,
-        "security": 0.4930323454250751,
-        "security_code": "low_sec"
     },
     "1044397180247": {
         "name": "Hoona - FREEPORT-Stellar Dawn Assembly",
