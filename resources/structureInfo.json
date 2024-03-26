@@ -23,12 +23,12 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1042142435616": {
-        "name": "Ashab - MINI-Market (NOW OPEN)",
-        "system_id": 30003491,
-        "station_id": 1042142435616,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
+    "1044496730262": {
+        "name": "Hjortur - The Hub",
+        "system_id": 30003400,
+        "station_id": 1044496730262,
+        "region_id": 10000042,
+        "security": 0.856914118389543,
         "security_code": "high_sec"
     },
     "1044623968166": {
@@ -149,6 +149,14 @@
         "station_id": 1044397180247,
         "region_id": 10000020,
         "security": 0.48894450068473816,
+        "security_code": "low_sec"
+    },
+    "1042225270361": {
+        "name": "Ignoitton - Svarog Production Center",
+        "system_id": 30002647,
+        "station_id": 1042225270361,
+        "region_id": 10000032,
+        "security": 0.438754755909373,
         "security_code": "low_sec"
     },
     "1041770593889": {
