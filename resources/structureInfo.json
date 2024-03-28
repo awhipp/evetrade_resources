@@ -183,6 +183,14 @@
         "security": 0.6355233192443848,
         "security_code": "high_sec"
     },
+    "1044796370545": {
+        "name": "Ohide - Gagarin Landing",
+        "system_id": 30002970,
+        "station_id": 1044796370545,
+        "region_id": 10000036,
+        "security": 0.5739069549734275,
+        "security_code": "high_sec"
+    },
     "1038614203895": {
         "name": "Ostingele - Market & Freeport",
         "system_id": 30003792,
@@ -200,7 +208,7 @@
         "security_code": "high_sec"
     },
     "1044732303357": {
-        "name": "Enedore - Polar Bear - Frostvale",
+        "name": "Enedore - Polar Bear- Frostvale - Freeport",
         "system_id": 30003045,
         "station_id": 1044732303357,
         "region_id": 10000037,
