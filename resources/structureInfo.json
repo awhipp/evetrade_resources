@@ -31,14 +31,6 @@
         "security": 0.856914118389543,
         "security_code": "high_sec"
     },
-    "1044843857058": {
-        "name": "Onnamon - Caldari Shipcaster Freeport",
-        "system_id": 30045324,
-        "station_id": 1044843857058,
-        "region_id": 10000069,
-        "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
     "1023920295720": {
         "name": "Dital - Spectre Fleet Assbell",
         "system_id": 30002968,
@@ -69,6 +61,14 @@
         "station_id": 1027375934642,
         "region_id": 10000016,
         "security": 0.5196677035325441,
+        "security_code": "high_sec"
+    },
+    "1043607518900": {
+        "name": "Ashab - Market 0.2 Tax",
+        "system_id": 30003491,
+        "station_id": 1043607518900,
+        "region_id": 10000043,
+        "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
     "1036425181749": {
@@ -142,14 +142,6 @@
         "region_id": 10000028,
         "security": 0.5041989684104919,
         "security_code": "high_sec"
-    },
-    "1044397180247": {
-        "name": "Hoona - FREEPORT-Stellar Dawn Assembly",
-        "system_id": 30001680,
-        "station_id": 1044397180247,
-        "region_id": 10000020,
-        "security": 0.48894450068473816,
-        "security_code": "low_sec"
     },
     "1042225270361": {
         "name": "Ignoitton - Svarog Production Center",
