@@ -31,6 +31,14 @@
         "security": 0.856914118389543,
         "security_code": "high_sec"
     },
+    "1044843857058": {
+        "name": "Onnamon - Caldari Shipcaster Freeport",
+        "system_id": 30045324,
+        "station_id": 1044843857058,
+        "region_id": 10000069,
+        "security": 0.555534508863,
+        "security_code": "high_sec"
+    },
     "1023920295720": {
         "name": "Dital - Spectre Fleet Assbell",
         "system_id": 30002968,
@@ -173,6 +181,14 @@
         "station_id": 1044361067238,
         "region_id": 10000043,
         "security": 0.6355233192443848,
+        "security_code": "high_sec"
+    },
+    "1044857068649": {
+        "name": "Ashab - Market and Industry Services",
+        "system_id": 30003491,
+        "station_id": 1044857068649,
+        "region_id": 10000043,
+        "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
     "1044796370545": {
