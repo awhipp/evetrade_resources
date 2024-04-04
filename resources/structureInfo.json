@@ -23,14 +23,6 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1044496730262": {
-        "name": "Hjortur - The Hub",
-        "system_id": 30003400,
-        "station_id": 1044496730262,
-        "region_id": 10000042,
-        "security": 0.856914118389543,
-        "security_code": "high_sec"
-    },
     "1044843857058": {
         "name": "Onnamon - Caldari Shipcaster Freeport",
         "system_id": 30045324,
@@ -149,6 +141,14 @@
         "station_id": 1027687409107,
         "region_id": 10000028,
         "security": 0.5041989684104919,
+        "security_code": "high_sec"
+    },
+    "1044882896342": {
+        "name": "Niyabainen - EVEco Marketplace",
+        "system_id": 30000143,
+        "station_id": 1044882896342,
+        "region_id": 10000002,
+        "security": 0.9639236002752414,
         "security_code": "high_sec"
     },
     "1042225270361": {
