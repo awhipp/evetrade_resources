@@ -1,4 +1,12 @@
 {
+    "1044961079041": {
+        "name": "Botane - Market & Industry Services 0.3%",
+        "system_id": 30002661,
+        "station_id": 1044961079041,
+        "region_id": 10000032,
+        "security": 0.8754401206970215,
+        "security_code": "high_sec"
+    },
     "1037413446531": {
         "name": "J154249 - Market House",
         "system_id": 31000806,
@@ -21,6 +29,14 @@
         "station_id": 1042223782798,
         "region_id": 10000028,
         "security": 0.5863137228330685,
+        "security_code": "high_sec"
+    },
+    "1044960858258": {
+        "name": "Hek - Market Services PLEX LSI 0.2%",
+        "system_id": 30002053,
+        "station_id": 1044960858258,
+        "region_id": 10000042,
+        "security": 0.8,
         "security_code": "high_sec"
     },
     "1044843857058": {
