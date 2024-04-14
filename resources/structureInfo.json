@@ -135,14 +135,6 @@
         "security": 0.438761248111,
         "security_code": "low_sec"
     },
-    "1041388175181": {
-        "name": "Onnamon - Old Fatherland",
-        "system_id": 30045324,
-        "station_id": 1041388175181,
-        "region_id": 10000069,
-        "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
     "1037962518481": {
         "name": "Oisio - LinkNet Central Station",
         "system_id": 30002799,
@@ -214,14 +206,6 @@
         "region_id": 10000048,
         "security": 0.1726206117578859,
         "security_code": "low_sec"
-    },
-    "1034544501372": {
-        "name": "Algasienan - Island Market - Mother of Bobo's",
-        "system_id": 30003811,
-        "station_id": 1034544501372,
-        "region_id": 10000048,
-        "security": 0.7259271728812355,
-        "security_code": "high_sec"
     },
     "1044732303357": {
         "name": "Enedore - Polar Bear- Frostvale - Freeport",
