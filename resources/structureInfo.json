@@ -215,6 +215,14 @@
         "security": 0.1726206117578859,
         "security_code": "low_sec"
     },
+    "1045007297402": {
+        "name": "Janus - Engineering Two",
+        "system_id": 30000060,
+        "station_id": 1045007297402,
+        "region_id": 10000001,
+        "security": 0.5455705523490906,
+        "security_code": "high_sec"
+    },
     "1034544501372": {
         "name": "Algasienan - Island Market - Mother of Bobo's",
         "system_id": 30003811,
