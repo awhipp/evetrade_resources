@@ -55,6 +55,14 @@
         "security": 0.4787153899669647,
         "security_code": "low_sec"
     },
+    "1044991943210": {
+        "name": "Stacmon - Ember Trails Market Hub",
+        "system_id": 30003794,
+        "station_id": 1044991943210,
+        "region_id": 10000048,
+        "security": 0.6052797268620083,
+        "security_code": "high_sec"
+    },
     "1044189620907": {
         "name": "Jakri - Fafner's Forgehall",
         "system_id": 30004125,
@@ -95,6 +103,14 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
+    "1043439680449": {
+        "name": "Bherdasopt - TYCHO STATION Market",
+        "system_id": 30005267,
+        "station_id": 1043439680449,
+        "region_id": 10000067,
+        "security": 0.4812319278717041,
+        "security_code": "low_sec"
+    },
     "1044970203585": {
         "name": "Sarum Prime - Winnie's Workshop",
         "system_id": 30003522,
@@ -102,14 +118,6 @@
         "region_id": 10000043,
         "security": 1.0,
         "security_code": "high_sec"
-    },
-    "1043255211330": {
-        "name": "Bherdasopt - Terok Nor",
-        "system_id": 30005267,
-        "station_id": 1043255211330,
-        "region_id": 10000067,
-        "security": 0.4812319278717041,
-        "security_code": "low_sec"
     },
     "1044743722310": {
         "name": "Mista - Caldari Alliance Commerce",
@@ -149,14 +157,6 @@
         "station_id": 1037962518481,
         "region_id": 10000033,
         "security": 0.5335753726283194,
-        "security_code": "high_sec"
-    },
-    "1044882896342": {
-        "name": "Niyabainen - EVEco Marketplace",
-        "system_id": 30000143,
-        "station_id": 1044882896342,
-        "region_id": 10000002,
-        "security": 0.9639236002752414,
         "security_code": "high_sec"
     },
     "1042225270361": {
