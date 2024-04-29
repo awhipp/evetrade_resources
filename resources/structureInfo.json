@@ -199,6 +199,14 @@
         "security": 0.5739069549734275,
         "security_code": "high_sec"
     },
+    "1038614203895": {
+        "name": "Ostingele - Market & Freeport",
+        "system_id": 30003792,
+        "station_id": 1038614203895,
+        "region_id": 10000048,
+        "security": 0.1726206117578859,
+        "security_code": "low_sec"
+    },
     "1045007297402": {
         "name": "Janus - Engineering Two",
         "system_id": 30000060,
