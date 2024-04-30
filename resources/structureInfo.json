@@ -15,6 +15,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1045147123334": {
+        "name": "Aivoli - Infinitum Imperium Commerce",
+        "system_id": 30001431,
+        "station_id": 1045147123334,
+        "region_id": 10000016,
+        "security": 0.5779752135276794,
+        "security_code": "high_sec"
+    },
     "1044370166923": {
         "name": "Afivad - IX - Manufacturing & Research",
         "system_id": 30003535,
