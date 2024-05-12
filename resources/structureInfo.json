@@ -79,6 +79,14 @@
         "security": 0.5309165120124817,
         "security_code": "high_sec"
     },
+    "1045283396010": {
+        "name": "Venilen - Sex Pirate",
+        "system_id": 30002798,
+        "station_id": 1045283396010,
+        "region_id": 10000033,
+        "security": 0.6118220666761022,
+        "security_code": "high_sec"
+    },
     "1021681819954": {
         "name": "Keberz - FREEPORT MARKET AND CLONES",
         "system_id": 30003883,
