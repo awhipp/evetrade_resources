@@ -80,7 +80,7 @@
         "security_code": "high_sec"
     },
     "1045283396010": {
-        "name": "Venilen - Sex Pirate",
+        "name": "Venilen - Pirate Sex Paradise",
         "system_id": 30002798,
         "station_id": 1045283396010,
         "region_id": 10000033,
@@ -238,5 +238,13 @@
         "region_id": 10000037,
         "security": 0.6467583179473877,
         "security_code": "high_sec"
+    },
+    "1045116018686": {
+        "name": "Haimeh - Tycho station market",
+        "system_id": 30004248,
+        "station_id": 1045116018686,
+        "region_id": 10000054,
+        "security": 0.4985548327159305,
+        "security_code": "low_sec"
     }
 }
