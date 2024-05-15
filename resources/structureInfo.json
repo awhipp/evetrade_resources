@@ -31,6 +31,14 @@
         "security": 0.5195722396404945,
         "security_code": "high_sec"
     },
+    "1044587320332": {
+        "name": "Tama - Svarog Reaction & Reprocessing",
+        "system_id": 30002813,
+        "station_id": 1044587320332,
+        "region_id": 10000033,
+        "security": 0.2825556883337969,
+        "security_code": "low_sec"
+    },
     "1042223782798": {
         "name": "Teonusude - Nexus Galactic Heathens Market",
         "system_id": 30002385,
