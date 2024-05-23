@@ -127,6 +127,14 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
+    "1045396364214": {
+        "name": "Magiko - NorthFolk Market",
+        "system_id": 30002570,
+        "station_id": 1045396364214,
+        "region_id": 10000030,
+        "security": 0.9383020401000977,
+        "security_code": "high_sec"
+    },
     "1043439680449": {
         "name": "Bherdasopt - TYCHO STATION Market",
         "system_id": 30005267,
