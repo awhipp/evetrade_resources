@@ -159,14 +159,6 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
-    "1022167642188": {
-        "name": "Amamake - Hydra Provail",
-        "system_id": 30002537,
-        "station_id": 1022167642188,
-        "region_id": 10000030,
-        "security": 0.438761248111,
-        "security_code": "low_sec"
-    },
     "1041388175181": {
         "name": "Onnamon - Old Fatherland",
         "system_id": 30045324,
