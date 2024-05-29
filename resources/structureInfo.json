@@ -231,6 +231,14 @@
         "security": 0.5739069549734275,
         "security_code": "high_sec"
     },
+    "1045446957173": {
+        "name": "Ney - FreePort Makers Mart",
+        "system_id": 30002650,
+        "station_id": 1045446957173,
+        "region_id": 10000032,
+        "security": 0.4567548925229316,
+        "security_code": "low_sec"
+    },
     "1038614203895": {
         "name": "Ostingele - Market & Freeport",
         "system_id": 30003792,
