@@ -152,7 +152,7 @@
         "security_code": "high_sec"
     },
     "1022167642188": {
-        "name": "Amamake - Hydra Provail",
+        "name": "Amamake - Hail Hydra",
         "system_id": 30002537,
         "station_id": 1022167642188,
         "region_id": 10000030,
@@ -221,6 +221,14 @@
         "station_id": 1044796370545,
         "region_id": 10000036,
         "security": 0.5739069549734275,
+        "security_code": "high_sec"
+    },
+    "1045479426547": {
+        "name": "Pulin - Omega INDUSTRIAS KRYSTAN",
+        "system_id": 30002662,
+        "station_id": 1045479426547,
+        "region_id": 10000032,
+        "security": 0.5419477413947693,
         "security_code": "high_sec"
     },
     "1038614203895": {
