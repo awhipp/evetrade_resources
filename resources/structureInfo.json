@@ -15,14 +15,6 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1045147123334": {
-        "name": "Aivoli - Market Smasher",
-        "system_id": 30001431,
-        "station_id": 1045147123334,
-        "region_id": 10000016,
-        "security": 0.5779752135276794,
-        "security_code": "high_sec"
-    },
     "1044587320332": {
         "name": "Tama - Svarog Reaction & Reprocessing",
         "system_id": 30002813,
@@ -166,6 +158,14 @@
         "region_id": 10000033,
         "security": 0.5335753726283194,
         "security_code": "high_sec"
+    },
+    "1045689078998": {
+        "name": "Lari - C.M.G Engineering Center",
+        "system_id": 30001712,
+        "station_id": 1045689078998,
+        "region_id": 10000020,
+        "security": 0.4930323454250751,
+        "security_code": "low_sec"
     },
     "1042225270361": {
         "name": "Ignoitton - Svarog Production Center",
