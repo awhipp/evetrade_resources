@@ -7,6 +7,14 @@
         "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
+    "1045693958914": {
+        "name": "Tuomuta - Virtue's Trade Haven 1% tax",
+        "system_id": 30003064,
+        "station_id": 1045693958914,
+        "region_id": 10000038,
+        "security": 0.4537486856776187,
+        "security_code": "low_sec"
+    },
     "1037413446531": {
         "name": "J154249 - Market House",
         "system_id": 31000806,
