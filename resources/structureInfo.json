@@ -103,22 +103,6 @@
         "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
-    "1045396364214": {
-        "name": "Magiko - NorthFolk Market",
-        "system_id": 30002570,
-        "station_id": 1045396364214,
-        "region_id": 10000030,
-        "security": 0.9383020401000977,
-        "security_code": "high_sec"
-    },
-    "1043439680449": {
-        "name": "Bherdasopt - TYCHO STATION Market",
-        "system_id": 30005267,
-        "station_id": 1043439680449,
-        "region_id": 10000067,
-        "security": 0.4812319278717041,
-        "security_code": "low_sec"
-    },
     "1044970203585": {
         "name": "Sarum Prime - Winnie's Workshop",
         "system_id": 30003522,
