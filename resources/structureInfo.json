@@ -23,6 +23,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1045789586682": {
+        "name": "Rayl - Celestial Bastion",
+        "system_id": 30002271,
+        "station_id": 1045789586682,
+        "region_id": 10000043,
+        "security": 0.4665438747521612,
+        "security_code": "low_sec"
+    },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
         "system_id": 30002644,
@@ -142,14 +150,6 @@
         "region_id": 10000033,
         "security": 0.5335753726283194,
         "security_code": "high_sec"
-    },
-    "1045689078998": {
-        "name": "Lari - C.M.G Engineering Center",
-        "system_id": 30001712,
-        "station_id": 1045689078998,
-        "region_id": 10000020,
-        "security": 0.4930323454250751,
-        "security_code": "low_sec"
     },
     "1042225270361": {
         "name": "Ignoitton - Svarog Production Center",
