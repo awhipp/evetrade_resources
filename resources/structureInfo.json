@@ -119,6 +119,14 @@
         "security": 0.5574451863186694,
         "security_code": "high_sec"
     },
+    "1045849130936": {
+        "name": "Pulin - Market Place",
+        "system_id": 30002662,
+        "station_id": 1045849130936,
+        "region_id": 10000032,
+        "security": 0.5419477413947693,
+        "security_code": "high_sec"
+    },
     "1044970203585": {
         "name": "Sarum Prime - Winnie's Workshop",
         "system_id": 30003522,
@@ -197,6 +205,14 @@
         "station_id": 1044796370545,
         "region_id": 10000036,
         "security": 0.5739069549734275,
+        "security_code": "high_sec"
+    },
+    "1045479426547": {
+        "name": "Pulin - OMEGA VII",
+        "system_id": 30002662,
+        "station_id": 1045479426547,
+        "region_id": 10000032,
+        "security": 0.5419477413947693,
         "security_code": "high_sec"
     },
     "1045416057338": {
