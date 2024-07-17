@@ -39,6 +39,14 @@
         "security": 0.5005549192428589,
         "security_code": "high_sec"
     },
+    "1045979483404": {
+        "name": "Herila - T-VAC Industrial Market",
+        "system_id": 30003528,
+        "station_id": 1045979483404,
+        "region_id": 10000043,
+        "security": 0.8203867567744533,
+        "security_code": "high_sec"
+    },
     "1042223782798": {
         "name": "Teonusude - Nexus Galactic Heathens Market",
         "system_id": 30002385,
@@ -56,7 +64,7 @@
         "security_code": "high_sec"
     },
     "1044960858258": {
-        "name": "Hek - CHEAPEST Market & Industry 0.2%",
+        "name": "Hek - CHEAPEST Market & Industry 0.3%",
         "system_id": 30002053,
         "station_id": 1044960858258,
         "region_id": 10000042,
