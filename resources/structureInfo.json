@@ -47,14 +47,6 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1045968094095": {
-        "name": "Alentene - ITS Trade Hub (1% Fees)",
-        "system_id": 30005304,
-        "station_id": 1045968094095,
-        "region_id": 10000068,
-        "security": 0.8667830122068437,
-        "security_code": "high_sec"
-    },
     "1044960858258": {
         "name": "Hek - CHEAPEST Market & Industry 0.3%",
         "system_id": 30002053,
