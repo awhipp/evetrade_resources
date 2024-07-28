@@ -111,14 +111,6 @@
         "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
-    "1045849130936": {
-        "name": "Pulin - Centro Comercial - EL MEXICANO",
-        "system_id": 30002662,
-        "station_id": 1045849130936,
-        "region_id": 10000032,
-        "security": 0.5419477413947693,
-        "security_code": "high_sec"
-    },
     "1043439680449": {
         "name": "Bherdasopt - TYCHO STATION Market Open",
         "system_id": 30005267,
@@ -205,14 +197,6 @@
         "station_id": 1044796370545,
         "region_id": 10000036,
         "security": 0.5739069549734275,
-        "security_code": "high_sec"
-    },
-    "1045479426547": {
-        "name": "Pulin - OMEGA VII",
-        "system_id": 30002662,
-        "station_id": 1045479426547,
-        "region_id": 10000032,
-        "security": 0.5419477413947693,
         "security_code": "high_sec"
     },
     "1045789586682": {
