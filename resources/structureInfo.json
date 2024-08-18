@@ -183,6 +183,14 @@
         "security": 0.2825556883337969,
         "security_code": "low_sec"
     },
+    "1044361067238": {
+        "name": "Uzigh - Freeport",
+        "system_id": 30003536,
+        "station_id": 1044361067238,
+        "region_id": 10000043,
+        "security": 0.6355233192443848,
+        "security_code": "high_sec"
+    },
     "1044857068649": {
         "name": "Ashab - Market and Industry Services",
         "system_id": 30003491,
