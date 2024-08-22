@@ -23,14 +23,6 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1045712793227": {
-        "name": "Ambeke - Ship Complex",
-        "system_id": 30002644,
-        "station_id": 1045712793227,
-        "region_id": 10000032,
-        "security": 0.5005549192428589,
-        "security_code": "high_sec"
-    },
     "1045979483404": {
         "name": "Herila - T-VAC Industrial Market",
         "system_id": 30003528,
