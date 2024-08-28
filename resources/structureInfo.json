@@ -95,6 +95,14 @@
         "security": 0.4638825057914445,
         "security_code": "low_sec"
     },
+    "1046351183405": {
+        "name": "Slays - Hub",
+        "system_id": 30003798,
+        "station_id": 1046351183405,
+        "region_id": 10000048,
+        "security": 0.4871707730193347,
+        "security_code": "low_sec"
+    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
@@ -213,6 +221,14 @@
         "station_id": 1044857068649,
         "region_id": 10000043,
         "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
+    "1045198535020": {
+        "name": "Torrinos - Garden of Thorns 2.0",
+        "system_id": 30001429,
+        "station_id": 1045198535020,
+        "region_id": 10000016,
+        "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
     "1044796370545": {
