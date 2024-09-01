@@ -87,14 +87,6 @@
         "security": 0.5309165120124817,
         "security_code": "high_sec"
     },
-    "1046211364525": {
-        "name": "Oimmo - titan indy",
-        "system_id": 30001444,
-        "station_id": 1046211364525,
-        "region_id": 10000016,
-        "security": 0.4638825057914445,
-        "security_code": "low_sec"
-    },
     "1046351183405": {
         "name": "Slays - Hub",
         "system_id": 30003798,
@@ -175,14 +167,6 @@
         "security": 0.5335753726283194,
         "security_code": "high_sec"
     },
-    "1046255193938": {
-        "name": "Gerek - The Place",
-        "system_id": 30002531,
-        "station_id": 1046255193938,
-        "region_id": 10000030,
-        "security": 0.732252143515203,
-        "security_code": "high_sec"
-    },
     "1042225270361": {
         "name": "Ignoitton - Svarog Production Center",
         "system_id": 30002647,
@@ -206,14 +190,6 @@
         "region_id": 10000033,
         "security": 0.2825556883337969,
         "security_code": "low_sec"
-    },
-    "1044361067238": {
-        "name": "Uzigh - Freeport",
-        "system_id": 30003536,
-        "station_id": 1044361067238,
-        "region_id": 10000043,
-        "security": 0.6355233192443848,
-        "security_code": "high_sec"
     },
     "1044857068649": {
         "name": "Ashab - Cheapest Domain Market",
