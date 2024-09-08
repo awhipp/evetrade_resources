@@ -183,14 +183,6 @@
         "security": 0.5335753726283194,
         "security_code": "high_sec"
     },
-    "1046461139546": {
-        "name": "Ashab - 0.7% TAX Domain Market",
-        "system_id": 30003491,
-        "station_id": 1046461139546,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
     "1041770593889": {
         "name": "Siyi - The Silky Road",
         "system_id": 30001699,
@@ -208,7 +200,7 @@
         "security_code": "low_sec"
     },
     "1044857068649": {
-        "name": "Ashab - Cheapest Domain Market 0.6%",
+        "name": "Ashab - Cheapest Domain Market",
         "system_id": 30003491,
         "station_id": 1044857068649,
         "region_id": 10000043,
