@@ -56,7 +56,7 @@
         "security_code": "low_sec"
     },
     "1044960858258": {
-        "name": "Hek - CHEAPEST Market & Industry 0.3%",
+        "name": "Hek - CHEAPEST Market & Industry 0.4%",
         "system_id": 30002053,
         "station_id": 1044960858258,
         "region_id": 10000042,
@@ -143,6 +143,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1046540525636": {
+        "name": "Adallier - AOPIHQ",
+        "system_id": 30015305,
+        "station_id": 1046540525636,
+        "region_id": 10000068,
+        "security": 0.8851227852362401,
+        "security_code": "high_sec"
+    },
     "1044531786185": {
         "name": "Aurcel - Joe's Saloon",
         "system_id": 30002716,
@@ -173,14 +181,6 @@
         "station_id": 1041388175181,
         "region_id": 10000069,
         "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
-    "1037962518481": {
-        "name": "Oisio - LinkNet Central Station",
-        "system_id": 30002799,
-        "station_id": 1037962518481,
-        "region_id": 10000033,
-        "security": 0.5335753726283194,
         "security_code": "high_sec"
     },
     "1041770593889": {
