@@ -71,14 +71,6 @@
         "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
-    "1046584640158": {
-        "name": "Yrmori - The Place",
-        "system_id": 30003414,
-        "station_id": 1046584640158,
-        "region_id": 10000042,
-        "security": 0.6443452816173134,
-        "security_code": "high_sec"
-    },
     "1044843857058": {
         "name": "Onnamon - Caldari Shipcaster Freeport",
         "system_id": 30045324,
