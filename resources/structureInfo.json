@@ -143,6 +143,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1046680523848": {
+        "name": "Hodrold - FCKA Prime Marketplace",
+        "system_id": 30003469,
+        "station_id": 1046680523848,
+        "region_id": 10000042,
+        "security": 0.5960732894302141,
+        "security_code": "high_sec"
+    },
     "1044531786185": {
         "name": "Aurcel - Joe's Saloon",
         "system_id": 30002716,
