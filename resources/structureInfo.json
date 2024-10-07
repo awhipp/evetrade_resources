@@ -151,6 +151,14 @@
         "security": 0.5960732894302141,
         "security_code": "high_sec"
     },
+    "1044531786185": {
+        "name": "Aurcel - Joe's Saloon",
+        "system_id": 30002716,
+        "station_id": 1044531786185,
+        "region_id": 10000032,
+        "security": 0.549450178281487,
+        "security_code": "high_sec"
+    },
     "1046093271755": {
         "name": "Aderkan - Public Trade Station 01",
         "system_id": 30003439,
