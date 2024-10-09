@@ -79,6 +79,14 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
+    "1046802872867": {
+        "name": "Fricoure - Madd Hatters",
+        "system_id": 30002734,
+        "station_id": 1046802872867,
+        "region_id": 10000032,
+        "security": 0.8092487953315601,
+        "security_code": "high_sec"
+    },
     "1044991943210": {
         "name": "Stacmon - Ember Trails Market Hub",
         "system_id": 30003794,
@@ -222,6 +230,14 @@
         "region_id": 10000036,
         "security": 0.5739069549734275,
         "security_code": "high_sec"
+    },
+    "1046802738801": {
+        "name": "Turnur - Warlords of the Deep",
+        "system_id": 30002086,
+        "station_id": 1046802738801,
+        "region_id": 10000042,
+        "security": 0.387434219905,
+        "security_code": "low_sec"
     },
     "1045789586682": {
         "name": "Rayl - Celestial Bastion",
