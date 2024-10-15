@@ -79,28 +79,12 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
-    "1046802872867": {
-        "name": "Fricoure - Madd Hatters",
-        "system_id": 30002734,
-        "station_id": 1046802872867,
-        "region_id": 10000032,
-        "security": 0.8092487953315601,
-        "security_code": "high_sec"
-    },
     "1044991943210": {
         "name": "Stacmon - Ember Trails Market Hub",
         "system_id": 30003794,
         "station_id": 1044991943210,
         "region_id": 10000048,
         "security": 0.6052797268620083,
-        "security_code": "high_sec"
-    },
-    "1044189620907": {
-        "name": "Jakri - Fafner's Forgehall",
-        "system_id": 30004125,
-        "station_id": 1044189620907,
-        "region_id": 10000052,
-        "security": 0.5309165120124817,
         "security_code": "high_sec"
     },
     "1046351183405": {
