@@ -246,13 +246,5 @@
         "region_id": 10000037,
         "security": 0.6467583179473877,
         "security_code": "high_sec"
-    },
-    "1046596193790": {
-        "name": "Agrallarier - CREDE - Fossores Benevolentia",
-        "system_id": 30002658,
-        "station_id": 1046596193790,
-        "region_id": 10000032,
-        "security": 0.8502835156401215,
-        "security_code": "high_sec"
     }
 }
