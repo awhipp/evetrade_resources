@@ -191,14 +191,6 @@
         "security": 0.8502835156401215,
         "security_code": "high_sec"
     },
-    "1041770593889": {
-        "name": "Siyi - The Silky Road",
-        "system_id": 30001699,
-        "station_id": 1041770593889,
-        "region_id": 10000020,
-        "security": 0.5099367596987701,
-        "security_code": "high_sec"
-    },
     "1044579290081": {
         "name": "Tama - Svarog Production Center",
         "system_id": 30002813,
