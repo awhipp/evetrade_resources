@@ -1,12 +1,4 @@
 {
-    "1044961079041": {
-        "name": "Botane - CHEAPEST Market & Industry 0.2%",
-        "system_id": 30002661,
-        "station_id": 1044961079041,
-        "region_id": 10000032,
-        "security": 0.8754401206970215,
-        "security_code": "high_sec"
-    },
     "1045693958914": {
         "name": "Tuomuta - Virtue's Trade Haven 1% tax",
         "system_id": 30003064,
@@ -14,14 +6,6 @@
         "region_id": 10000038,
         "security": 0.4537486856776187,
         "security_code": "low_sec"
-    },
-    "1037413446531": {
-        "name": "J154249 - Market House",
-        "system_id": 31000806,
-        "station_id": 1037413446531,
-        "region_id": 11000008,
-        "security": -0.9900000095367432,
-        "security_code": "null_sec"
     },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
@@ -47,22 +31,6 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
-    "1045040010641": {
-        "name": "Iderion - Ammahet",
-        "system_id": 30005227,
-        "station_id": 1045040010641,
-        "region_id": 10000067,
-        "security": 0.4745493721958605,
-        "security_code": "low_sec"
-    },
-    "1044960858258": {
-        "name": "Hek - CHEAPEST Market & Industry 0.4%",
-        "system_id": 30002053,
-        "station_id": 1044960858258,
-        "region_id": 10000042,
-        "security": 0.8,
-        "security_code": "high_sec"
-    },
     "1046043963414": {
         "name": "Chesiette - CREDE - Ultima Porta Inferorum",
         "system_id": 30005327,
@@ -78,30 +46,6 @@
         "region_id": 10000016,
         "security": 0.858976279346364,
         "security_code": "high_sec"
-    },
-    "1044843857058": {
-        "name": "Onnamon - Caldari Shipcaster Freeport",
-        "system_id": 30045324,
-        "station_id": 1044843857058,
-        "region_id": 10000069,
-        "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
-    "1044991943210": {
-        "name": "Stacmon - Ember Trails Market Hub",
-        "system_id": 30003794,
-        "station_id": 1044991943210,
-        "region_id": 10000048,
-        "security": 0.6052797268620083,
-        "security_code": "high_sec"
-    },
-    "1046351183405": {
-        "name": "Slays - Hub",
-        "system_id": 30003798,
-        "station_id": 1046351183405,
-        "region_id": 10000048,
-        "security": 0.4871707730193347,
-        "security_code": "low_sec"
     },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
@@ -149,14 +93,6 @@
         "station_id": 1046680523848,
         "region_id": 10000042,
         "security": 0.5960732894302141,
-        "security_code": "high_sec"
-    },
-    "1044531786185": {
-        "name": "Aurcel - Joe's Saloon",
-        "system_id": 30002716,
-        "station_id": 1044531786185,
-        "region_id": 10000032,
-        "security": 0.549450178281487,
         "security_code": "high_sec"
     },
     "1046093271755": {
@@ -214,14 +150,6 @@
         "region_id": 10000036,
         "security": 0.5739069549734275,
         "security_code": "high_sec"
-    },
-    "1046802738801": {
-        "name": "Turnur - Warlords of the Deep",
-        "system_id": 30002086,
-        "station_id": 1046802738801,
-        "region_id": 10000042,
-        "security": 0.387434219905,
-        "security_code": "low_sec"
     },
     "1045789586682": {
         "name": "Rayl - Celestial Bastion",
