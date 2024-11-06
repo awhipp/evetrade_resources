@@ -31,6 +31,14 @@
         "security": 0.5005549192428589,
         "security_code": "high_sec"
     },
+    "1045979483404": {
+        "name": "Herila - T-VAC Industrial Market",
+        "system_id": 30003528,
+        "station_id": 1045979483404,
+        "region_id": 10000043,
+        "security": 0.8203867567744533,
+        "security_code": "high_sec"
+    },
     "1042223782798": {
         "name": "Teonusude - Nexus Galactic Heathens Market",
         "system_id": 30002385,
@@ -87,12 +95,28 @@
         "security": 0.6052797268620083,
         "security_code": "high_sec"
     },
+    "1046351183405": {
+        "name": "Slays - Hub",
+        "system_id": 30003798,
+        "station_id": 1046351183405,
+        "region_id": 10000048,
+        "security": 0.4871707730193347,
+        "security_code": "low_sec"
+    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
         "station_id": 1027375934642,
         "region_id": 10000016,
         "security": 0.5196677035325441,
+        "security_code": "high_sec"
+    },
+    "1021681819954": {
+        "name": "Keberz - FREEPORT MARKET AND CLONES",
+        "system_id": 30003883,
+        "station_id": 1021681819954,
+        "region_id": 10000049,
+        "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
     "1046404465214": {
@@ -135,6 +159,14 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
+    "1046093271755": {
+        "name": "Aderkan - Public Trade Station 01",
+        "system_id": 30003439,
+        "station_id": 1046093271755,
+        "region_id": 10000042,
+        "security": 0.5939358472824097,
+        "security_code": "high_sec"
+    },
     "1022167642188": {
         "name": "Amamake - 5 Times nearly AT winners",
         "system_id": 30002537,
@@ -150,6 +182,14 @@
         "region_id": 10000069,
         "security": 0.555534508863,
         "security_code": "high_sec"
+    },
+    "1047046269534": {
+        "name": "Raussinen - SINGULARITY Market",
+        "system_id": 30001373,
+        "station_id": 1047046269534,
+        "region_id": 10000016,
+        "security": 0.4532327361468812,
+        "security_code": "low_sec"
     },
     "1044579290081": {
         "name": "Tama - Svarog Production Center",
