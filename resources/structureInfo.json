@@ -23,6 +23,14 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
+    "1031240619395": {
+        "name": "Eystur - Research & Development -OPEN",
+        "system_id": 30002543,
+        "station_id": 1031240619395,
+        "region_id": 10000030,
+        "security": 0.9492318218458264,
+        "security_code": "high_sec"
+    },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
         "system_id": 30002644,
@@ -135,14 +143,6 @@
         "security": 0.6893498195436256,
         "security_code": "high_sec"
     },
-    "1047122170431": {
-        "name": "Stegette - MoniCore Market",
-        "system_id": 30002696,
-        "station_id": 1047122170431,
-        "region_id": 10000032,
-        "security": 0.4531728390533821,
-        "security_code": "low_sec"
-    },
     "1043439680449": {
         "name": "Bherdasopt - TYCHO STATION Market Open",
         "system_id": 30005267,
@@ -199,14 +199,6 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
-    "1047046269534": {
-        "name": "Raussinen - SINGULARITY Market",
-        "system_id": 30001373,
-        "station_id": 1047046269534,
-        "region_id": 10000016,
-        "security": 0.4532327361468812,
-        "security_code": "low_sec"
-    },
     "1044579290081": {
         "name": "Tama - Svarog Production Center",
         "system_id": 30002813,
@@ -229,14 +221,6 @@
         "station_id": 1045198535020,
         "region_id": 10000016,
         "security": 0.5196677035325441,
-        "security_code": "high_sec"
-    },
-    "1044796370545": {
-        "name": "Ohide - Gagarin Landing",
-        "system_id": 30002970,
-        "station_id": 1044796370545,
-        "region_id": 10000036,
-        "security": 0.5739069549734275,
         "security_code": "high_sec"
     },
     "1046802738801": {
