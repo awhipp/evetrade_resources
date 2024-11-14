@@ -151,14 +151,6 @@
         "security": 0.6893498195436256,
         "security_code": "high_sec"
     },
-    "1047122170431": {
-        "name": "Stegette - MoniCore Market",
-        "system_id": 30002696,
-        "station_id": 1047122170431,
-        "region_id": 10000032,
-        "security": 0.4531728390533821,
-        "security_code": "low_sec"
-    },
     "1043439680449": {
         "name": "Bherdasopt - TYCHO STATION Market Open",
         "system_id": 30005267,
@@ -261,6 +253,14 @@
         "station_id": 1046802738801,
         "region_id": 10000042,
         "security": 0.387434219905,
+        "security_code": "low_sec"
+    },
+    "1047150682612": {
+        "name": "Anher - Made In Minmatar",
+        "system_id": 30002051,
+        "station_id": 1047150682612,
+        "region_id": 10000042,
+        "security": 0.4645283560987553,
         "security_code": "low_sec"
     },
     "1045789586682": {
