@@ -215,12 +215,12 @@
         "security": 0.555534508863,
         "security_code": "high_sec"
     },
-    "1047195928151": {
-        "name": "Dantan - Dorkopolis",
-        "system_id": 30004097,
-        "station_id": 1047195928151,
-        "region_id": 10000052,
-        "security": 0.6589744344713558,
+    "1047243567570": {
+        "name": "Villore - Quafe Queefs & Quickie's Trading",
+        "system_id": 30004993,
+        "station_id": 1047243567570,
+        "region_id": 10000064,
+        "security": 0.9,
         "security_code": "high_sec"
     },
     "1047151548895": {
