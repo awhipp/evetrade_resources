@@ -95,14 +95,6 @@
         "security": 0.858976279346364,
         "security_code": "high_sec"
     },
-    "1044843857058": {
-        "name": "Onnamon - Caldari Shipcaster Freeport",
-        "system_id": 30045324,
-        "station_id": 1044843857058,
-        "region_id": 10000069,
-        "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
     "1044991943210": {
         "name": "Stacmon - Ember Trails Market Hub",
         "system_id": 30003794,
