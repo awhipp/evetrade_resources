@@ -168,7 +168,7 @@
         "security_code": "high_sec"
     },
     "1047131132102": {
-        "name": "Sobaseki - 0% Market",
+        "name": "Sobaseki - ALWAYS CHEAPEST MARKET",
         "system_id": 30001363,
         "station_id": 1047131132102,
         "region_id": 10000016,
@@ -189,6 +189,14 @@
         "station_id": 1044531786185,
         "region_id": 10000032,
         "security": 0.549450178281487,
+        "security_code": "high_sec"
+    },
+    "1046109533643": {
+        "name": "Samanuni - Solringen AO Hub",
+        "system_id": 30045322,
+        "station_id": 1046109533643,
+        "region_id": 10000069,
+        "security": 0.6527848435914495,
         "security_code": "high_sec"
     },
     "1022167642188": {
