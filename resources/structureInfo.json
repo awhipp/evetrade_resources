@@ -87,14 +87,6 @@
         "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
-    "1046913617947": {
-        "name": "Funtanainen - Buy & Build",
-        "system_id": 30001364,
-        "station_id": 1046913617947,
-        "region_id": 10000016,
-        "security": 0.858976279346364,
-        "security_code": "high_sec"
-    },
     "1044991943210": {
         "name": "Stacmon - Ember Trails Market Hub",
         "system_id": 30003794,
@@ -168,7 +160,7 @@
         "security_code": "high_sec"
     },
     "1047131132102": {
-        "name": "Sobaseki - 0% Market",
+        "name": "Sobaseki - 0.3% cheapest MARKET",
         "system_id": 30001363,
         "station_id": 1047131132102,
         "region_id": 10000016,
@@ -221,6 +213,14 @@
         "station_id": 1047243567570,
         "region_id": 10000064,
         "security": 0.9,
+        "security_code": "high_sec"
+    },
+    "1047374115417": {
+        "name": "Balginia - Positive Factory)",
+        "system_id": 30002528,
+        "station_id": 1047374115417,
+        "region_id": 10000030,
+        "security": 0.8176566852469775,
         "security_code": "high_sec"
     },
     "1047151548895": {
