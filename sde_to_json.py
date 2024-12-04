@@ -84,7 +84,7 @@ def importYaml():
             inv_names = json.load(infile)
     else:
         print('Load invNames YAML')
-        with open(r'sde/bsd/invNames.yaml', encoding='utf-8') as infile:
+        with open(r'bsd/invNames.yaml', encoding='utf-8') as infile:
             inv_names = yaml.load(infile, Loader = Loader)
 
         with open('invNames.json', 'w', encoding='utf-8') as outfile:
@@ -142,7 +142,7 @@ def importYaml():
         json.dump(map_region, outfile, separators = (',', ':'))
 
     print("Converting stations data")
-    with open(r'sde/bsd/staStations.yaml', encoding='utf-8') as infile:
+    with open(r'bsd/staStations.yaml', encoding='utf-8') as infile:
         with open('resources/staStations.json', 'w', encoding='utf-8') as outfile:
             sta_stations = yaml.load(infile, Loader = Loader)
             json.dump(sta_stations, outfile, separators = (',', ':'))
@@ -186,7 +186,7 @@ def importYaml():
             inv_typesy = json.load(infile)
     else:
         print('Load invTypes or types YAML')
-        with open(r'sde/fsd/types.yaml', encoding="utf8") as infile:
+        with open(r'fsd/types.yaml', encoding="utf8") as infile:
             inv_typesy = yaml.load(infile, Loader = Loader)
 
         with open('invTypes.json', 'w', encoding='utf-8') as outfile:
