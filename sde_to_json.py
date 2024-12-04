@@ -58,7 +58,7 @@ def getTradeHubName(stationName):
     return stationName
 
 def getResources():
-    print(os.listdir(os.getcwd())
+    print(os.listdir(os.getcwd()))
     if not os.path.exists('sde'):
         resources_page = requests.get(resources_link, timeout=30)
         parser = MyHTMLParser()
