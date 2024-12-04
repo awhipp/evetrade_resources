@@ -75,6 +75,7 @@ def getResources():
         print("Folder already exists")
 
 def importYaml():
+    print(os.listdir(os.getcwd()))
     print("Importing Universe Data")
 
     if os.path.exists('invNames.json'):
