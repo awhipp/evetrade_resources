@@ -1,6 +1,6 @@
 {
     "1044961079041": {
-        "name": "Botane - CHEAPEST Market & Industry 0.2%",
+        "name": "Botane - 0% Market near Dodi",
         "system_id": 30002661,
         "station_id": 1044961079041,
         "region_id": 10000032,
@@ -72,7 +72,7 @@
         "security_code": "low_sec"
     },
     "1044960858258": {
-        "name": "Hek - CHEAPEST Market & Industry 0.4%",
+        "name": "Hek - CHEAPER THAN ICY 0.3%",
         "system_id": 30002053,
         "station_id": 1044960858258,
         "region_id": 10000042,
@@ -183,14 +183,6 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
-    "1046109533643": {
-        "name": "Samanuni - Solringen AO Hub",
-        "system_id": 30045322,
-        "station_id": 1046109533643,
-        "region_id": 10000069,
-        "security": 0.6527848435914495,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - 5 Times nearly AT winners",
         "system_id": 30002537,
@@ -198,14 +190,6 @@
         "region_id": 10000030,
         "security": 0.438761248111,
         "security_code": "low_sec"
-    },
-    "1041388175181": {
-        "name": "Onnamon - Old Fatherland",
-        "system_id": 30045324,
-        "station_id": 1041388175181,
-        "region_id": 10000069,
-        "security": 0.555534508863,
-        "security_code": "high_sec"
     },
     "1047243567570": {
         "name": "Villore - Quafe Queefs & Quickie's Trading",
@@ -222,14 +206,6 @@
         "region_id": 10000030,
         "security": 0.8176566852469775,
         "security_code": "high_sec"
-    },
-    "1047151548895": {
-        "name": "Oishami - Waifu Wendy's (1.00% FREEPORT)",
-        "system_id": 30001433,
-        "station_id": 1047151548895,
-        "region_id": 10000016,
-        "security": 0.450910983345255,
-        "security_code": "low_sec"
     },
     "1044579290081": {
         "name": "Tama - Svarog Production Center",
