@@ -68,6 +68,9 @@ def getResources():
         if resources_file.ok:
             resources_zip = zipfile.ZipFile(io.BytesIO(resources_file.content))
             resources_zip.extractall()
+            print("sde extracted successfully")
+        else:
+            print(resources_file.reason)
     else:
         print("Folder already exists")
 
