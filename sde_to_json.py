@@ -180,8 +180,8 @@ def importYaml():
         with open('invTypes.json') as infile:
             inv_typesy = json.load(infile)
     else:
-        print('Load invTypes YAML')
-        with open(r'sde/fsd/typeIDs.yaml', encoding="utf8") as infile:
+        print('Load invTypes or types YAML')
+        with open(r'sde/fsd/types.yaml', encoding="utf8") as infile:
             inv_typesy = yaml.load(infile, Loader = Loader)
 
         with open('invTypes.json', 'w', encoding='utf-8') as outfile:
