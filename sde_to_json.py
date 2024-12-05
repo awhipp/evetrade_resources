@@ -90,8 +90,8 @@ def importYaml():
         with open('invNames.json', 'w', encoding='utf-8') as outfile:
             json.dump(inv_names, outfile)
 
-    print("Importing region static data")
-    region_files = glob.glob(os.path.join('fsd', 'universe', 'eve', '*', 'region.staticdata'))
+    print("Importing region static data YAML")
+    region_files = glob.glob(os.path.join('fsd', 'universe', 'eve', '*', 'region.yaml'))
     for region_file in region_files:
         region = {}
         headr, tail = os.path.split(region_file)
@@ -116,7 +116,7 @@ def importYaml():
         region['factionID'] = regiony.get('factionID')
         map_regions.append(region)
 
-        constellation_files = glob.glob(os.path.join(headr, '*', 'constellation.staticdata'))
+        constellation_files = glob.glob(os.path.join(headr, '*', 'constellation.yaml'))
         for constellation_file in constellation_files:
             headc, tail = os.path.split(constellation_file)
             with open(constellation_file,'r', encoding='utf-8') as constellation_yaml:
@@ -126,7 +126,7 @@ def importYaml():
                 if item['itemID'] == constellationy['constellationID']:
                     print("     Importing Constellation {}".format(item['itemName']))
                     break
-            solarsystem_files = glob.glob(os.path.join(headc, '*', 'solarsystem.staticdata'))
+            solarsystem_files = glob.glob(os.path.join(headc, '*', 'solarsystem.yaml'))
             for solarsystem_file in solarsystem_files:
                 with open(solarsystem_file,'r', encoding='utf-8') as solarsystem_yaml:
                     solarsystemy = yaml.load(solarsystem_yaml, Loader = Loader)
