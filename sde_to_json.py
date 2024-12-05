@@ -91,7 +91,8 @@ def importYaml():
             json.dump(inv_names, outfile)
 
     print("Importing region static data YAML")
-    region_files = glob.glob(os.path.join('fsd', 'universe', 'eve', '*', 'region.yaml'))
+    region_files = glob.glob(os.path.join('sde', 'fsd', 'universe', 'eve', '*', 'region.yaml'))
+    print(region_files)
     for region_file in region_files:
         region = {}
         headr, tail = os.path.split(region_file)
