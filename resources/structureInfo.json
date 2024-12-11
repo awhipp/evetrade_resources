@@ -39,14 +39,6 @@
         "security": 0.5005549192428589,
         "security_code": "high_sec"
     },
-    "1047150664972": {
-        "name": "Muvolailen - CHEAPEST MARKET ALWAYS",
-        "system_id": 30002780,
-        "station_id": 1047150664972,
-        "region_id": 10000033,
-        "security": 0.7080867245401007,
-        "security_code": "high_sec"
-    },
     "1042223782798": {
         "name": "Teonusude - Nexus Galactic Heathens Market",
         "system_id": 30002385,
@@ -197,14 +189,6 @@
         "station_id": 1041388175181,
         "region_id": 10000069,
         "security": 0.555534508863,
-        "security_code": "high_sec"
-    },
-    "1047373952593": {
-        "name": "Pulin - S.I.U. - Industrial Services",
-        "system_id": 30002662,
-        "station_id": 1047373952593,
-        "region_id": 10000032,
-        "security": 0.5419477413947693,
         "security_code": "high_sec"
     },
     "1047243567570": {
