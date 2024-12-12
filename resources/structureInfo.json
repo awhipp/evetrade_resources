@@ -199,14 +199,6 @@
         "security": 0.9,
         "security_code": "high_sec"
     },
-    "1047292528467": {
-        "name": "Amane - Goats n' Unicorns Trade Hub",
-        "system_id": 30004983,
-        "station_id": 1047292528467,
-        "region_id": 10000064,
-        "security": 0.5528478509229514,
-        "security_code": "high_sec"
-    },
     "1047195928151": {
         "name": "Dantan - Interstellar Cafe",
         "system_id": 30004097,
