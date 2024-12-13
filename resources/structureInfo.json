@@ -1,6 +1,6 @@
 {
     "1044961079041": {
-        "name": "Botane - 0% Market near Dodi",
+        "name": "Botane - 0.3% Cheapest Market",
         "system_id": 30002661,
         "station_id": 1044961079041,
         "region_id": 10000032,
@@ -197,6 +197,14 @@
         "station_id": 1047243567570,
         "region_id": 10000064,
         "security": 0.9,
+        "security_code": "high_sec"
+    },
+    "1047292528467": {
+        "name": "Amane - Pubic Trade Hub",
+        "system_id": 30004983,
+        "station_id": 1047292528467,
+        "region_id": 10000064,
+        "security": 0.5528478509229514,
         "security_code": "high_sec"
     },
     "1047195928151": {
