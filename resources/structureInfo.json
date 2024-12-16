@@ -159,14 +159,6 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
-    "1046109533643": {
-        "name": "Samanuni - closed 2",
-        "system_id": 30045322,
-        "station_id": 1046109533643,
-        "region_id": 10000069,
-        "security": 0.6527848435914495,
-        "security_code": "high_sec"
-    },
     "1022167642188": {
         "name": "Amamake - 5 Times nearly AT winners",
         "system_id": 30002537,
@@ -245,14 +237,6 @@
         "station_id": 1047407941740,
         "region_id": 10000043,
         "security": 0.5246793482534998,
-        "security_code": "high_sec"
-    },
-    "1047163531118": {
-        "name": "Misneden - Solringen AO Hub",
-        "system_id": 30002665,
-        "station_id": 1047163531118,
-        "region_id": 10000032,
-        "security": 0.5469159432010658,
         "security_code": "high_sec"
     },
     "1046802738801": {
