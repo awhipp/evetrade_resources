@@ -7,14 +7,6 @@
         "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
-    "1045693958914": {
-        "name": "Tuomuta - Virtue's Trade Haven 1% tax",
-        "system_id": 30003064,
-        "station_id": 1045693958914,
-        "region_id": 10000038,
-        "security": 0.4537486856776187,
-        "security_code": "low_sec"
-    },
     "1037413446531": {
         "name": "J154249 - Market House",
         "system_id": 31000806,
@@ -23,28 +15,12 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1031240619395": {
-        "name": "Eystur - Research & Development -OPEN",
-        "system_id": 30002543,
-        "station_id": 1031240619395,
-        "region_id": 10000030,
-        "security": 0.9492318218458264,
-        "security_code": "high_sec"
-    },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
         "system_id": 30002644,
         "station_id": 1045712793227,
         "region_id": 10000032,
         "security": 0.5005549192428589,
-        "security_code": "high_sec"
-    },
-    "1042223782798": {
-        "name": "Teonusude - Nexus Galactic Heathens Market",
-        "system_id": 30002385,
-        "station_id": 1042223782798,
-        "region_id": 10000028,
-        "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
     "1045040010641": {
@@ -143,14 +119,6 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
-    "1047131132102": {
-        "name": "Sobaseki - 0.3% cheapest MARKET",
-        "system_id": 30001363,
-        "station_id": 1047131132102,
-        "region_id": 10000016,
-        "security": 0.8410254626102227,
-        "security_code": "high_sec"
-    },
     "1046680523848": {
         "name": "Hodrold - FCKA Prime Marketplace",
         "system_id": 30003469,
@@ -174,14 +142,6 @@
         "region_id": 10000030,
         "security": 0.438761248111,
         "security_code": "low_sec"
-    },
-    "1041388175181": {
-        "name": "Onnamon - Old Fatherland",
-        "system_id": 30045324,
-        "station_id": 1041388175181,
-        "region_id": 10000069,
-        "security": 0.555534508863,
-        "security_code": "high_sec"
     },
     "1047243567570": {
         "name": "Villore - Quafe Queefs & Quickie's Trading",
@@ -215,22 +175,6 @@
         "security": 0.8176566852469775,
         "security_code": "high_sec"
     },
-    "1044579290081": {
-        "name": "Tama - Svarog Production Center",
-        "system_id": 30002813,
-        "station_id": 1044579290081,
-        "region_id": 10000033,
-        "security": 0.2825556883337969,
-        "security_code": "low_sec"
-    },
-    "1044857068649": {
-        "name": "Ashab - Cheapest Market Best Prices",
-        "system_id": 30003491,
-        "station_id": 1044857068649,
-        "region_id": 10000043,
-        "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
     "1045198535020": {
         "name": "Torrinos - Garden of Thorns 2.0",
         "system_id": 30001429,
@@ -255,14 +199,6 @@
         "security": 0.387434219905,
         "security_code": "low_sec"
     },
-    "1047150682612": {
-        "name": "Anher - Made In Minmatar",
-        "system_id": 30002051,
-        "station_id": 1047150682612,
-        "region_id": 10000042,
-        "security": 0.4645283560987553,
-        "security_code": "low_sec"
-    },
     "1045789586682": {
         "name": "Rayl - Celestial Bastion",
         "system_id": 30002271,
@@ -270,13 +206,5 @@
         "region_id": 10000043,
         "security": 0.4665438747521612,
         "security_code": "low_sec"
-    },
-    "1044732303357": {
-        "name": "Enedore - Polar Bear- Frostvale - Freeport",
-        "system_id": 30003045,
-        "station_id": 1044732303357,
-        "region_id": 10000037,
-        "security": 0.6467583179473877,
-        "security_code": "high_sec"
     }
 }
