@@ -7,6 +7,14 @@
         "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
+    "1045693958914": {
+        "name": "Tuomuta - Virtue's Trade Haven 1% tax",
+        "system_id": 30003064,
+        "station_id": 1045693958914,
+        "region_id": 10000038,
+        "security": 0.4537486856776187,
+        "security_code": "low_sec"
+    },
     "1037413446531": {
         "name": "J154249 - Market House",
         "system_id": 31000806,
@@ -15,12 +23,12 @@
         "security": -0.9900000095367432,
         "security_code": "null_sec"
     },
-    "1045712793227": {
-        "name": "Ambeke - Ship Complex",
-        "system_id": 30002644,
-        "station_id": 1045712793227,
-        "region_id": 10000032,
-        "security": 0.5005549192428589,
+    "1031240619395": {
+        "name": "Eystur - Research & Development -OPEN",
+        "system_id": 30002543,
+        "station_id": 1031240619395,
+        "region_id": 10000030,
+        "security": 0.9492318218458264,
         "security_code": "high_sec"
     },
     "1045040010641": {
@@ -87,30 +95,6 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1046404465214": {
-        "name": "Avada - Freeport",
-        "system_id": 30004249,
-        "station_id": 1046404465214,
-        "region_id": 10000054,
-        "security": 0.6893498195436256,
-        "security_code": "high_sec"
-    },
-    "1047122170431": {
-        "name": "Stegette - MoniCore Market",
-        "system_id": 30002696,
-        "station_id": 1047122170431,
-        "region_id": 10000032,
-        "security": 0.4531728390533821,
-        "security_code": "low_sec"
-    },
-    "1043439680449": {
-        "name": "Bherdasopt - TYCHO STATION Market Open",
-        "system_id": 30005267,
-        "station_id": 1043439680449,
-        "region_id": 10000067,
-        "security": 0.4812319278717041,
-        "security_code": "low_sec"
-    },
     "1044970203585": {
         "name": "Sarum Prime - Winnie's Workshop",
         "system_id": 30003522,
@@ -119,20 +103,12 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
-    "1046680523848": {
-        "name": "Hodrold - FCKA Prime Marketplace",
-        "system_id": 30003469,
-        "station_id": 1046680523848,
-        "region_id": 10000042,
-        "security": 0.5960732894302141,
-        "security_code": "high_sec"
-    },
-    "1044531786185": {
-        "name": "Aurcel - Joe's Saloon",
-        "system_id": 30002716,
-        "station_id": 1044531786185,
-        "region_id": 10000032,
-        "security": 0.549450178281487,
+    "1047131132102": {
+        "name": "Sobaseki - 0.3% cheapest MARKET",
+        "system_id": 30001363,
+        "station_id": 1047131132102,
+        "region_id": 10000016,
+        "security": 0.8410254626102227,
         "security_code": "high_sec"
     },
     "1022167642188": {
@@ -143,20 +119,12 @@
         "security": 0.438761248111,
         "security_code": "low_sec"
     },
-    "1047243567570": {
-        "name": "Villore - Quafe Queefs & Quickie's Trading",
-        "system_id": 30004993,
-        "station_id": 1047243567570,
-        "region_id": 10000064,
-        "security": 0.9,
-        "security_code": "high_sec"
-    },
-    "1047292528467": {
-        "name": "Amane - Public Trade Hub",
-        "system_id": 30004983,
-        "station_id": 1047292528467,
-        "region_id": 10000064,
-        "security": 0.5528478509229514,
+    "1041388175181": {
+        "name": "Onnamon - Old Fatherland",
+        "system_id": 30045324,
+        "station_id": 1041388175181,
+        "region_id": 10000069,
+        "security": 0.555534508863,
         "security_code": "high_sec"
     },
     "1047195928151": {
@@ -167,22 +135,6 @@
         "security": 0.6589744344713558,
         "security_code": "high_sec"
     },
-    "1047374115417": {
-        "name": "Balginia - Positive Factory)",
-        "system_id": 30002528,
-        "station_id": 1047374115417,
-        "region_id": 10000030,
-        "security": 0.8176566852469775,
-        "security_code": "high_sec"
-    },
-    "1045198535020": {
-        "name": "Torrinos - Garden of Thorns 2.0",
-        "system_id": 30001429,
-        "station_id": 1045198535020,
-        "region_id": 10000016,
-        "security": 0.5196677035325441,
-        "security_code": "high_sec"
-    },
     "1047407941740": {
         "name": "Zaimeth - LUXOR",
         "system_id": 30003497,
@@ -191,20 +143,20 @@
         "security": 0.5246793482534998,
         "security_code": "high_sec"
     },
-    "1046802738801": {
-        "name": "Turnur - Warlords of the Deep",
-        "system_id": 30002086,
-        "station_id": 1046802738801,
+    "1047150682612": {
+        "name": "Anher - Made In Minmatar",
+        "system_id": 30002051,
+        "station_id": 1047150682612,
         "region_id": 10000042,
-        "security": 0.387434219905,
+        "security": 0.4645283560987553,
         "security_code": "low_sec"
     },
-    "1045789586682": {
-        "name": "Rayl - Celestial Bastion",
-        "system_id": 30002271,
-        "station_id": 1045789586682,
-        "region_id": 10000043,
-        "security": 0.4665438747521612,
-        "security_code": "low_sec"
+    "1044732303357": {
+        "name": "Enedore - Polar Bear- Frostvale - Freeport",
+        "system_id": 30003045,
+        "station_id": 1044732303357,
+        "region_id": 10000037,
+        "security": 0.6467583179473877,
+        "security_code": "high_sec"
     }
 }
