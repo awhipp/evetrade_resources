@@ -167,6 +167,14 @@
         "security": 0.549450178281487,
         "security_code": "high_sec"
     },
+    "1044752365771": {
+        "name": "Perimeter - 0.0% Fence Tax Haven",
+        "system_id": 30000144,
+        "station_id": 1044752365771,
+        "region_id": 10000002,
+        "security": 0.9531232305867214,
+        "security_code": "high_sec"
+    },
     "1022167642188": {
         "name": "Amamake - 5 Times nearly AT winners",
         "system_id": 30002537,
