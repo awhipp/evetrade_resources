@@ -47,6 +47,14 @@
         "security": 0.5863137228330685,
         "security_code": "high_sec"
     },
+    "1046035753615": {
+        "name": "Ghesis - Yemmas Nebular Sprocket&Gizmos",
+        "system_id": 30004084,
+        "station_id": 1046035753615,
+        "region_id": 10000052,
+        "security": 0.5131952095944496,
+        "security_code": "high_sec"
+    },
     "1045040010641": {
         "name": "Iderion - Ammahet",
         "system_id": 30005227,
@@ -69,6 +77,14 @@
         "station_id": 1046043963414,
         "region_id": 10000068,
         "security": 0.5727048516273499,
+        "security_code": "high_sec"
+    },
+    "1047634870813": {
+        "name": "Waira - Discont Market",
+        "system_id": 30002787,
+        "station_id": 1047634870813,
+        "region_id": 10000033,
+        "security": 0.5346838453836369,
         "security_code": "high_sec"
     },
     "1044991943210": {
