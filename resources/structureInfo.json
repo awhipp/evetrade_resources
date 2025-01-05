@@ -15,14 +15,6 @@
         "security": 0.4537486856776187,
         "security_code": "low_sec"
     },
-    "1031240619395": {
-        "name": "Eystur - Research & Development -OPEN",
-        "system_id": 30002543,
-        "station_id": 1031240619395,
-        "region_id": 10000030,
-        "security": 0.9492318218458264,
-        "security_code": "high_sec"
-    },
     "1037413446531": {
         "name": "J154249 - Market House",
         "system_id": 31000806,
@@ -30,6 +22,14 @@
         "region_id": 11000008,
         "security": -0.9900000095367432,
         "security_code": "null_sec"
+    },
+    "1031240619395": {
+        "name": "Eystur - Research & Development -OPEN",
+        "system_id": 30002543,
+        "station_id": 1031240619395,
+        "region_id": 10000030,
+        "security": 0.9492318218458264,
+        "security_code": "high_sec"
     },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
@@ -95,14 +95,6 @@
         "security": 0.5346838453836369,
         "security_code": "high_sec"
     },
-    "1023920295720": {
-        "name": "Dital - Spectre Fleet Assbell",
-        "system_id": 30002968,
-        "station_id": 1023920295720,
-        "region_id": 10000036,
-        "security": 0.4787153899669647,
-        "security_code": "low_sec"
-    },
     "1044991943210": {
         "name": "Stacmon - Ember Trails Market Hub",
         "system_id": 30003794,
@@ -127,20 +119,20 @@
         "security": 0.4871707730193347,
         "security_code": "low_sec"
     },
-    "1021681819954": {
-        "name": "Keberz - FREEPORT MARKET AND CLONES",
-        "system_id": 30003883,
-        "station_id": 1021681819954,
-        "region_id": 10000049,
-        "security": 0.5301299095153809,
-        "security_code": "high_sec"
-    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
         "station_id": 1027375934642,
         "region_id": 10000016,
         "security": 0.5196677035325441,
+        "security_code": "high_sec"
+    },
+    "1021681819954": {
+        "name": "Keberz - FREEPORT MARKET AND CLONES",
+        "system_id": 30003883,
+        "station_id": 1021681819954,
+        "region_id": 10000049,
+        "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
     "1046404465214": {
