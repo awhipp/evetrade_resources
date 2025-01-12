@@ -151,6 +151,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1047847040964": {
+        "name": "Villore - Refine +++",
+        "system_id": 30004993,
+        "station_id": 1047847040964,
+        "region_id": 10000064,
+        "security": 0.9,
+        "security_code": "high_sec"
+    },
     "1047131132102": {
         "name": "Sobaseki - PLEX Market - Cheaper ICY",
         "system_id": 30001363,
