@@ -95,6 +95,14 @@
         "security": 0.5346838453836369,
         "security_code": "high_sec"
     },
+    "1047936204839": {
+        "name": "Inaya - Production Factory Nummber 1",
+        "system_id": 30000182,
+        "station_id": 1047936204839,
+        "region_id": 10000002,
+        "security": 0.5523502237918139,
+        "security_code": "high_sec"
+    },
     "1044991943210": {
         "name": "Stacmon - Ember Trails Market Hub",
         "system_id": 30003794,
@@ -245,14 +253,6 @@
         "station_id": 1047374115417,
         "region_id": 10000030,
         "security": 0.8176566852469775,
-        "security_code": "high_sec"
-    },
-    "1047917827552": {
-        "name": "Dantan - Event Horizon Enterprises",
-        "system_id": 30004097,
-        "station_id": 1047917827552,
-        "region_id": 10000052,
-        "security": 0.6589744344713558,
         "security_code": "high_sec"
     },
     "1044579290081": {
