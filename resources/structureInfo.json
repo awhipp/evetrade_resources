@@ -71,14 +71,6 @@
         "security": 0.8,
         "security_code": "high_sec"
     },
-    "1047748014485": {
-        "name": "Pemene - Blue Moon Tavern",
-        "system_id": 30004978,
-        "station_id": 1047748014485,
-        "region_id": 10000064,
-        "security": 0.4501924356223205,
-        "security_code": "low_sec"
-    },
     "1046043963414": {
         "name": "Chesiette - CREDE - Ultima Porta Inferorum",
         "system_id": 30005327,
@@ -101,14 +93,6 @@
         "station_id": 1047936204839,
         "region_id": 10000002,
         "security": 0.5523502237918139,
-        "security_code": "high_sec"
-    },
-    "1044991943210": {
-        "name": "Stacmon - Ember Trails Market Hub",
-        "system_id": 30003794,
-        "station_id": 1044991943210,
-        "region_id": 10000048,
-        "security": 0.6052797268620083,
         "security_code": "high_sec"
     },
     "1046351183405": {
@@ -293,14 +277,6 @@
         "station_id": 1047150682612,
         "region_id": 10000042,
         "security": 0.4645283560987553,
-        "security_code": "low_sec"
-    },
-    "1045789586682": {
-        "name": "Rayl - Celestial Bastion",
-        "system_id": 30002271,
-        "station_id": 1045789586682,
-        "region_id": 10000043,
-        "security": 0.4665438747521612,
         "security_code": "low_sec"
     },
     "1044732303357": {
