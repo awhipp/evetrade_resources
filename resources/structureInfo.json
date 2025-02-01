@@ -279,6 +279,14 @@
         "security": 0.4645283560987553,
         "security_code": "low_sec"
     },
+    "1033626295285": {
+        "name": "Lustrevik - Port Royal Regional Trading Hub",
+        "system_id": 30002545,
+        "station_id": 1033626295285,
+        "region_id": 10000030,
+        "security": 0.9462634160245761,
+        "security_code": "high_sec"
+    },
     "1044732303357": {
         "name": "Enedore - Polar Bear- Frostvale - Freeport",
         "system_id": 30003045,
