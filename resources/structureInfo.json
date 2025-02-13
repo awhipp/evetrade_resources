@@ -111,6 +111,14 @@
         "security": 0.970923363602232,
         "security_code": "high_sec"
     },
+    "1035269234104": {
+        "name": "Geras - Market Hub",
+        "system_id": 30000126,
+        "station_id": 1035269234104,
+        "region_id": 10000002,
+        "security": 0.6501464617023807,
+        "security_code": "high_sec"
+    },
     "1046404465214": {
         "name": "Avada - Freeport",
         "system_id": 30004249,
@@ -253,6 +261,14 @@
         "station_id": 1045198535020,
         "region_id": 10000016,
         "security": 0.5196677035325441,
+        "security_code": "high_sec"
+    },
+    "1048199651310": {
+        "name": "Vittenyn - Industry Hub",
+        "system_id": 30002731,
+        "station_id": 1048199651310,
+        "region_id": 10000032,
+        "security": 0.903550466840674,
         "security_code": "high_sec"
     },
     "1046802738801": {
