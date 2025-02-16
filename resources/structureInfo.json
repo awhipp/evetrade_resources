@@ -71,14 +71,6 @@
         "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
-    "1047936204839": {
-        "name": "Inaya - Production Factory Odin",
-        "system_id": 30000182,
-        "station_id": 1047936204839,
-        "region_id": 10000002,
-        "security": 0.5523502237918139,
-        "security_code": "high_sec"
-    },
     "1046351183405": {
         "name": "Slays - Hub",
         "system_id": 30003798,
