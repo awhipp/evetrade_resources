@@ -63,6 +63,22 @@
         "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
+    "1041989025438": {
+        "name": "Elonaya - Datos Stellar Outpost IV",
+        "system_id": 30001399,
+        "station_id": 1041989025438,
+        "region_id": 10000016,
+        "security": 0.6657824845222258,
+        "security_code": "high_sec"
+    },
+    "1044843857058": {
+        "name": "Onnamon - Caldari Shipcaster Freeport",
+        "system_id": 30045324,
+        "station_id": 1044843857058,
+        "region_id": 10000069,
+        "security": 0.555534508863,
+        "security_code": "high_sec"
+    },
     "1046351183405": {
         "name": "Slays - Hub",
         "system_id": 30003798,
@@ -87,12 +103,12 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1048193985462": {
-        "name": "Aokannitoh - VB Industrial Complex",
-        "system_id": 30021407,
-        "station_id": 1048193985462,
-        "region_id": 10000002,
-        "security": 0.970923363602232,
+    "1045180349107": {
+        "name": "Yuhelia - UNSC HQ",
+        "system_id": 30003545,
+        "station_id": 1045180349107,
+        "region_id": 10000043,
+        "security": 0.7996092811555462,
         "security_code": "high_sec"
     },
     "1035269234104": {
@@ -109,6 +125,14 @@
         "station_id": 1046404465214,
         "region_id": 10000054,
         "security": 0.6893498195436256,
+        "security_code": "high_sec"
+    },
+    "1034841916735": {
+        "name": "Oipo - Absolute Ascension",
+        "system_id": 30001425,
+        "station_id": 1034841916735,
+        "region_id": 10000016,
+        "security": 0.7590680265637462,
         "security_code": "high_sec"
     },
     "1047122170431": {
@@ -151,6 +175,14 @@
         "security": 0.8410254626102227,
         "security_code": "high_sec"
     },
+    "1046398294599": {
+        "name": "Dital - AO South Super Bunker",
+        "system_id": 30002968,
+        "station_id": 1046398294599,
+        "region_id": 10000036,
+        "security": 0.4787153899669647,
+        "security_code": "low_sec"
+    },
     "1046680523848": {
         "name": "Hodrold - FCKA Prime Marketplace",
         "system_id": 30003469,
@@ -182,6 +214,14 @@
         "region_id": 10000030,
         "security": 0.438761248111,
         "security_code": "low_sec"
+    },
+    "1041388175181": {
+        "name": "Onnamon - Old Fatherland",
+        "system_id": 30045324,
+        "station_id": 1041388175181,
+        "region_id": 10000069,
+        "security": 0.555534508863,
+        "security_code": "high_sec"
     },
     "1047243567570": {
         "name": "Villore - Quafe Queefs & Quickie's Trading",
