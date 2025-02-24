@@ -239,6 +239,14 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
+    "1048321934953": {
+        "name": "Hykkota - Crimson Shadow HQ",
+        "system_id": 30000134,
+        "station_id": 1048321934953,
+        "region_id": 10000002,
+        "security": 0.823653465299,
+        "security_code": "high_sec"
+    },
     "1045198535020": {
         "name": "Torrinos - Garden of Thorns 2.0",
         "system_id": 30001429,
