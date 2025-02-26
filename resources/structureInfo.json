@@ -159,6 +159,14 @@
         "security": 0.8410254626102227,
         "security_code": "high_sec"
     },
+    "1046680523848": {
+        "name": "Hodrold - FCKA Prime Marketplace",
+        "system_id": 30003469,
+        "station_id": 1046680523848,
+        "region_id": 10000042,
+        "security": 0.5960732894302141,
+        "security_code": "high_sec"
+    },
     "1044531786185": {
         "name": "Aurcel - Joe's Saloon",
         "system_id": 30002716,
@@ -247,14 +255,6 @@
         "security": 0.5196677035325441,
         "security_code": "high_sec"
     },
-    "1048199651310": {
-        "name": "Vittenyn - Industry Hub",
-        "system_id": 30002731,
-        "station_id": 1048199651310,
-        "region_id": 10000032,
-        "security": 0.903550466840674,
-        "security_code": "high_sec"
-    },
     "1046802738801": {
         "name": "Turnur - Warlords of the Deep",
         "system_id": 30002086,
@@ -277,14 +277,6 @@
         "station_id": 1033626295285,
         "region_id": 10000030,
         "security": 0.9462634160245761,
-        "security_code": "high_sec"
-    },
-    "1044732303357": {
-        "name": "Enedore - Polar Bear- Frostvale - Freeport",
-        "system_id": 30003045,
-        "station_id": 1044732303357,
-        "region_id": 10000037,
-        "security": 0.6467583179473877,
         "security_code": "high_sec"
     }
 }
