@@ -119,6 +119,14 @@
         "security": 0.6893498195436256,
         "security_code": "high_sec"
     },
+    "1048464898750": {
+        "name": "Jaschercis - Rocinante market research and ma",
+        "system_id": 30003029,
+        "station_id": 1048464898750,
+        "region_id": 10000037,
+        "security": 0.6127038720154012,
+        "security_code": "high_sec"
+    },
     "1044970203585": {
         "name": "Sarum Prime - Winnie's Workshop",
         "system_id": 30003522,
@@ -215,16 +223,8 @@
         "security": 0.2825556883337969,
         "security_code": "low_sec"
     },
-    "1048386824165": {
-        "name": "Neesher - Freeport",
-        "system_id": 30005058,
-        "station_id": 1048386824165,
-        "region_id": 10000065,
-        "security": 0.5180601261834492,
-        "security_code": "high_sec"
-    },
     "1044857068649": {
-        "name": "Ashab - 0.5% PLEX Market BE SMART",
+        "name": "Ashab - CHEAPEST PLEX Market BE SMART",
         "system_id": 30003491,
         "station_id": 1044857068649,
         "region_id": 10000043,
