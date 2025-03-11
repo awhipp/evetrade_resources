@@ -72,7 +72,7 @@
         "security_code": "high_sec"
     },
     "1048446040103": {
-        "name": "Sarum Prime - Freeport Market and Industry",
+        "name": "Sarum Prime - Domain Market Freeport",
         "system_id": 30003522,
         "station_id": 1048446040103,
         "region_id": 10000043,
@@ -133,14 +133,6 @@
         "station_id": 1048464898750,
         "region_id": 10000037,
         "security": 0.6127038720154012,
-        "security_code": "high_sec"
-    },
-    "1044970203585": {
-        "name": "Sarum Prime - Winnie's Workshop",
-        "system_id": 30003522,
-        "station_id": 1044970203585,
-        "region_id": 10000043,
-        "security": 1.0,
         "security_code": "high_sec"
     },
     "1047847040964": {
