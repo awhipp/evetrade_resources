@@ -239,14 +239,6 @@
         "security": 0.9094599909851684,
         "security_code": "high_sec"
     },
-    "1045198535020": {
-        "name": "Torrinos - Garden of Thorns 2.0",
-        "system_id": 30001429,
-        "station_id": 1045198535020,
-        "region_id": 10000016,
-        "security": 0.5196677035325441,
-        "security_code": "high_sec"
-    },
     "1048427761902": {
         "name": "Avesber - TS10 Mashed Taters",
         "system_id": 30002530,
