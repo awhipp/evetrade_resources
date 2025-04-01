@@ -95,6 +95,14 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
+    "1048742609973": {
+        "name": "Otalieto - Candy Rose (Market)",
+        "system_id": 30001421,
+        "station_id": 1048742609973,
+        "region_id": 10000016,
+        "security": 0.513440820229165,
+        "security_code": "high_sec"
+    },
     "1035269234104": {
         "name": "Geras - Market Hub",
         "system_id": 30000126,
@@ -205,6 +213,14 @@
         "station_id": 1047195928151,
         "region_id": 10000052,
         "security": 0.6589744344713558,
+        "security_code": "high_sec"
+    },
+    "1048745091799": {
+        "name": "Odotte - COA Trade Hub + Repro T2 80,92%",
+        "system_id": 30012715,
+        "station_id": 1048745091799,
+        "region_id": 10000032,
+        "security": 0.8716466290198182,
         "security_code": "high_sec"
     },
     "1047917827552": {
