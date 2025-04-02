@@ -223,6 +223,14 @@
         "security": 0.8716466290198182,
         "security_code": "high_sec"
     },
+    "1038704072281": {
+        "name": "Rauntaka - Cookie Oven (Market)",
+        "system_id": 30001417,
+        "station_id": 1038704072281,
+        "region_id": 10000016,
+        "security": 0.5256858468055725,
+        "security_code": "high_sec"
+    },
     "1047917827552": {
         "name": "Dantan - Event Horizon Enterprises",
         "system_id": 30004097,
