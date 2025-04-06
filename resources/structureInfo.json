@@ -239,6 +239,14 @@
         "security": 0.5256858468055725,
         "security_code": "high_sec"
     },
+    "1048799964636": {
+        "name": "Earled - Blood Forge",
+        "system_id": 30003438,
+        "station_id": 1048799964636,
+        "region_id": 10000042,
+        "security": 0.8020797371864319,
+        "security_code": "high_sec"
+    },
     "1047917827552": {
         "name": "Dantan - Event Horizon Enterprises",
         "system_id": 30004097,
