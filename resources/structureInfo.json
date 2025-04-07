@@ -7,6 +7,14 @@
         "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
+    "1048810492290": {
+        "name": "Hibi - Yellow Haven",
+        "system_id": 30001662,
+        "station_id": 1048810492290,
+        "region_id": 10000020,
+        "security": 0.503650457411525,
+        "security_code": "high_sec"
+    },
     "1031240619395": {
         "name": "Eystur - Vherokior Market & Development",
         "system_id": 30002543,
@@ -61,6 +69,14 @@
         "station_id": 1046043963414,
         "region_id": 10000068,
         "security": 0.5727048516273499,
+        "security_code": "high_sec"
+    },
+    "1038515628827": {
+        "name": "Talidal - Niflheim Station (All Services)",
+        "system_id": 30003889,
+        "station_id": 1038515628827,
+        "region_id": 10000049,
+        "security": 0.509783148765564,
         "security_code": "high_sec"
     },
     "1048446040103": {
@@ -240,7 +256,7 @@
         "security_code": "high_sec"
     },
     "1048799964636": {
-        "name": "Earled - Blood Forge",
+        "name": "Earled - Blood Forge We are Open",
         "system_id": 30003438,
         "station_id": 1048799964636,
         "region_id": 10000042,
