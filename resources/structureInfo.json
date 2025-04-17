@@ -79,12 +79,12 @@
         "security": 0.509783148765564,
         "security_code": "high_sec"
     },
-    "1048446040103": {
-        "name": "Sarum Prime - Domain Market Freeport",
-        "system_id": 30003522,
-        "station_id": 1048446040103,
-        "region_id": 10000043,
-        "security": 1.0,
+    "1048930183837": {
+        "name": "Uadelah - Trading Station",
+        "system_id": 30002991,
+        "station_id": 1048930183837,
+        "region_id": 10000036,
+        "security": 0.8296938538551331,
         "security_code": "high_sec"
     },
     "1027375934642": {
@@ -133,14 +133,6 @@
         "station_id": 1046404465214,
         "region_id": 10000054,
         "security": 0.6893498195436256,
-        "security_code": "high_sec"
-    },
-    "1048464898750": {
-        "name": "Jaschercis - Rocinante market, R&D Mfg.",
-        "system_id": 30003029,
-        "station_id": 1048464898750,
-        "region_id": 10000037,
-        "security": 0.6127038720154012,
         "security_code": "high_sec"
     },
     "1047847040964": {
