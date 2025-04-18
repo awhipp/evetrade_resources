@@ -111,14 +111,6 @@
         "security": 0.513440820229165,
         "security_code": "high_sec"
     },
-    "1035269234104": {
-        "name": "Geras - Market Hub",
-        "system_id": 30000126,
-        "station_id": 1035269234104,
-        "region_id": 10000002,
-        "security": 0.6501464617023807,
-        "security_code": "high_sec"
-    },
     "1048263136314": {
         "name": "Litiura - Arkadia (T2 Refinery boost ON)",
         "system_id": 30001400,
@@ -285,14 +277,6 @@
         "station_id": 1046802738801,
         "region_id": 10000042,
         "security": 0.387434219905,
-        "security_code": "low_sec"
-    },
-    "1047150682612": {
-        "name": "Anher - Made In Minmatar",
-        "system_id": 30002051,
-        "station_id": 1047150682612,
-        "region_id": 10000042,
-        "security": 0.4645283560987553,
         "security_code": "low_sec"
     },
     "1033626295285": {
