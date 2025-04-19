@@ -23,6 +23,14 @@
         "security": 0.9492318218458264,
         "security_code": "high_sec"
     },
+    "1048950035078": {
+        "name": "Klaevik - Blood Fort",
+        "system_id": 30003458,
+        "station_id": 1048950035078,
+        "region_id": 10000042,
+        "security": 0.608007873439527,
+        "security_code": "high_sec"
+    },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
         "system_id": 30002644,
@@ -80,7 +88,7 @@
         "security_code": "high_sec"
     },
     "1048930183837": {
-        "name": "Uadelah - Trading Station",
+        "name": "Uadelah - Trading Station 0% TAX",
         "system_id": 30002991,
         "station_id": 1048930183837,
         "region_id": 10000036,
@@ -109,6 +117,14 @@
         "station_id": 1048742609973,
         "region_id": 10000016,
         "security": 0.513440820229165,
+        "security_code": "high_sec"
+    },
+    "1035269234104": {
+        "name": "Geras - Market Hub",
+        "system_id": 30000126,
+        "station_id": 1035269234104,
+        "region_id": 10000002,
+        "security": 0.6501464617023807,
         "security_code": "high_sec"
     },
     "1048263136314": {
@@ -229,6 +245,14 @@
         "station_id": 1038704072281,
         "region_id": 10000016,
         "security": 0.5256858468055725,
+        "security_code": "high_sec"
+    },
+    "1048799964636": {
+        "name": "Earled - Blood Forge We are Open",
+        "system_id": 30003438,
+        "station_id": 1048799964636,
+        "region_id": 10000042,
+        "security": 0.8020797371864319,
         "security_code": "high_sec"
     },
     "1047917827552": {
