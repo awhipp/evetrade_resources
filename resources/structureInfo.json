@@ -95,6 +95,14 @@
         "security": 0.8296938538551331,
         "security_code": "high_sec"
     },
+    "1048446040103": {
+        "name": "Sarum Prime - Domain Market Freeport",
+        "system_id": 30003522,
+        "station_id": 1048446040103,
+        "region_id": 10000043,
+        "security": 1.0,
+        "security_code": "high_sec"
+    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
