@@ -159,6 +159,14 @@
         "security": 0.6893498195436256,
         "security_code": "high_sec"
     },
+    "1048983558976": {
+        "name": "Ahbazon - Tortuga",
+        "system_id": 30005196,
+        "station_id": 1048983558976,
+        "region_id": 10000067,
+        "security": 0.42052036063,
+        "security_code": "low_sec"
+    },
     "1047847040964": {
         "name": "Villore - Refine +++",
         "system_id": 30004993,
@@ -192,7 +200,7 @@
         "security_code": "high_sec"
     },
     "1044752365771": {
-        "name": "Perimeter - 0.0% Fence Tax Haven",
+        "name": "Perimeter - 0.0% Neutral States HQ",
         "system_id": 30000144,
         "station_id": 1044752365771,
         "region_id": 10000002,
