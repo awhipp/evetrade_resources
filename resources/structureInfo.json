@@ -111,6 +111,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1048982613934": {
+        "name": "Rohamaa - Omega Manufacturing",
+        "system_id": 30045325,
+        "station_id": 1048982613934,
+        "region_id": 10000069,
+        "security": 0.5047168731689453,
+        "security_code": "high_sec"
+    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
@@ -133,14 +141,6 @@
         "station_id": 1048742609973,
         "region_id": 10000016,
         "security": 0.513440820229165,
-        "security_code": "high_sec"
-    },
-    "1035269234104": {
-        "name": "Geras - Market Hub",
-        "system_id": 30000126,
-        "station_id": 1035269234104,
-        "region_id": 10000002,
-        "security": 0.6501464617023807,
         "security_code": "high_sec"
     },
     "1048263136314": {
@@ -272,7 +272,7 @@
         "security_code": "high_sec"
     },
     "1048799964636": {
-        "name": "Earled - Blood Forge We are Open",
+        "name": "Earled - Blood Forge Open Low rates",
         "system_id": 30003438,
         "station_id": 1048799964636,
         "region_id": 10000042,
