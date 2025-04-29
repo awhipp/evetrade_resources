@@ -39,6 +39,14 @@
         "security": 0.5005549192428589,
         "security_code": "high_sec"
     },
+    "1041817719693": {
+        "name": "Gamis - Public Trade Station 01",
+        "system_id": 30000107,
+        "station_id": 1041817719693,
+        "region_id": 10000001,
+        "security": 0.4739061737264941,
+        "security_code": "low_sec"
+    },
     "1042223782798": {
         "name": "Teonusude - Nexus Galactic Heathens Market",
         "system_id": 30002385,
@@ -141,6 +149,14 @@
         "station_id": 1048742609973,
         "region_id": 10000016,
         "security": 0.513440820229165,
+        "security_code": "high_sec"
+    },
+    "1035269234104": {
+        "name": "Geras - Market Hub",
+        "system_id": 30000126,
+        "station_id": 1035269234104,
+        "region_id": 10000002,
+        "security": 0.6501464617023807,
         "security_code": "high_sec"
     },
     "1048263136314": {
