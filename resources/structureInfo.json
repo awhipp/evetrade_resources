@@ -127,6 +127,14 @@
         "security": 0.5047168731689453,
         "security_code": "high_sec"
     },
+    "1049035426094": {
+        "name": "Aphend - Baustube GMF-C",
+        "system_id": 30004079,
+        "station_id": 1049035426094,
+        "region_id": 10000052,
+        "security": 0.6292981549782835,
+        "security_code": "high_sec"
+    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
