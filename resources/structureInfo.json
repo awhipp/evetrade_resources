@@ -56,7 +56,7 @@
         "security_code": "low_sec"
     },
     "1044960858258": {
-        "name": "Hek - Cheapest Market BE SMART 0.3%",
+        "name": "Hek - Cheapest Market BE SMART",
         "system_id": 30002053,
         "station_id": 1044960858258,
         "region_id": 10000042,
@@ -184,7 +184,7 @@
         "security_code": "high_sec"
     },
     "1047131132102": {
-        "name": "Sobaseki - 0.3 % Cheapest Market BE SMART",
+        "name": "Sobaseki - Cheapest Market BE SMART",
         "system_id": 30001363,
         "station_id": 1047131132102,
         "region_id": 10000016,
@@ -277,6 +277,14 @@
         "station_id": 1038704072281,
         "region_id": 10000016,
         "security": 0.5256858468055725,
+        "security_code": "high_sec"
+    },
+    "1048799964636": {
+        "name": "Earled - Galatica Hub",
+        "system_id": 30003438,
+        "station_id": 1048799964636,
+        "region_id": 10000042,
+        "security": 0.8020797371864319,
         "security_code": "high_sec"
     },
     "1047917827552": {
