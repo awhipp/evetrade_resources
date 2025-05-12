@@ -151,6 +151,14 @@
         "security": 0.513440820229165,
         "security_code": "high_sec"
     },
+    "1049225363255": {
+        "name": "Lustrevik - Fort Kellerman",
+        "system_id": 30002545,
+        "station_id": 1049225363255,
+        "region_id": 10000030,
+        "security": 0.9462634160245761,
+        "security_code": "high_sec"
+    },
     "1035269234104": {
         "name": "Geras - Market Hub",
         "system_id": 30000126,
@@ -253,14 +261,6 @@
         "station_id": 1048782566482,
         "region_id": 10000052,
         "security": 0.6189120438262146,
-        "security_code": "high_sec"
-    },
-    "1047195928151": {
-        "name": "Dantan - Interstellar Cafe",
-        "system_id": 30004097,
-        "station_id": 1047195928151,
-        "region_id": 10000052,
-        "security": 0.6589744344713558,
         "security_code": "high_sec"
     },
     "1048745091799": {
