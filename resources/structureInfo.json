@@ -191,6 +191,14 @@
         "security": 0.6893498195436256,
         "security_code": "high_sec"
     },
+    "1049358554947": {
+        "name": "Bomana - MISRIAH STATION - ALL SERVICES",
+        "system_id": 30003913,
+        "station_id": 1049358554947,
+        "region_id": 10000049,
+        "security": 0.5375121831893921,
+        "security_code": "high_sec"
+    },
     "1047847040964": {
         "name": "Villore - Refine +++",
         "system_id": 30004993,
@@ -269,14 +277,6 @@
         "station_id": 1048782566482,
         "region_id": 10000052,
         "security": 0.6189120438262146,
-        "security_code": "high_sec"
-    },
-    "1048745091799": {
-        "name": "Odotte - COA Trade Hub + Repro T2 80,92%",
-        "system_id": 30012715,
-        "station_id": 1048745091799,
-        "region_id": 10000032,
-        "security": 0.8716466290198182,
         "security_code": "high_sec"
     },
     "1038704072281": {
