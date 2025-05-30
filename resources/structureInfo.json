@@ -71,14 +71,6 @@
         "security": 0.8,
         "security_code": "high_sec"
     },
-    "1047748014485": {
-        "name": "Pemene - Blue Moon Tavern",
-        "system_id": 30004978,
-        "station_id": 1047748014485,
-        "region_id": 10000064,
-        "security": 0.4501924356223205,
-        "security_code": "low_sec"
-    },
     "1046043963414": {
         "name": "Chesiette - CREDE - Ultima Porta Inferorum",
         "system_id": 30005327,
