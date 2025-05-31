@@ -103,6 +103,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1049441788712": {
+        "name": "Gamdis - Low Tax Industrial Market",
+        "system_id": 30004085,
+        "station_id": 1049441788712,
+        "region_id": 10000052,
+        "security": 0.6936594843864441,
+        "security_code": "high_sec"
+    },
     "1048982613934": {
         "name": "Rohamaa - Omega Manufacturing",
         "system_id": 30045325,
@@ -174,14 +182,6 @@
         "region_id": 10000002,
         "security": 0.6501464617023807,
         "security_code": "high_sec"
-    },
-    "1048263136314": {
-        "name": "Litiura - Arkadia (T2 Refinery boost ON)",
-        "system_id": 30001400,
-        "station_id": 1048263136314,
-        "region_id": 10000016,
-        "security": 0.4894049591792316,
-        "security_code": "low_sec"
     },
     "1046404465214": {
         "name": "Avada - Freeport",
@@ -285,14 +285,6 @@
         "station_id": 1038704072281,
         "region_id": 10000016,
         "security": 0.5256858468055725,
-        "security_code": "high_sec"
-    },
-    "1048799964636": {
-        "name": "Earled - Galatica Hub",
-        "system_id": 30003438,
-        "station_id": 1048799964636,
-        "region_id": 10000042,
-        "security": 0.8020797371864319,
         "security_code": "high_sec"
     },
     "1047917827552": {
