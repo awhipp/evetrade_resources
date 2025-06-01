@@ -223,14 +223,6 @@
         "security": 0.5960732894302141,
         "security_code": "high_sec"
     },
-    "1044531786185": {
-        "name": "Aurcel - Joe's General Store & Salon",
-        "system_id": 30002716,
-        "station_id": 1044531786185,
-        "region_id": 10000032,
-        "security": 0.549450178281487,
-        "security_code": "high_sec"
-    },
     "1044752365771": {
         "name": "Perimeter - 0.0% Neutral States HQ",
         "system_id": 30000144,
@@ -304,7 +296,7 @@
         "security_code": "low_sec"
     },
     "1048386824165": {
-        "name": "Neesher - StarPort",
+        "name": "Neesher - JAGD Public Engineering Complex",
         "system_id": 30005058,
         "station_id": 1048386824165,
         "region_id": 10000065,
