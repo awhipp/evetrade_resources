@@ -31,6 +31,14 @@
         "security": 0.9492318218458264,
         "security_code": "high_sec"
     },
+    "1044164309897": {
+        "name": "Mora - MlNER NEEDs - The Rings of Mora",
+        "system_id": 30005037,
+        "station_id": 1044164309897,
+        "region_id": 10000065,
+        "security": 0.932524171950544,
+        "security_code": "high_sec"
+    },
     "1045712793227": {
         "name": "Ambeke - Ship Complex",
         "system_id": 30002644,
@@ -79,12 +87,28 @@
         "security": 0.5727048516273499,
         "security_code": "high_sec"
     },
+    "1044880797208": {
+        "name": "Ameinaka - MlNER NEEDs - between Rok & Moon",
+        "system_id": 30002511,
+        "station_id": 1044880797208,
+        "region_id": 10000030,
+        "security": 0.987423205310479,
+        "security_code": "high_sec"
+    },
     "1048973232152": {
         "name": "Meves - BioCore One",
         "system_id": 30003032,
         "station_id": 1048973232152,
         "region_id": 10000037,
         "security": 0.9791473746299744,
+        "security_code": "high_sec"
+    },
+    "1045193582746": {
+        "name": "Ekura - MlNER NEEDs - Darkside of a Moon",
+        "system_id": 30001378,
+        "station_id": 1045193582746,
+        "region_id": 10000016,
+        "security": 0.8764173839721643,
         "security_code": "high_sec"
     },
     "1038515628827": {
@@ -317,6 +341,14 @@
         "station_id": 1048427761902,
         "region_id": 10000030,
         "security": 0.7531836628913879,
+        "security_code": "high_sec"
+    },
+    "1042833494769": {
+        "name": "Vay - MlNER NEEDs - we buy ORE",
+        "system_id": 30005318,
+        "station_id": 1042833494769,
+        "region_id": 10000068,
+        "security": 0.7585221108867841,
         "security_code": "high_sec"
     },
     "1046802738801": {
