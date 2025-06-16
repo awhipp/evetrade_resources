@@ -296,11 +296,19 @@
         "security_code": "low_sec"
     },
     "1044857068649": {
-        "name": "Ashab - CHEAPEST PLEX Market BE SMART",
+        "name": "Ashab - 0.4% Market Cheaper than AMARR",
         "system_id": 30003491,
         "station_id": 1044857068649,
         "region_id": 10000043,
         "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
+    "1049611391339": {
+        "name": "Botane - 0.3% Tax *MERK Marketplace",
+        "system_id": 30002661,
+        "station_id": 1049611391339,
+        "region_id": 10000032,
+        "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
     "1048427761902": {
