@@ -183,6 +183,14 @@
         "security": 0.9462634160245761,
         "security_code": "high_sec"
     },
+    "1035269234104": {
+        "name": "Geras - Market Hub",
+        "system_id": 30000126,
+        "station_id": 1035269234104,
+        "region_id": 10000002,
+        "security": 0.6501464617023807,
+        "security_code": "high_sec"
+    },
     "1046404465214": {
         "name": "Avada - Freeport",
         "system_id": 30004249,
@@ -301,14 +309,6 @@
         "station_id": 1044857068649,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1049611391339": {
-        "name": "Botane - 0.3% Tax *MERK Marketplace",
-        "system_id": 30002661,
-        "station_id": 1049611391339,
-        "region_id": 10000032,
-        "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
     "1048427761902": {
