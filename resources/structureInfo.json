@@ -207,14 +207,6 @@
         "security": 0.5375121831893921,
         "security_code": "high_sec"
     },
-    "1047847040964": {
-        "name": "Villore - Refine +++",
-        "system_id": 30004993,
-        "station_id": 1047847040964,
-        "region_id": 10000064,
-        "security": 0.9,
-        "security_code": "high_sec"
-    },
     "1047131132102": {
         "name": "Sobaseki - Cheapest Market BE SMART",
         "system_id": 30001363,
@@ -309,6 +301,14 @@
         "station_id": 1044857068649,
         "region_id": 10000043,
         "security": 0.9094599909851684,
+        "security_code": "high_sec"
+    },
+    "1049611391339": {
+        "name": "Botane - 0.3% Tax *MERK Marketplace",
+        "system_id": 30002661,
+        "station_id": 1049611391339,
+        "region_id": 10000032,
+        "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
     "1048427761902": {
