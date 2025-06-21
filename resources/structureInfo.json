@@ -135,6 +135,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1049441788712": {
+        "name": "Gamdis - Low Tax Industrial Market",
+        "system_id": 30004085,
+        "station_id": 1049441788712,
+        "region_id": 10000052,
+        "security": 0.6936594843864441,
+        "security_code": "high_sec"
+    },
     "1048982613934": {
         "name": "Rohamaa - Omega Manufacturing",
         "system_id": 30045325,
