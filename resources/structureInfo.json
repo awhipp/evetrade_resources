@@ -231,14 +231,6 @@
         "security": 0.8410254626102227,
         "security_code": "high_sec"
     },
-    "1046680523848": {
-        "name": "Hodrold - FCKA Prime Marketplace",
-        "system_id": 30003469,
-        "station_id": 1046680523848,
-        "region_id": 10000042,
-        "security": 0.5960732894302141,
-        "security_code": "high_sec"
-    },
     "1044752365771": {
         "name": "Perimeter - 0.0% Neutral States HQ",
         "system_id": 30000144,
@@ -246,14 +238,6 @@
         "region_id": 10000002,
         "security": 0.9531232305867214,
         "security_code": "high_sec"
-    },
-    "1022167642188": {
-        "name": "Amamake - 5 Times nearly AT winners",
-        "system_id": 30002537,
-        "station_id": 1022167642188,
-        "region_id": 10000030,
-        "security": 0.438761248111,
-        "security_code": "low_sec"
     },
     "1048092080588": {
         "name": "Boranai - Capsuckers R Us",
@@ -342,6 +326,14 @@
         "region_id": 10000068,
         "security": 0.7585221108867841,
         "security_code": "high_sec"
+    },
+    "1046802738801": {
+        "name": "Turnur - Warlords of the Deep",
+        "system_id": 30002086,
+        "station_id": 1046802738801,
+        "region_id": 10000042,
+        "security": 0.387434219905,
+        "security_code": "low_sec"
     },
     "1033626295285": {
         "name": "Lustrevik - Port Royal Regional Trading Hub",
