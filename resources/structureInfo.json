@@ -199,14 +199,6 @@
         "security": 0.9462634160245761,
         "security_code": "high_sec"
     },
-    "1035269234104": {
-        "name": "Geras - Market Hub",
-        "system_id": 30000126,
-        "station_id": 1035269234104,
-        "region_id": 10000002,
-        "security": 0.6501464617023807,
-        "security_code": "high_sec"
-    },
     "1046404465214": {
         "name": "Avada - Freeport",
         "system_id": 30004249,
