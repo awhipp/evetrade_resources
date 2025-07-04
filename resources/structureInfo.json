@@ -263,28 +263,12 @@
         "security": 0.893772340766678,
         "security_code": "high_sec"
     },
-    "1047243567570": {
-        "name": "Villore - Quafe Queefs & Quickie's Trading",
-        "system_id": 30004993,
-        "station_id": 1047243567570,
-        "region_id": 10000064,
-        "security": 0.9,
-        "security_code": "high_sec"
-    },
     "1047292528467": {
         "name": "Amane - Public Trade Hub",
         "system_id": 30004983,
         "station_id": 1047292528467,
         "region_id": 10000064,
         "security": 0.5528478509229514,
-        "security_code": "high_sec"
-    },
-    "1048782566482": {
-        "name": "Dresi - AzFab",
-        "system_id": 30004078,
-        "station_id": 1048782566482,
-        "region_id": 10000052,
-        "security": 0.6189120438262146,
         "security_code": "high_sec"
     },
     "1038704072281": {
