@@ -255,14 +255,6 @@
         "security": 0.438761248111,
         "security_code": "low_sec"
     },
-    "1048092080588": {
-        "name": "Boranai - Capsuckers R Us",
-        "system_id": 30002188,
-        "station_id": 1048092080588,
-        "region_id": 10000043,
-        "security": 0.893772340766678,
-        "security_code": "high_sec"
-    },
     "1047292528467": {
         "name": "Amane - Public Trade Hub",
         "system_id": 30004983,
