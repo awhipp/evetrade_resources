@@ -342,5 +342,13 @@
         "region_id": 10000030,
         "security": 0.8389709130822673,
         "security_code": "high_sec"
+    },
+    "1048595097213": {
+        "name": "Tabbetzur - Point",
+        "system_id": 30003465,
+        "station_id": 1048595097213,
+        "region_id": 10000042,
+        "security": 0.2716663364469739,
+        "security_code": "low_sec"
     }
 }
