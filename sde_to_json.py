@@ -18,7 +18,7 @@ except ImportError:
 	print('Using Python Loader')
 import json
 
-resources_link = "https://developers.eveonline.com/docs/services/sde/"
+resources_link = "https://developers.eveonline.com/docs/services/sde"
 map_regions = []
 stargates = {}
 map_region_jumps = []
