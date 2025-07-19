@@ -18,7 +18,6 @@ except ImportError:
 	print('Using Python Loader')
 import json
 
-resources_link = "https://developers.eveonline.com/docs/services/sde"
 map_regions = []
 stargates = {}
 map_region_jumps = []
@@ -30,14 +29,6 @@ universeList = {}
 stationList = [""]
 regionList = [""]
 stationIdToName = {}
-
-class MyHTMLParser(HTMLParser):
-
-    def handle_starttag(self, tag, attrs):
-        if tag == 'a':
-           for name, value in attrs:
-               if name == 'href' and 'sde.zip' in value:
-                   self.resources_file_link = value
 
 
 #
@@ -57,20 +48,37 @@ def getTradeHubName(stationName):
 
     return stationName
 
+import re
+
 def getResources():
     print(os.listdir(os.getcwd()))
     if not os.path.exists('sde'):
-        resources_page = requests.get(resources_link, timeout=30)
-        parser = MyHTMLParser()
-        parser.feed(resources_page.content.decode())
-        print(parser.resources_file_link)
-        resources_file = requests.get(parser.resources_file_link, timeout=30)
-        if resources_file.ok:
-            resources_zip = zipfile.ZipFile(io.BytesIO(resources_file.content))
-            resources_zip.extractall()
-            print("sde extracted successfully")
-        else:
-            print(resources_file.reason)
+        # Download the markdown page
+        md_url = "https://raw.githubusercontent.com/esi/esi-docs/main/docs/services/sde/index.md"
+        md_page = requests.get(md_url, timeout=30)
+        if not md_page.ok:
+            print("Failed to fetch SDE markdown page:", md_page.reason)
+            return
+
+        # Extract all .zip links using regex
+        zip_links = re.findall(r'\[.*?\]\((https?://[^\s)]+\.zip)\)', md_page.text)
+        if not zip_links:
+            print("Could not find any .zip links in markdown.")
+            return
+
+        print("Found zip links:")
+        for link in zip_links:
+            print(link)
+            # Download and extract each zip
+            resources_file = requests.get(link, timeout=60)
+            if resources_file.ok:
+                zip_name = link.split('/')[-1].replace('.zip', '')
+                extract_path = zip_name if zip_name != 'sde' else '.'
+                with zipfile.ZipFile(io.BytesIO(resources_file.content)) as resources_zip:
+                    resources_zip.extractall(extract_path)
+                print(f"{link} extracted successfully to {extract_path}")
+            else:
+                print(f"Failed to download {link}: {resources_file.reason}")
     else:
         print("Folder already exists")
 

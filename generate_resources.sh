@@ -1,8 +1,8 @@
 #!/bin/bash
 
-wget -O page https://developers.eveonline.com/docs/services/sde
+wget -L -O page https://raw.githubusercontent.com/esi/esi-docs/main/docs/services/sde/index.md
 
-link=$(grep "https.*sde.*zip" page | awk -F '"' '{print $2}')
+link=$(grep -oP '\[Full SDE \(sde\.zip\)\]\(\K[^)]+' page)
 currentrev=$(curl -s -v -X HEAD $link 2>&1 | grep '< Last-Modified:' | awk -F ':' '{print $2":"$3":"$4}' | xargs -0 date +"%Y%m%d" -d)
 
 echo 'Latest commit was :' $(git log -1 --pretty=%B)
