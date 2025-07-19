@@ -21,7 +21,7 @@ Files available in code (get raw format):
 * resources/structureInfo.json
 * resources/structureList.json
 
-This CI pipeline builds the resources on a daily schedule via a CRON job.
+This CI pipeline builds the resources on a daily schedule via a CRON job and eventually is replicated to S3.
 
 ### Download and synchronize market volume data with a Redis Cache to prevent hitting API Rate Limits when querying for 100+ records at once
 
