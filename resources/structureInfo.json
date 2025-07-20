@@ -199,6 +199,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1047380503618": {
+        "name": "J160941 - House of Unity",
+        "system_id": 31000376,
+        "station_id": 1047380503618,
+        "region_id": 11000004,
+        "security": -0.9900000095367432,
+        "security_code": "null_sec"
+    },
     "1049358554947": {
         "name": "Bomana - MISRIAH STATION - ALL SERVICES",
         "system_id": 30003913,
