@@ -127,6 +127,14 @@
         "security": 1.0,
         "security_code": "high_sec"
     },
+    "1049441788712": {
+        "name": "Gamdis - Low Tax Industrial Market",
+        "system_id": 30004085,
+        "station_id": 1049441788712,
+        "region_id": 10000052,
+        "security": 0.6936594843864441,
+        "security_code": "high_sec"
+    },
     "1048982613934": {
         "name": "Rohamaa - Omega Manufacturing",
         "system_id": 30045325,
@@ -167,20 +175,20 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1048742609973": {
-        "name": "Otalieto - Candy Rose (Market)",
-        "system_id": 30001421,
-        "station_id": 1048742609973,
-        "region_id": 10000016,
-        "security": 0.513440820229165,
-        "security_code": "high_sec"
-    },
     "1049225363255": {
         "name": "Lustrevik - Fort Kellerman",
         "system_id": 30002545,
         "station_id": 1049225363255,
         "region_id": 10000030,
         "security": 0.9462634160245761,
+        "security_code": "high_sec"
+    },
+    "1050023531063": {
+        "name": "Amdonen - ANR-Azor FeePort",
+        "system_id": 30005036,
+        "station_id": 1050023531063,
+        "region_id": 10000065,
+        "security": 0.6406547257195212,
         "security_code": "high_sec"
     },
     "1046404465214": {
@@ -198,14 +206,6 @@
         "region_id": 10000043,
         "security": 1.0,
         "security_code": "high_sec"
-    },
-    "1047380503618": {
-        "name": "J160941 - House of Unity",
-        "system_id": 31000376,
-        "station_id": 1047380503618,
-        "region_id": 11000004,
-        "security": -0.9900000095367432,
-        "security_code": "null_sec"
     },
     "1049358554947": {
         "name": "Bomana - MISRIAH STATION - ALL SERVICES",
