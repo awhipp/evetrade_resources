@@ -175,14 +175,6 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1049225363255": {
-        "name": "Lustrevik - Fort Kellerman",
-        "system_id": 30002545,
-        "station_id": 1049225363255,
-        "region_id": 10000030,
-        "security": 0.9462634160245761,
-        "security_code": "high_sec"
-    },
     "1050023531063": {
         "name": "Amdonen - ANR-Azor FeePort",
         "system_id": 30005036,
@@ -301,14 +293,6 @@
         "station_id": 1044857068649,
         "region_id": 10000043,
         "security": 0.9094599909851684,
-        "security_code": "high_sec"
-    },
-    "1049611391339": {
-        "name": "Botane - MERK Commercial Hub",
-        "system_id": 30002661,
-        "station_id": 1049611391339,
-        "region_id": 10000032,
-        "security": 0.8754401206970215,
         "security_code": "high_sec"
     },
     "1048427761902": {
