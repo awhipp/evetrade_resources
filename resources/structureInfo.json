@@ -175,14 +175,6 @@
         "security": 0.5301299095153809,
         "security_code": "high_sec"
     },
-    "1050023531063": {
-        "name": "Amdonen - ANR-Azor FeePort",
-        "system_id": 30005036,
-        "station_id": 1050023531063,
-        "region_id": 10000065,
-        "security": 0.6406547257195212,
-        "security_code": "high_sec"
-    },
     "1046404465214": {
         "name": "Avada - Freeport",
         "system_id": 30004249,
