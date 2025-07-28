@@ -151,14 +151,6 @@
         "security": 0.6292981549782835,
         "security_code": "high_sec"
     },
-    "1049313588911": {
-        "name": "Brybier - The Capital",
-        "system_id": 30002703,
-        "station_id": 1049313588911,
-        "region_id": 10000032,
-        "security": 0.5808395487209823,
-        "security_code": "high_sec"
-    },
     "1027375934642": {
         "name": "Torrinos - FREEPORT MARKET AND CLONES",
         "system_id": 30001429,
@@ -253,14 +245,6 @@
         "station_id": 1047292528467,
         "region_id": 10000064,
         "security": 0.5528478509229514,
-        "security_code": "high_sec"
-    },
-    "1038704072281": {
-        "name": "Rauntaka - Cookie Oven (Market)",
-        "system_id": 30001417,
-        "station_id": 1038704072281,
-        "region_id": 10000016,
-        "security": 0.5256858468055725,
         "security_code": "high_sec"
     },
     "1047917827552": {
