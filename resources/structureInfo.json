@@ -247,6 +247,14 @@
         "security": 0.5528478509229514,
         "security_code": "high_sec"
     },
+    "1047028869086": {
+        "name": "Bille - MlNER NEEDs - +Moon-ORE-Buy-Back",
+        "system_id": 30003040,
+        "station_id": 1047028869086,
+        "region_id": 10000037,
+        "security": 0.5158581956835364,
+        "security_code": "high_sec"
+    },
     "1047917827552": {
         "name": "Dantan - Military Industrial Complex",
         "system_id": 30004097,
