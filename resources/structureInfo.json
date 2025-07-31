@@ -247,6 +247,14 @@
         "security": 0.5528478509229514,
         "security_code": "high_sec"
     },
+    "1048745091799": {
+        "name": "Odotte - COA Trade Hub + Repro T2 80,92%",
+        "system_id": 30012715,
+        "station_id": 1048745091799,
+        "region_id": 10000032,
+        "security": 0.8716466290198182,
+        "security_code": "high_sec"
+    },
     "1047028869086": {
         "name": "Bille - MlNER NEEDs - +Moon-ORE-Buy-Back",
         "system_id": 30003040,
