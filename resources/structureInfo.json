@@ -239,6 +239,14 @@
         "security": 0.893772340766678,
         "security_code": "high_sec"
     },
+    "1045947635662": {
+        "name": "J112129 - Zeus",
+        "system_id": 31000244,
+        "station_id": 1045947635662,
+        "region_id": 11000002,
+        "security": -0.9900000095367432,
+        "security_code": "null_sec"
+    },
     "1047292528467": {
         "name": "Amane - Public Trade Hub",
         "system_id": 30004983,
